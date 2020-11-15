@@ -33,7 +33,7 @@ Some genres belong to multiple different genre categories.
 
 > Pop Rock: Pop & Rock
 
-Unfortunately, we cannot assign a genre to more than one genre category in MusicBee. But by using a virtual tag, we can, for example, assign "Pop Rock" to separate "Pop" and "Rock" categories.
+Unfortunately, we cannot assign a genre to more than one genre category in MusicBee. But by using a virtual tag, we can assign, for example, "Pop Rock" to separate "Pop" and "Rock" categories.
 
 ## How to (still copy and paste)
 
