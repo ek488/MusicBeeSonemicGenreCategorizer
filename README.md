@@ -14,6 +14,8 @@ Label most genres with their parent genre.
 
 > Trip Hop: Electronic
 
+> Venezuelan Malagueña: Folk
+
 ## How to (copy and paste)
 
 1. Open "MusicBee Genre Categorisation Editor Input.txt".
@@ -25,13 +27,13 @@ Label most genres with their parent genre.
 
 # Virtual genre categories
 
-Some genres belong to multiple genre categories.
+Some genres belong to multiple different genre categories.
 
 > Deconstructed Club : Dance & Electronic & Industrial Music
 
 > Pop Rock: Pop & Rock
 
-Unfortunately, we cannot assign a genre to more than one genre category in MusicBee. But by using a virtual tag, we can assign "Pop Rock," for example, to separate "Pop" and "Rock" categories.
+Unfortunately, we cannot assign a genre to more than one genre category in MusicBee. But by using a virtual tag, we can, for example, assign "Pop Rock" to separate "Pop" and "Rock" categories.
 
 ## How to (still copy and paste)
 
