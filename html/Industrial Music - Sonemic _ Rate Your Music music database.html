@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://sonemic.com/music/genre/industrial-music/ -->
+<html class="sonemic theme_ page_object page_genre noTouch" id="page_genre"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta name="msvalidate.01" content="DC9BDD5AA0A6394617D74DC653B74FE5"> 
+         <script async="" src="./Industrial Music - Sonemic _ Rate Your Music music database_files/analytics.js.download"></script><script>
+                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-70490370-1', 'auto');
+                 ga('send', 'pageview');
+
+               </script>
+         <script>
+
+         var rating_system = {}
+      var rating_system = {'games':{}, 'film':{}, 'music':{}};</script>
+         <script>
+            var hasTouch = 'ontouchstart' in window;
+            var streamBaseUrl = 'wss://sonemic.com:8088/ws/'
+
+            if ( hasTouch ) {
+               document.documentElement.className += ' touch';
+            } else {
+               document.documentElement.className += ' noTouch';
+            }
+            var rym_initdata = {user_id:0, username:'0', login_token:'', theme:''}
+
+            var issue_data = {
+               release:[],
+               game:[],
+               film:[],
+               song:[]
+            }
+         </script>
+         
+         <title>Industrial Music - Sonemic / Rate Your Music music database</title><script>"use strict";!function(){function t(t){if("undefined"==typeof t)throw new Error('Pathformer [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Pathformer [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Pathformer [constructor]: "element" parameter must be a string or a SVGelement');this.el=t,this.scan(t)}function e(e,r,n){this.setElement(e),this.setOptions(r),this.setCallback(n),this.frameLength=0,this.currentFrame=0,this.map=[],new t(e),this.mapping(),this.starter()}t.prototype.TYPES=["line","elipse","circle","polygon","polyline","rect"],t.prototype.ATTR_WATCH=["cx","cy","points","r","rx","ry","x","x1","x2","y","y1","y2"],t.prototype.scan=function(t){for(var e,r,n,o,a=t.querySelectorAll(this.TYPES.join(",")),i=0;i<a.length;i++)r=a[i],e=this[r.tagName.toLowerCase()+"ToPath"],n=e(this.parseAttr(r.attributes)),o=this.pathMaker(r,n),r.parentNode.replaceChild(o,r)},t.prototype.lineToPath=function(t){var e={};return e.d="M"+t.x1+","+t.y1+"L"+t.x2+","+t.y2,e},t.prototype.rectToPath=function(t){var e={},r=parseFloat(t.x)||0,n=parseFloat(t.y)||0,o=parseFloat(t.width)||0,a=parseFloat(t.height)||0;return e.d="M"+r+" "+n+" ",e.d+="L"+(r+o)+" "+n+" ",e.d+="L"+(r+o)+" "+(n+a)+" ",e.d+="L"+r+" "+(n+a)+" Z",e},t.prototype.polylineToPath=function(t){for(var e={},r=t.points.split(" "),n="M"+r[0],o=1;o<r.length;o++)-1!==r[o].indexOf(",")&&(n+="L"+r[o]);return e.d=n,e},t.prototype.polygonToPath=function(e){var r=t.prototype.polylineToPath(e);return r.d+="Z",r},t.prototype.elipseToPath=function(t){var e=t.cx-t.rx,r=t.cy,n=parseFloat(t.cx)+parseFloat(t.rx),o=t.cy,a={};return a.d="M"+e+","+r+"A"+t.rx+","+t.ry+" 0,1,1 "+n+","+o+"A"+t.rx+","+t.ry+" 0,1,1 "+e+","+o,a},t.prototype.circleToPath=function(t){var e={},r=t.cx-t.r,n=t.cy,o=parseFloat(t.cx)+parseFloat(t.r),a=t.cy;return e.d="M"+r+","+n+"A"+t.r+","+t.r+" 0,1,1 "+o+","+a+"A"+t.r+","+t.r+" 0,1,1 "+r+","+a,e},t.prototype.pathMaker=function(t,e){var r,n,o=document.createElementNS("http://www.w3.org/2000/svg","path");for(r=0;r<t.attributes.length;r++)n=t.attributes[r],-1===this.ATTR_WATCH.indexOf(n.name)&&o.setAttribute(n.name,n.value);for(r in e)o.setAttribute(r,e[r]);return o},t.prototype.parseAttr=function(t){for(var e,r={},n=0;n<t.length;n++){if(e=t[n],-1!==this.ATTR_WATCH.indexOf(e.name)&&-1!==e.value.indexOf("%"))throw new Error("Pathformer [parseAttr]: a SVG shape got values in percentage. This cannot be transformed into 'path' tags. Please use 'viewBox'.");r[e.name]=e.value}return r};var r,n,o;e.prototype.setElement=function(t){if("undefined"==typeof t)throw new Error('Vivus [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Vivus [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Vivus [constructor]: "element" parameter must be a string or a SVGelement');this.el=t},e.prototype.setOptions=function(t){var e=["delayed","async","oneByOne","scenario","scenario-sync"],r=["inViewport","manual","autostart"];if(void 0!==t&&t.constructor!==Object)throw new Error('Vivus [constructor]: "options" parameter must be an object');if(t=t||{},t.type&&-1===e.indexOf(t.type))throw new Error("Vivus [constructor]: "+t.type+" is not an existing animation `type`");if(this.type=t.type||e[0],t.start&&-1===r.indexOf(t.start))throw new Error("Vivus [constructor]: "+t.start+" is not an existing `start` option");if(this.start=t.start||r[0],this.isIE=-1!==navigator.userAgent.indexOf("MSIE"),this.duration=o(t.duration,120),this.delay=o(t.delay,null),this.dashGap=o(t.dashGap,2),this.forceRender=t.hasOwnProperty("forceRender")?!!t.forceRender:this.isIE,this.selfDestroy=!!t.selfDestroy,this.delay>=this.duration)throw new Error("Vivus [constructor]: delay must be shorter than duration")},e.prototype.setCallback=function(t){if(t&&t.constructor!==Function)throw new Error('Vivus [constructor]: "callback" parameter must be a function');this.callback=t||function(){}},e.prototype.mapping=function(){var t,e,r,n,a,i,s,h;for(h=i=s=0,e=this.el.querySelectorAll("path"),t=0;t<e.length;t++)r=e[t],a={el:r,length:Math.ceil(r.getTotalLength())},isNaN(a.length)?window.console&&console.warn&&console.warn("Vivus [mapping]: cannot retrieve a path element length",r):(i+=a.length,this.map.push(a),r.style.strokeDasharray=a.length+" "+(a.length+this.dashGap),r.style.strokeDashoffset=a.length,this.isIE&&(a.length+=this.dashGap),this.renderPath(t));for(i=0===i?1:i,this.delay=null===this.delay?this.duration/3:this.delay,this.delayUnit=this.delay/(e.length>1?e.length-1:1),t=0;t<this.map.length;t++){switch(a=this.map[t],this.type){case"delayed":a.startAt=this.delayUnit*t,a.duration=this.duration-this.delay;break;case"oneByOne":a.startAt=s/i*this.duration,a.duration=a.length/i*this.duration;break;case"async":a.startAt=0,a.duration=this.duration;break;case"scenario-sync":r=e[t],n=this.parseAttr(r),a.startAt=h+(o(n["data-delay"],this.delayUnit)||0),a.duration=o(n["data-duration"],this.duration),h=void 0!==n["data-async"]?a.startAt:a.startAt+a.duration,this.frameLength=Math.max(this.frameLength,a.startAt+a.duration);break;case"scenario":r=e[t],n=this.parseAttr(r),a.startAt=o(n["data-start"],this.delayUnit)||0,a.duration=o(n["data-duration"],this.duration),this.frameLength=Math.max(this.frameLength,a.startAt+a.duration)}s+=a.length,this.frameLength=this.frameLength||this.duration}},e.prototype.drawer=function(){var t=this;this.currentFrame+=this.speed,this.currentFrame<=0?(this.stop(),this.reset()):this.currentFrame>=this.frameLength?(this.stop(),this.currentFrame=this.frameLength,this.trace(),this.selfDestroy&&this.destroy(),this.callback(this)):(this.trace(),this.handle=r(function(){t.drawer()}))},e.prototype.trace=function(){var t,e,r;for(t=0;t<this.map.length;t++)r=this.map[t],e=(this.currentFrame-r.startAt)/r.duration,e=Math.max(0,Math.min(1,e)),r.progress!==e&&(r.progress=e,r.el.style.strokeDashoffset=Math.floor(r.length*(1-e)),this.renderPath(t))},e.prototype.renderPath=function(t){if(this.forceRender&&this.map&&this.map[t]){var e=this.map[t],r=e.el.cloneNode(!0);e.el.parentNode.replaceChild(r,e.el),e.el=r}},e.prototype.starter=function(){switch(this.start){case"manual":return;case"autostart":this.play();break;case"inViewport":var t=this,e=function(){t.isInViewport(t.el,1)&&(t.play(),window.removeEventListener("scroll",e))};window.addEventListener("scroll",e),e()}},e.prototype.reset=function(){return this.currentFrame=0,this.trace(),this},e.prototype.play=function(t){if(t&&"number"!=typeof t)throw new Error("Vivus [play]: invalid speed");return this.speed=t||1,this.handle||this.drawer(),this},e.prototype.stop=function(){return this.handle&&(n(this.handle),delete this.handle),this},e.prototype.destroy=function(){var t,e;for(t=0;t<this.map.length;t++)e=this.map[t],e.el.style.strokeDashoffset=null,e.el.style.strokeDasharray=null,this.renderPath(t)},e.prototype.parseAttr=function(t){var e,r={};if(t&&t.attributes)for(var n=0;n<t.attributes.length;n++)e=t.attributes[n],r[e.name]=e.value;return r},e.prototype.isInViewport=function(t,e){var r=this.scrollY(),n=r+this.getViewportH(),o=t.getBoundingClientRect(),a=o.height,i=r+o.top,s=i+a;return e=e||0,n>=i+a*e&&s>=r},e.prototype.docElem=window.document.documentElement,e.prototype.getViewportH=function(){var t=this.docElem.clientHeight,e=window.innerHeight;return e>t?e:t},e.prototype.scrollY=function(){return window.pageYOffset||this.docElem.scrollTop},r=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(t){return window.setTimeout(t,1e3/60)}}(),n=function(){return window.cancelAnimationFrame||window.webkitCancelAnimationFrame||window.mozCancelAnimationFrame||window.oCancelAnimationFrame||window.msCancelAnimationFrame||function(t){return window.clearTimeout(t)}}(),o=function(t,e){var r=parseInt(t,10);return r>=0?r:e},window.Vivus=e}();</script><style>
+                        a, a:link, a:visited { color: #207bbf; cursor:pointer;}
+                        a:active, a:hover { color: #308bcf; }</style><script>
+            if ( localStorage.theme == 'night' ) {
+               var root = document.getElementsByTagName( 'html' )[0];
+               root.className += ' theme_night';
+               rym_initdata.theme = 'night';
+            } else {
+               rym_initdata.theme = 'default';
+            }
+
+
+            function switchThemeTo ( theme ) {
+
+               if ( theme === 'default' ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').removeClass('theme_night theme_default').addClass('theme_' + theme);
+
+            }
+
+            function switchTheme ( ) {
+
+               if ( $('html').hasClass('theme_night') ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').toggleClass('theme_night')
+
+            }
+            </script> <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style></head><body id="body"><div style="position:fixed;right:0;bottom:0;width:2.5em;height:2.5em;z-index:24000;    background: linear-gradient(130deg, rgba(0,125,255,0.2), rgba(200,200,200,0.5));border-radius:50%;cursor:pointer;" onclick="switchTheme();"></div>
+         <link rel="stylesheet" href="./Industrial Music - Sonemic _ Rate Your Music music database_files/min.css">
+      
+   <meta name="description" content="Industrial Music music genre.">
+   <meta name="keywords" content="rate your music, sonemic, rate music, rate albums, music catalog, music catalogue, social software, album reviews, music lists, community, music recommendations, concert listings, record labels, venues, shows">
+
+         <script>
+            ryminit = window.ryminit || [];
+
+            function rymInitPush( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+            
+            function rymQ( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+
+         </script>
+
+      <script type="text/javascript">rymInitPush( function() { rym.session.init(0, '0', '');} );</script>
+         <script></script>
+      
+               <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+          <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:site" content="@SonemicMusic">
+                <meta property="og:site_name" content="Sonemic / Rate Your Music">
+
+                <meta property="og:url" content="https://sonemic.com/music/genre/industrial-music/">
+                <meta property="og:type" content="website">
+                <meta property="og:title" content="Industrial Music - Sonemic / Rate Your Music">
+                <meta property="og:description" content="Industrial Music music genre."><meta property="og:image" content="https://e.snmc.io/3.0/img/logo/sonemic-512.png">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         
+         <link rel="icon" href="https://e.snmc.io/3.0/img/sonemic.png" type="image/png">
+
+
+                      
+
+          
+
+         <header>
+            <div class="header_inner ">
+
+      
+                <div onclick="RYMheader.onClickBars()" class="header_profile_bars"><i class="fa fa-bars"></i></div>
+
+
+               <div class="header_profile">
+                  <div class="header_profile_logged_out">
+                     <span>   
+                        <a onclick="return RYMlogin.login();" class="header_profile_login">signup • login</a>
+                     </span>
+                  </div>
+            
+               </div>
+
+
+
+               <div class="header_logo">
+                  <a class="main header_item hide-for-touch sonemic" href="https://sonemic.com/">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <a class="main header_item show-for-touch sonemic">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <div class="divider mobile_divider"></div>
+                  <div class="header_extended_section">
+                     <a class="main show-for-touch header_item sonemic" href="https://sonemic.com/">
+                        <div class="logo_sonemic_32 logo_header"></div>
+                        <span class="logo_name">Sonemic <span class="header_extended_subtext">music</span></span>
+                     </a>
+                     <a class="main  header_item cinemos" href="https://cinemos.com/">
+                        <div class="logo_cinemos_32 logo_header"></div>
+                        <span class="logo_name">Cinemos <span class="header_extended_subtext">film</span></span>
+                     </a>
+                     <a class="main  header_item  glitchwave" href="https://beta.glitchwave.com/">
+                        <div class="logo_glitchwave_32 logo_header"></div>
+                        <span class="logo_name">Glitchwave <span class="header_extended_subtext">video games</span></span>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="header_links">
+                  <div class="divider"></div>
+                  <div class="header_charts">
+                  <a class="header_charts header_item" href="https://sonemic.com/charts/">charts</a>
+                  </div>
+                  <a class="header_item" href="https://sonemic.com/music/genre/">genres</a>
+                  <a class="header_item" href="https://sonemic.com/lists/">lists</a>
+                  <a class="header_item" href="https://sonemic.com/community/">community</a>
+                  <div class="divider"></div>
+               </div>
+               <div class="header_search">
+<div class="ui_chooser_frame" id="ui_chooser_frame_main_search"> <div class="ui_chooser" id="ui_chooser_main_search" data-id="main_search" data-parent-id="" data-allowed-types="music" data-select-first-result="true" data-select-action="navigate" data-placeholder="" data-custom-action="custom_action"> <i class="fa fa-search"></i> <div class="ui_chooser_input_frame"> <input id="ui_chooser_input_main_search" data-id="main_search" placeholder="search music..."> </div> <div class="ui_chooser_type" id="ui_chooser_type_main_search"> <span class="ui_chooser_type_text" id="ui_chooser_type_text_main_search"></span> <i class="fa fa-caret-down"></i> <select onfocus="" data-id="main_search" id="ui_chooser_select_main_search"> <optgroup label="Music"><option value="music">All music</option><option value="artist">Artist</option><option value="release">Release</option><option value="company_music">Company</option><option value="genre_music">Genre</option><option value="song">Song</option><option value="work">Work</option><option value="descriptor_music">Descriptor</option><option value="venue">Venue</option></optgroup></select> </div> </div>
+</div>
+</div>   
+
+
+
+
+            </div>
+
+         </header>
+
+         <div class="mobile_header_menu"><a href="https://sonemic.com/charts/" class="mobile_header_menu_item mobile_header_menu_item_charts">
+                  Charts
+            </a><a href="https://sonemic.com/music/genre/" class="mobile_header_menu_item mobile_header_menu_item_genres">
+               Genres
+            </a><a href="https://sonemic.com/lists/" class="mobile_header_menu_item mobile_header_menu_item_lists">
+               Lists 
+            </a><a href="https://sonemic.com/community/" class="mobile_header_menu_item mobile_header_menu_item_community">
+               Community
+            </a></div>
+
+
+         <div class="header_border"></div>
+
+         <div class="header_error" onclick="$(this).fadeOut();" id="header_error">
+            <div class="header_error_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_error_text"></div>
+         </div>
+
+         <div class="header_message" onclick="$(this).fadeOut();" id="header_message">
+            <div class="header_message_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_message_text"></div>
+         </div>
+
+         <div id="header_toolbar" class="header_toolbar">
+
+            <div class="header_toolbar_inner">
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/artist/profile_history">Artist <span class="toolbar_num">45/100</span></a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/queues/">Queues</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/notepad/">Notepad</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/rymzilla/">RYMzilla</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/settings/">Settings</a>
+               </div>
+            </div>
+
+         </div>
+
+
+         <div id="header_expanded" class="header_expanded">
+
+            <a class="header_expanded_section" href="https://sonemic.com/charts/">Charts</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/music/genre/">Genres</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/lists/">Lists</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/community/">Community</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/settings/">Settings</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/messaging/">Messaging</a>
+      
+            <div class="header_expanded_section">
+               <a class="header_expanded_link" onclick="return RYMlogin.login();">Login</a>
+            </div>
+         
+
+         </div>
+
+         <div id="content_wrapper" class="content_wrapper">
+         <div id="content"><div class="abpmessage">Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href="https://sonemic.com/subscribe">subscribing</a> to help with bandwidth/server costs.</div>
+         <div id="precontent" style="-webkit-transform: scale3d(1,1,1);"></div>
+         <div id="content_cover"></div>
+         <div id="total_cover"></div>
+         <div id="content_total_cover"></div>
+
+
+      
+ <script> var page_options = {}; </script>
+<div id="page_object_header" class="page_object_header  no_hero"> <div class="page_object_header_info"> 
+ <div class="page_object_shortcut has_tip"><input readonly="" onclick="$(this).focus().select();" value="[Genre35250]"></div> <div class="page_object_header_main"> <h1 class="page_object_header_title 
+ title_medium
+ 
+ 
+ ">Industrial Music
+ </h1> 
+ <div class="clearfix"></div> </div> <div class="page_object_header_second"> 
+
+ <div class="page_object_header_right"> 
+
+
+ <span class="page_object_header_field_item  "> <span class="page_object_header_field"></span> <span class="page_object_header_field_item_single"><span>Genre</span></span>
+ </span>  
+ 
+ </div> 
+
+
+
+
+ <div class="clearfix"></div> </div> </div> <div class="page_object_overlay"> </div> <div id="page_object_hero_image" class="page_object_hero_image"> </div>  <div class="clearfix"></div>
+</div>
+
+
+<div class="row page_object_row_main">
+
+   <div class="large-5 medium-5 small-12 columns page_object_left_column">
+<div class="page_object_section page_object_section_biography">
+<div class="page_section_dynamic_fade height_mobile_20em height_60em"> <div class="page_section_biography_body cl-444">Coinciding with <a href="https://sonemic.com/music/genre/punk-rock/" class="music_genre">Punk Rock</a>, industrial music was a crucial movement in the late 1970s British counterculture. The harsh and mechanical sound depicting the gloomy and morbid reality of life in the industrial society quickly spread around European and North American underground music scenes, impacting a whole range of <a href="https://sonemic.com/music/genre/experimental/" class="music_genre">Experimental</a> styles. Since the 1980s industrial music has incorporated a wide array of popular and classical influences, growing into a broad family of genres.<br><br>The original <a href="https://sonemic.com/music/genre/industrial/" class="music_genre">Industrial</a> movement was born in 1976 with the London-based band <a href="https://sonemic.com/music/throbbing-gristle/" class="music_artist">Throbbing Gristle</a> - a continuation of the avant-garde performance art act <a href="https://sonemic.com/music/coum_transmissions/" class="music_artist">COUM Transmissions</a>. One of the first Throbbing Gristle shows happened during the COUM Transmission's <i>Prostitution</i> show in 1976, whose highly controversial content caused media outrage and a debate in the British Parliament during which the group were called "the wreckers of civilisation". Not surprisingly, that only brought industrial music to the attention of a wider audience, stimulating the growth of this underground phenomenon. Soon industrial artists were appearing in the United States, Germany, France, Australia, and the rest of the "First World".<br><br>Influenced by <a href="https://sonemic.com/music/genre/musique-concrete/" class="music_genre">Musique concrète</a>, <a href="https://sonemic.com/music/genre/krautrock/" class="music_genre">Krautrock</a>, and going against the conventions of popular music at the time, the bands were aiming for a bleak and mechanical sound as well as cynical and shocking image and lyrical themes. That was often accomplished by the use of noise, electronic devices, non-musical instruments and unusual samples. Other influential bands, aside from the aforementioned Throbbing Gristle, included <a href="https://sonemic.com/music/boyd_rice/" class="music_artist">Boyd Rice</a>/<a href="https://sonemic.com/music/non/" class="music_artist">NON</a> in the U.S., <a href="https://sonemic.com/music/cabaret_voltaire/" class="music_artist">Cabaret Voltaire</a> and <a href="https://sonemic.com/music/nurse-with-wound/" class="music_artist">Nurse With Wound</a> in the U.K., <a href="https://sonemic.com/music/spk/" class="music_artist">SPK</a> in Australia, <a href="https://sonemic.com/music/einsturzende_neubauten/" class="music_artist">Einstürzende Neubauten</a> in Germany, and many others.<br><br>Over time industrial music has split into many sub-genres. In the early 1980s the growing influence of <a href="https://sonemic.com/music/genre/synth-punk/" class="music_genre">Synth Punk</a> and <a href="https://sonemic.com/music/genre/minimal-synth/" class="music_genre">Minimal Synth</a> led to the emergence of <a href="https://sonemic.com/music/genre/ebm/" class="music_genre">EBM</a>, a more beat-driven and melodic style pioneered by European bands like <a href="https://sonemic.com/music/deutsch-amerikanische-freundschaft/" class="music_artist">Deutsch Amerikanische Freundschaft</a> and <a href="https://sonemic.com/music/front-242/" class="music_artist">Front 242</a>. This <i>electronic body music</i> lacked the experimentation and harshness of the first wave industrial music, so a few years later artists such as <a href="https://sonemic.com/music/skinny-puppy/" class="music_artist">Skinny Puppy</a> started to combine the modern electronic feel of EBM back with the dark sound of early industrial music resulting in a complex sub-genre called <a href="https://sonemic.com/music/genre/electro-industrial/" class="music_genre">Electro-Industrial</a>. In the 1990s these electronic branches evolved even further in opposite directions. On one side of the spectrum there was the accessible <a href="https://sonemic.com/music/genre/synthpop/" class="music_genre">Synthpop</a> and <a href="https://sonemic.com/music/genre/trance/" class="music_genre">Trance</a> oriented <a href="https://sonemic.com/music/genre/futurepop/" class="music_genre">Futurepop</a> started by <a href="https://sonemic.com/music/apoptygma-berzerk/" class="music_artist">Apoptygma Berzerk</a> and <a href="https://sonemic.com/music/vnv-nation/" class="music_artist">VNV Nation</a>, whereas <a href="https://sonemic.com/music/hocico/" class="music_artist">Hocico</a>, <a href="https://sonemic.com/music/suicide-commando/" class="music_artist">Suicide Commando</a>, and other <a href="https://sonemic.com/music/genre/aggrotech/" class="music_genre">Aggrotech</a> artists chose a much more extreme approach of blending fast <a href="https://sonemic.com/music/genre/hardcore-edm/" class="music_genre">Hardcore [EDM]</a>-like beats with harsh/distorted vocals.<br><br>But electronic influences were not the only direction undertaken by the post-industrial music scene in the 1980s. Artists such as <a href="https://sonemic.com/music/foetus/" class="music_artist">Foetus</a>, <a href="https://sonemic.com/music/chrome/" class="music_artist">Chrome</a> and <a href="https://sonemic.com/music/killing-joke/" class="music_artist">Killing Joke</a> were among the first to combine <a href="https://sonemic.com/music/genre/post-punk/" class="music_genre">Post-Punk</a> with industrial music, thus pioneering the guitar-driven genre of <a href="https://sonemic.com/music/genre/industrial-rock/" class="music_genre">Industrial Rock</a>. Then, bands like <a href="https://sonemic.com/music/kmfdm/" class="music_artist">KMFDM</a>, <a href="https://sonemic.com/music/ministry/" class="music_artist">Ministry</a> and <a href="https://sonemic.com/music/godflesh/" class="music_artist">Godflesh</a> went for a heavier and more extreme sound of <a href="https://sonemic.com/music/genre/industrial-metal/" class="music_genre">Industrial Metal</a>. Industrial rock and metal have since then arguably become the most popular of all industrial styles, with <a href="https://sonemic.com/music/nine-inch-nails/" class="music_artist">Nine Inch Nails</a>, <a href="https://sonemic.com/music/rammstein/" class="music_artist">Rammstein</a> and <a href="https://sonemic.com/music/marilyn-manson/" class="music_artist">Marilyn Manson</a> reaching a very wide mainstream audience.<br><br>The repetitive sound and totalitarian aesthetic of some of the early industrial artists was taken to the extreme by Slovenian <a href="https://sonemic.com/music/laibach/" class="music_artist">Laibach</a> whose heavy, rhythmic percussion, war-related lyrics and <a href="https://sonemic.com/music/genre/western-classical-music/" class="music_genre">Western classical music</a> influences pioneered a style called <a href="https://sonemic.com/music/genre/martial-industrial/" class="music_genre">Martial Industrial</a>. In the 1990s groups like <a href="https://sonemic.com/music/the-moon-lay-hidden-beneath-a-cloud/" class="music_artist">The Moon Lay Hidden Beneath a Cloud</a> and <a href="https://sonemic.com/music/blood-axis/" class="music_artist">Blood Axis</a> started to mix it with other styles of music and the genre began to significantly overlap with <a href="https://sonemic.com/music/genre/neofolk/" class="music_genre">Neofolk</a>, <a href="https://sonemic.com/music/genre/dark-ambient/" class="music_genre">Dark Ambient</a> and <a href="https://sonemic.com/music/genre/neoclassical-darkwave/" class="music_genre">Neoclassical Darkwave</a>, growing into its own scene far removed from the electronic and rock styles that dominated industrial music at the time. Because of the militaristic spirit and historical themes, many martial industrial artists have adopted a totalitarian right-wing image, but there are also some acts coming from the other side of the political spectrum, for example <a href="https://sonemic.com/music/rome.f1/" class="music_artist">ROME</a>.<br><br>Aside from its sub-genres, industrial has influenced many other styles of music as well. Its relentless avant-garde sound had a great impact on <a href="https://sonemic.com/music/genre/noise/" class="music_genre">Noise</a>, while the brooding and dark atmosphere was one of the leading forces behind the development of dark ambient in the 1980s. Industrial artists were also one of the first to widely use sampling in their music. In the late 1970s <a href="https://sonemic.com/music/chris-carter/" class="music_artist">Chris Carter</a> of Throbbing Gristle built a sampler which his band-mate, <a href="https://sonemic.com/music/peter-christopherson/" class="music_artist">Peter "Sleazy" Christopherson</a>, was using on stage even before the first samplers were commercially available. In <a href="https://sonemic.com/music/coil/" class="music_artist">Coil</a> Sleazy experimented with other electronic devices, becoming one of the pioneers of <a href="https://sonemic.com/music/genre/glitch/" class="music_genre">Glitch</a> music and influencing a range of <a href="https://sonemic.com/music/genre/idm/" class="music_genre">IDM</a> artists. Meanwhile, <a href="https://sonemic.com/music/current-93/" class="music_artist">Current 93</a>'s and <a href="https://sonemic.com/music/death-in-june/" class="music_artist">Death in June</a>'s blend of post-industrial experimental music and acoustic instrumentation resulted in the advent of neofolk.</div> <div class="page_section_dynamic_fade_cover" style="display: block;"></div> <div class="page_section_dynamic_fade_expand_button bg-f8f8f8 cl-333" style="display: block;"> <span class="expand_text">Expand</span> <span class="hide_text" style="margin-top:1em">Hide</span> </div>
+</div>
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_akas">
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_subgenres"><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial/">Industrial</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/power-electronics/">Power Electronics</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/death-industrial/">Death Industrial</a>  
+               </div></li></ul></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-industrial/">Post-Industrial</a>  <div class="subgenre_list_num_subgenres">16</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dark-ambient/">Dark Ambient</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/black-ambient/">Black Ambient</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ritual-ambient/">Ritual Ambient</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ebm/">EBM</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/aggrotech/">Aggrotech</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/futurepop/">Futurepop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-beat/">New Beat</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-industrial/">Electro-Industrial</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dark-electro/">Dark Electro</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/aggrotech/">Aggrotech</a>  
+               </div></li></ul></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-hip-hop/">Industrial Hip Hop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-metal/">Industrial Metal</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/cyber-metal/">Cyber Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neue-deutsche-harte/">Neue Deutsche Härte</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-rock/">Industrial Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-techno/">Industrial Techno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/martial-industrial/">Martial Industrial</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/power-noise/">Power Noise</a>  
+               </div></li></ul></div>
+
+
+   </div><div class="large-7 medium-7 small-12 columns page_object_right_column bg-eee"><div class="page_object_section">
+<div class="page_object_section_discography">
+<div class="page_object_section_discography_header"> 
+ <div class="page_object_section_discography_nav"> 
+<nav id="nav_page_discography_nav_release_top" data-mainid="page_discography_nav_release_top" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="25925" data-num-pages="519" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/industrial-music/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_top"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_top">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_top">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_top">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_top">519</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_top" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_top" href="https://sonemic.com/genre/music/genre/industrial-music/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+ <div class="page_discography_search"> 
+ 
+<div id="ui_textfilter_frame_all_object_list_release_" class="ui_textfilter_frame"> <div class="ui_textfilter_input_filter"><i class="fa fa-spinner fa-pulse fa-fw"></i><i class="fa fa-search fa-fw"></i></div> <div id="ui_textfilter_close_all_object_list_release_" class="ui_textfilter_input_close"><i class="fa fa-times-circle"></i></div> <input id="ui_textfilter_all_object_list_release_" class="ui_textfilter" type="text" data-component="object_list" data-scope="all" data-object-type="release" data-object-assoc-id="" data-initialized="false" data-cover-target="" data-result-target="page_discography_search_results_release" placeholder="Search releases...">
+</div> 
+ </div> 
+ <h3>Releases <span class="subtext cl-888">25,925</span></h3> 
+ <div class="clearfix"></div>
+</div> <div class="page_discography_after_header"> <div id="page_discography_search_results_release" class="page_discography_search_results"> </div> <div class="page_discography_sort" id="page_discography_sort_release" data-object="release" data-filter="genre" data-filter-id="35250" data-devpub-filter="" data-page=""> <div id="page_discography_sort_link_release_avg_rating" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;avg_rating&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_average page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Average 
+ </div> <div id="page_discography_sort_link_release_num_ratings" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_ratings&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_ratings page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Ratings
+ </div> <div id="page_discography_sort_link_release_num_reviews" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_reviews&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_reviews page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Reviews
+ </div> <div class="page_discography_sort_title"> <span id="page_discography_sort_link_release_title" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;title&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction=""><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Title</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;release_date&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Release date</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;recommended&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link sorted_d" data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Recommended</span> </div> <div class="clearfix"></div> </div> <ul id="page_discography_items_release" class="page_discography_items"> <div id="page_discography_item_cover_release" class="page_discography_release_cover"></div> <div id="page_discography_itemlist_release"> 
+ 
+<li id="page_discography_line_release_250381" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250381&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.55</span> </div> <div class="page_discography_ratings"> 28
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/bcff0e5875361afab4e03c0a5f15366d/6048949&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/bcff0e5875361afab4e03c0a5f15366d/6048949&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-air-gallery-winchester/" class="release">At the Air Gallery/Winchester</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250381" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250380" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250380&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.46</span> </div> <div class="page_discography_ratings"> 48
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/665874fade7440ff6ee6d314d2d82a69/6048965&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/665874fade7440ff6ee6d314d2d82a69/6048965&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-ica-london/" class="release">At the ICA London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250380" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250377" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250377&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.18</span> </div> <div class="page_discography_ratings"> 51
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/d48206df66cb16a0331699143fd43172/6018796&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/d48206df66cb16a0331699143fd43172/6018796&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/best-of-volume-ii/" class="release">Best Of.... Volume II</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250377" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_991921" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;991921&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.97</span> </div> <div class="page_discography_ratings"> 17
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/279404ca69f22d4d9efde5f20a925aed/5924855&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/279404ca69f22d4d9efde5f20a925aed/5924855&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/gristle-and-albrecht-d/coum-live-at-10-martello-st-hackney-london/" class="release">COUM: Live at 10, Martello St, Hackney, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Gristle and Albrecht D.</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Gristle and Albrecht D.</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Free Improvisation</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_991921" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_7182824" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;7182824&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.28</span> </div> <div class="page_discography_ratings"> 13
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/music-from-the-death-factory/" class="release">Music From the Death Factory</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_7182824" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1867072" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1867072&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.14</span> </div> <div class="page_discography_ratings"> 53
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle-with-albrecht-d/music-from-the-death-factory/" class="release">Music From the Death Factory</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle with Albrecht D.</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Throbbing Gristle with Albrecht D.</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1867072" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_663141" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;663141&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.36</span> </div> <div class="page_discography_ratings"> 12
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/c95c91a6b34fd29da85adf9630a4ae3b/1704152&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/c95c91a6b34fd29da85adf9630a4ae3b/1704152&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/bootleg/cabaret-voltaire/the-outer-limits/" class="release">The Outer Limits</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Cabaret Voltaire</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1976</span> <span class="page_discography_date_full">1976</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_bootleg">Bootleg</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_663141" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250745" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250745&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.24</span> </div> <div class="page_discography_ratings"> 15
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/6e780803af593ec6fdafd808c55fcd20/1348232&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/6e780803af593ec6fdafd808c55fcd20/1348232&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-art-school-winchester/" class="release">At the Art School Winchester</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250745" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250383" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250383&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.39</span> </div> <div class="page_discography_ratings"> 34
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/7c53c30e2b898d631e87a6460008cdf4/1347857&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/7c53c30e2b898d631e87a6460008cdf4/1347857&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-brighton-polytechnic/" class="release">At the Brighton Polytechnic</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250383" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250743" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250743&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.04</span> </div> <div class="page_discography_ratings"> 15
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/dc8bb461b1fb18c365ad181db6a66c60/1348229&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/dc8bb461b1fb18c365ad181db6a66c60/1348229&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-highbury-roundhouse-london/" class="release">At the Highbury Roundhouse, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250743" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250382" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250382&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.78</span> </div> <div class="page_discography_ratings"> 21
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/61521bfe7edc1888603bf94ee0718970/1347856&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/61521bfe7edc1888603bf94ee0718970/1347856&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-nags-head-high-wycombe/" class="release">At the Nags Head, High Wycombe</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250382" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250741" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250741&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.67</span> </div> <div class="page_discography_ratings"> 34
+ </div> <div class="page_discography_reviews"> 6
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/982e8edd960ef25564fc3a8b3af21882/1348227&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/982e8edd960ef25564fc3a8b3af21882/1348227&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-nuffield-theatre-southampton/" class="release">At the Nuffield Theatre, Southampton</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250741" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250742" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250742&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.45</span> </div> <div class="page_discography_ratings"> 25
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/c452ab851e0a7542891494951dfef4c8/1348228&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/c452ab851e0a7542891494951dfef4c8/1348228&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-rat-club-london/" class="release">At the Rat Club, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250742" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_16443" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;16443&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.60</span> </div> <div class="page_discography_ratings"> 1,777
+ </div> <div class="page_discography_reviews"> 47
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/e50e9b36a97331c7320fc80e602713c9/2759331&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/e50e9b36a97331c7320fc80e602713c9/2759331&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/the-second-annual-report/" class="release">The Second Annual Report</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">November 1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_16443" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250746" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250746&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.84</span> </div> <div class="page_discography_ratings"> 35
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/24f39aa6b918a95a8a2cf9c8f3c7e082/1348233&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/24f39aa6b918a95a8a2cf9c8f3c7e082/1348233&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-rat-club-the-valentino-rooms/" class="release">At the Rat Club the Valentino Rooms</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1977</span> <span class="page_discography_date_full">December 1977</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250746" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250750" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250750&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.78</span> </div> <div class="page_discography_ratings"> 14
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/c47a32a62123f7b50a397fb13dfb2d85/1348237&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/c47a32a62123f7b50a397fb13dfb2d85/1348237&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-goldsmiths-college-london/" class="release">At Goldsmiths College, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250750" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250749" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250749&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.06</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/adf57193c85f02bf31c10c128681213b/1348236&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/adf57193c85f02bf31c10c128681213b/1348236&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-architectural-association-london/" class="release">At the Architectural Association, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250749" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250748" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250748&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.40</span> </div> <div class="page_discography_ratings"> 12
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/9e8264a3a44f2258b9f129484534bf7f/1348235&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-brighton-polytechnic.f1/" class="release">At the Brighton Polytechnic</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250748" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250752" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250752&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.75</span> </div> <div class="page_discography_ratings"> 17
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/33df6991e9f83a146eaadd30e5433db8/1348241&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-crypt-london/" class="release">At the Crypt, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250752" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_111704" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;111704&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.59</span> </div> <div class="page_discography_ratings"> 17
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1e0b3ee2bdea488a22dcc1c1a3f058f4/1348238&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-industrial-training-college-wakefield/" class="release">At the Industrial Training College, Wakefield</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_111704" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250751" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250751&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.09</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/364bdfcba050587accd5a07691c99a77/1348240&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-london-film-makers-co-op/" class="release">At the London Film Makers Co-Op</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250751" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1839046" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1839046&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.89</span> </div> <div class="page_discography_ratings"> 23
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/die-form/die-form-1/" class="release">Die Form 1</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Die Form</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1839046" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_129326" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;129326&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.09</span> </div> <div class="page_discography_ratings"> 125
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/7a4cdd073182b6c3320537b807637ac4/1350868&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/non/pagan-muzak/" class="release">Pagan Muzak</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">NON</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Noise</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Turntable Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_129326" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_124714" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;124714&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.24</span> </div> <div class="page_discography_ratings"> 70
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/5d7624164892b8eeaffd05ab6e0b6c6c/4153379&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/robert-rental/paralysis-a-c-c/" class="release">Paralysis / A.C.C.</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Robert Rental</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Minimal Wave</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_124714" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_113584" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;113584&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.51</span> </div> <div class="page_discography_ratings"> 275
+ </div> <div class="page_discography_reviews"> 7
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/3430b976d4306f9226044e90f9763cc9/1244665&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/throbbing-gristle/united-zyklon-b-zombie/" class="release">United / Zyklon B Zombie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">May 1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Minimal Synth</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_113584" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_137335" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;137335&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.45</span> </div> <div class="page_discography_ratings"> 114
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/78ca7cd1c037a8e10c57f27f1d9c69a3/3217801&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/cabaret-voltaire/extended-play/" class="release">Extended Play</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Cabaret Voltaire</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">November 1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Minimal Wave</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_137335" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_16449" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;16449&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.58</span> </div> <div class="page_discography_ratings"> 1,468
+ </div> <div class="page_discography_reviews"> 42
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/2146225f40420db455e076723f3f3235/6017629&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/d-o-a-the-third-and-final-report-of-throbbing-gristle/" class="release">D.o.A: The Third and Final Report of Throbbing Gristle</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1978</span> <span class="page_discography_date_full">04 December 1978</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_16449" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_5555100" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;5555100&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.52</span> </div> <div class="page_discography_ratings"> 6
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/anyone-can-be-eno/anyone-can-be-eno/" class="release">Anyone Can Be Eno</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Anyone Can Be Eno</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_5555100" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250767" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250767&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.50</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/8157e43fae94208fea617c9d696a6abe/1348252&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-butlers-wharf-london-23rd-december-1979/" class="release">At Butlers Wharf, London 23rd December 1979</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250767" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250753" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250753&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.08</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/cea6d455672b6277746e0568efd7f9a7/1348242&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-centro-iberico-london/" class="release">At Centro Iberico, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250753" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250754" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250754&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.15</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/fc1394aafa8e0be04cd45ec90d214dfd/1348243&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-ajanta-cinema-derby/" class="release">At the Ajanta Cinema, Derby</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250754" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250756" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250756&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.90</span> </div> <div class="page_discography_ratings"> 77
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/124d4e0f593dcf68618472c0ebe00981/3513128&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-factory-manchester/" class="release">At the Factory, Manchester</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250756" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250760" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250760&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.09</span> </div> <div class="page_discography_ratings"> 6
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/002cc96f779bba1851c605a295cc2def/1348249&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-guild-hall-northampton/" class="release">At the Guild Hall, Northampton</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250760" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250755" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250755&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.74</span> </div> <div class="page_discography_ratings"> 16
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/f5483f396224e6899e9721e712c98c44/1348244&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-now-society-sheffield-university/" class="release">At the Now Society, Sheffield University</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250755" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250762" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250762&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.46</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/8be22c04aefaa93d709902d814d22c32/1348250&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/at-the-ymca-london/" class="release">At the YMCA, London</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250762" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4377" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4377&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.34</span> </div> <div class="page_discography_ratings"> 908
+ </div> <div class="page_discography_reviews"> 28
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/60727aa99f2481b59884cf253e1485c5/2399825&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/nurse-with-wound/chance-meeting-on-a-dissecting-table-of-a-sewing-machine-and-an-umbrella/" class="release">Chance Meeting on a Dissecting Table of a Sewing Machine and an Umbrella</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Nurse With Wound</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Noise</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4377" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3658894" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3658894&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release"></span> </div> <div class="page_discography_ratings"> 
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/sex-us-70s/correlation-coefficient-im-not-black-i-can-sing/" class="release">Correlation Coefficient / (I'm Not Black) I Can Sing</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Sex [US 70s]</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3658894" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_667999" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;667999&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.07</span> </div> <div class="page_discography_ratings"> 38
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/32832ce1300ba238c2380fcd1bd3d605/1773820&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/der-plan/das-fleisch/" class="release">Das Fleisch</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Der Plan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Post-Punk</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_667999" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_153580" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;153580&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.17</span> </div> <div class="page_discography_ratings"> 28
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/dad7306b18d5ec85f6e1ed5573c6b49b/1842869&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/metabolist/goatmanaut/" class="release">Goatmanaut</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Metabolist</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Post-Punk</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_153580" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2129598" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2129598&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.43</span> </div> <div class="page_discography_ratings"> 40
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/clock-dva/group-fragments/" class="release">Group Fragments</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Clock DVA</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2129598" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_709498" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;709498&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.74</span> </div> <div class="page_discography_ratings"> 47
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/78491668a1ac6c91c84658485ea0c9d1/5412698&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/aavikon-kone-ja-moottori/karavaani/" class="release">Karavaani</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Aavikon Kone ja Moottori</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_709498" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_790020" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;790020&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.35</span> </div> <div class="page_discography_ratings"> 106
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/03f991487055cdbb357712444370f980/1834204&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/gerry-and-the-holograms/meet-the-dissidents/" class="release">Meet the Dissidents</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Gerry &amp; the Holograms</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Minimal Synth</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_790020" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_632173" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;632173&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.89</span> </div> <div class="page_discography_ratings"> 124
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/c361cc5f72da39115972d235315dbaad/5312358&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/spk/mekano-contakt-slogun/" class="release">Mekano / Contakt / Slogun</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">SPK</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Synth Punk</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_632173" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_824886" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;824886&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.42</span> </div> <div class="page_discography_ratings"> 71
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/235210deaab0a762e14972de158edfd7/6092304&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/robert-rental/mental-detentions/" class="release">Mental Detentions</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Robert Rental</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Minimal Synth</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_824886" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_503314" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;503314&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.28</span> </div> <div class="page_discography_ratings"> 81
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1378aee65fd608307332e8c2d3b52eac/1613523&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/non/mode-of-infection-knife-ladder/" class="release">Mode of Infection / Knife Ladder</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">NON</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Noise</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_503314" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_250764" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;250764&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.18</span> </div> <div class="page_discography_ratings"> 45
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/5b90c4dca98cc022425ed30c3d854d12/1348251&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/throbbing-gristle/pastimes-industrial-muzac/" class="release">Pastimes / Industrial Muzac</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Throbbing Gristle</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_250764" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_45477" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;45477&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.27</span> </div> <div class="page_discography_ratings"> 324
+ </div> <div class="page_discography_reviews"> 8
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/55fffb3cbf53e88c40c26696163fe3eb/3402511&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/deutsch-amerikanische-freundschaft/produkt-der-deutsch-amerikanischen-freundschaft/" class="release">Produkt der Deutsch-Amerikanischen Freundschaft</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Deutsch Amerikanische Freundschaft</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Post-Punk</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_45477" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1715135" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1715135&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.77</span> </div> <div class="page_discography_ratings"> 10
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/bc5ee6843a614bf7764b0b2241f6340a/2365736&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/green-sex/save-me-telephony/" class="release">Save Me / Telephony</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Green Sex</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1715135" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2227406" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2227406&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.42</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/compilation/various-artists/snatch-1/" class="release">Snatch 1</a>
+
+
+
+
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_compilation">Compilation</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2227406" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2730831" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2730831&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.69</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/compilation/various-artists/standard-response/" class="release">Standard Response</a>
+
+
+
+
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1979</span> <span class="page_discography_date_full">1979</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_compilation">Compilation</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Industrial</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2730831" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ </div> </ul> 
+ <div class="page_object_section_discography_nav page_object_section_discography_nav_bottom"> 
+<nav id="nav_page_discography_nav_release_bottom" data-mainid="page_discography_nav_release_bottom" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="25925" data-num-pages="519" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/industrial-music/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_bottom"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_bottom">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_bottom">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_bottom">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_bottom">519</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_bottom" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_bottom" href="https://sonemic.com/genre/music/genre/industrial-music/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><script>rymInitPush( function() { RYMobjectListPage.setupPage('release', '/music/genre/industrial-music/');})</script><div class="clearfix"></div>
+         <!-- end content and content_wrapper -->
+         </div>
+      </div>
+
+      <div id="track_preview_frame" class="track_preview_frame">
+
+         <div class="track_preview_close" onclick="$(&#39;#track_preview_frame&#39;).hide();$(&#39;#track_preview&#39;).html(&#39;&#39;);">
+            <i class="fa fa-times-circle"></i>
+         </div>
+
+         <div id="track_preview_text" class="track_preview_text">
+         </div>
+
+         <div id="track_preview" class="track_preview">
+
+         </div>
+      </div>
+
+      <div class="overlay_invisible" id="overlay_invisible"></div>
+
+      <div class="ui_cropper_frame" id="ui_cropper_frame"></div>
+
+      <div class="modal_parent_frame" id="modal_parent_frame">
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay" class="modal_overlay" style="">Close <i class="fa fa-times"></i></div>
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay_invisible" class="modal_overlay_invisible" style=""></div>
+         <div id="modal_parent_frame_inner" class="modal_parent_frame_inner">
+                <div id="modal_content" class="modal_content">
+                </div>
+         </div>
+      </div>
+
+         <!-- ~~~~~~~~ end content ~~~~~~~~~~~~~~~ -->
+        <div class="ui_chooser_results_frame" id="ui_chooser_results_frame">
+            <div class="ui_chooser_results bg-fff alternate" id="ui_chooser_results" style="display: none;">
+            </div>
+        </div>  
+
+         <div id="content_cover">
+            <div id="preview_frame"></div>
+         </div>
+
+
+
+         <div id="loading_anim" style="display:none;">
+            <div class="loading_anim">
+               <i class="fa fa-cog fa-spin"></i> Loading...
+            </div>
+         </div>
+
+
+         <div id="voting_ui_frame"></div>
+
+
+
+
+      <div style="clear:both;"></div>
+      <footer>
+      <div class="footer_inner">
+
+         <div class="footer_main_section"><div class="minilogo_frame"><div class="minilogo"> <div class="logo_sonemic_bw_24"></div>
+                            <span class="minilogo_text">Sonemic <sup class="has_tip">®</sup></span>
+                        </div></div>
+
+
+            <div class="copyright">© 2000-2017 Sonemic, Inc.<br>All rights reserved.</div><div class="copyright">Rate Your Music</div>
+
+            
+
+            <div class="clearfix"></div>
+            <!-- <div class="trademark">Sonemic is a registered trademark of Sonemic, Inc. </div> -->
+
+            <div class="clearfix"></div>
+
+            <div class="social_icons"> 
+               <a href="https://facebook.com/sonemic.network/" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+               <a href="https://twitter.com/sonemic/" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+
+      
+            <a href="https://open.spotify.com/user/sonemic.com" target="_blank"><i class="fa fa-spotify"></i></a> 
+         
+            </div>
+         </div> 
+      
+      <div id="expand_full_footer" class="mobile_expandable_full mobile_expand_footer">
+
+            <div id="expand_full_header_footer" class="mobile_expandable_full_header" onclick="RYMmobile.mobileExpand.toggleFull(&#39;footer&#39;);">
+
+               <div class="mobile_expandable_full_icons">
+                  <div class="mobile_expandable_full_expand_icon_expanded">
+                     <i class="fa fa-caret-down"></i>
+                  </div>
+                  <div class="mobile_expandable_full_expand_icon_hidden">
+                     <i class="fa fa-caret-right"></i>
+                  </div>
+               </div>
+
+               <div id="expand_full_name_footer" class="mobile_expandable_full_name">
+                  Site links
+               </div>
+
+            </div>
+
+            <div id="expand_full_content_footer" class="mobile_expandable_full_content">
+               
+         <div class="footer_sections">
+            <div class="footer_section" id="section_network">
+               <div class="footer_header">Sonemic network</div>
+               <div class="footer_sub_links">
+                  <a class="asonemic" href="https://sonemic.com/">Sonemic <span class="sub">music</span></a>
+                  <a class="acinemos" href="https://cinemos.com/">Cinemos <span class="sub">film</span></a>
+                  <a class="aglitchwave" href="https://glitchwave.com/">Glitchwave <span class="sub">video games</span></a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Info</div>
+               <div class="footer_sub_links"><a href="https://sonemic.com/about/">About Sonemic</a>
+                  <a href="https://sonemic.com/docs/faq/">Site FAQ</a>
+                  <a href="https://sonemic.com/docs/standards/">Site standards</a>
+                  <a href="https://sonemic.com/submissions/">Queues</a>
+                  <a href="https://sonemic.com/docs/api/">API</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Policy</div>
+               <div class="footer_sub_links">
+                  <a class="" href="https://sonemic.com/docs/community_rules/">Community rules</a>
+                  <a class="" href="https://sonemic.com/docs/general_rules/">General rules</a>
+                  <!--<div class="updated">Updated 22 May 2017</div> -->
+                  <a class="" href="https://sonemic.com/privacy/">Privacy</a>
+                  <a class="" href="https://sonemic.com/terms-of-service/">Terms of service</a>
+                  <a href="https://sonemic.com/artist_portal/">For artists/labels</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Contact us</div>
+               <div class="footer_sub_links">
+                  <a href="https://sonemic.com/support/">Get support</a>
+                  <a href="https://sonemic.com/support/">Send feedback</a>
+                  <a href="https://sonemic.com/support/?partnerships">Advertise</a>
+                  <a href="https://sonemic.com/jobs/">Jobs</a>
+               </div>
+            </div>
+         </div>
+      
+            </div>
+         </div>
+      
+      <div class="g-recaptcha" data-sitekey="6LdaLxkUAAAAAJYzVmL0OQJiqH9Hev7JQ4AxcvhG" data-callback="_captchaCallback" data-size="invisible">
+      </div>
+
+     
+         <div class="server_info">Instance: 6 Ads: disabled</div>
+
+         <div style="clear:both;"></div>
+      </div>
+
+    </footer>
+    
+
+   <div id="ui_date_help">
+      <div class="ui_date_help_text" style="font-size:0.9em;line-height:1.4">
+         <b>Examples</b>
+         <br>
+         1980s-1996
+         <br>
+         23 mar 2015
+         <br>
+         8 apr - 12 may 2015
+         <br>
+         1998-05
+      </div>
+   </div>
+    <div id="image_browser" class="image_browser" onclick="RYMimageBrowser.hide();"> 
+
+
+         <div class="image_browser_loading_frame">
+            <div class="image_browser_loading" id="image_browser_loading">
+               <div id="block_1" class="load_block"></div>
+               <div id="block_2" class="load_block"></div>
+               <div id="block_3" class="load_block"></div>
+            </div> 
+            <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_image" id="image_browser_image">
+            
+            <img id="image_browser_image_img"> <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_navigation">
+            <div class="image_browser_prev" onclick="RYMimageBrowser.prev(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-left"></i></div>
+            <div class="image_browser_next" onclick="RYMimageBrowser.next(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-right"></i></div>
+         </div>
+
+         <div id="image_browser_preload" class="image_browser_preload"></div>
+         <div class="image_browser_controls" onclick="event.stopPropagation();">   
+
+            <div class="image_browser_btn" id="image_browser_report_btn" onclick="RYMimageBrowser.toggleReport();">  
+               <i class="fa fa-warning"></i> Report
+            </div>
+            <a class="image_browser_btn" id="image_browser_download_btn">  
+               <i class="fa fa-download"></i> Download
+            </a>
+
+            <div class="image_browser_progress" id="image_browser_progress">Image 1 of 2</div>
+
+         </div>
+         <div class="image_browser_date_caption_bar" onclick="event.stopPropagation();">
+
+            <div class="image_browser_date" id="image_browser_date" onclick="event.stopPropagation();"></div>
+
+            <div class="image_browser_caption" id="image_browser_caption" onclick="event.stopPropagation();"></div>  
+
+         </div>
+
+    </div>
+    <script>
+      rymInitPush(function()  {
+         if ( location.search === "?email_verified") {  
+            rym.showGlobalMessage('Thanks! Your email has been verified.')
+         } else if ( location.search === "?email_not_verified") {
+            rym.showGlobalError('Sorry, there was a problem validating your email address.  Please go to site settings and request a new confirmation mail.');
+         }
+      });
+    </script>
+    
+   
+      <script type="text/javascript" src="./Industrial Music - Sonemic _ Rate Your Music music database_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./Industrial Music - Sonemic _ Rate Your Music music database_files/min.js.download" async=""></script>
+
+
+      <script>$( document ).ready(function() { rymInitPush(function() { rym.setupPage() }) } ) </script>
+
+   <script type="text/javascript" src="./Industrial Music - Sonemic _ Rate Your Music music database_files/advertisement.js.download"></script>
+
+      <script> function areAdsBlocked() { return ($('#ad_1').length == 0) } 
+      function politeAdRequest() {
+         var xx = '<div class=abpmessage>Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href=/subscribe>subscribing</a> to help with bandwidth/server costs.</div>' 
+         $('#content').prepend(xx)
+      }
+      </script>
+
+    
+         <script>if(areAdsBlocked()) { politeAdRequest() }</script>
+      </div><div id="tiptip_holder" style="pointer-events:none;max-width:1200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body></html>

@@ -1,0 +1,2256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://sonemic.com/music/genre/rock/ -->
+<html class="sonemic theme_ page_object page_genre noTouch" id="page_genre"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta name="msvalidate.01" content="DC9BDD5AA0A6394617D74DC653B74FE5"> 
+         <script async="" src="./Rock - Sonemic _ Rate Your Music music database_files/analytics.js.download"></script><script>
+                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-70490370-1', 'auto');
+                 ga('send', 'pageview');
+
+               </script>
+         <script>
+
+         var rating_system = {}
+      var rating_system = {'games':{}, 'film':{}, 'music':{}};</script>
+         <script>
+            var hasTouch = 'ontouchstart' in window;
+            var streamBaseUrl = 'wss://sonemic.com:8088/ws/'
+
+            if ( hasTouch ) {
+               document.documentElement.className += ' touch';
+            } else {
+               document.documentElement.className += ' noTouch';
+            }
+            var rym_initdata = {user_id:0, username:'0', login_token:'', theme:''}
+
+            var issue_data = {
+               release:[],
+               game:[],
+               film:[],
+               song:[]
+            }
+         </script>
+         
+         <title>Rock - Sonemic / Rate Your Music music database</title><script>"use strict";!function(){function t(t){if("undefined"==typeof t)throw new Error('Pathformer [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Pathformer [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Pathformer [constructor]: "element" parameter must be a string or a SVGelement');this.el=t,this.scan(t)}function e(e,r,n){this.setElement(e),this.setOptions(r),this.setCallback(n),this.frameLength=0,this.currentFrame=0,this.map=[],new t(e),this.mapping(),this.starter()}t.prototype.TYPES=["line","elipse","circle","polygon","polyline","rect"],t.prototype.ATTR_WATCH=["cx","cy","points","r","rx","ry","x","x1","x2","y","y1","y2"],t.prototype.scan=function(t){for(var e,r,n,o,a=t.querySelectorAll(this.TYPES.join(",")),i=0;i<a.length;i++)r=a[i],e=this[r.tagName.toLowerCase()+"ToPath"],n=e(this.parseAttr(r.attributes)),o=this.pathMaker(r,n),r.parentNode.replaceChild(o,r)},t.prototype.lineToPath=function(t){var e={};return e.d="M"+t.x1+","+t.y1+"L"+t.x2+","+t.y2,e},t.prototype.rectToPath=function(t){var e={},r=parseFloat(t.x)||0,n=parseFloat(t.y)||0,o=parseFloat(t.width)||0,a=parseFloat(t.height)||0;return e.d="M"+r+" "+n+" ",e.d+="L"+(r+o)+" "+n+" ",e.d+="L"+(r+o)+" "+(n+a)+" ",e.d+="L"+r+" "+(n+a)+" Z",e},t.prototype.polylineToPath=function(t){for(var e={},r=t.points.split(" "),n="M"+r[0],o=1;o<r.length;o++)-1!==r[o].indexOf(",")&&(n+="L"+r[o]);return e.d=n,e},t.prototype.polygonToPath=function(e){var r=t.prototype.polylineToPath(e);return r.d+="Z",r},t.prototype.elipseToPath=function(t){var e=t.cx-t.rx,r=t.cy,n=parseFloat(t.cx)+parseFloat(t.rx),o=t.cy,a={};return a.d="M"+e+","+r+"A"+t.rx+","+t.ry+" 0,1,1 "+n+","+o+"A"+t.rx+","+t.ry+" 0,1,1 "+e+","+o,a},t.prototype.circleToPath=function(t){var e={},r=t.cx-t.r,n=t.cy,o=parseFloat(t.cx)+parseFloat(t.r),a=t.cy;return e.d="M"+r+","+n+"A"+t.r+","+t.r+" 0,1,1 "+o+","+a+"A"+t.r+","+t.r+" 0,1,1 "+r+","+a,e},t.prototype.pathMaker=function(t,e){var r,n,o=document.createElementNS("http://www.w3.org/2000/svg","path");for(r=0;r<t.attributes.length;r++)n=t.attributes[r],-1===this.ATTR_WATCH.indexOf(n.name)&&o.setAttribute(n.name,n.value);for(r in e)o.setAttribute(r,e[r]);return o},t.prototype.parseAttr=function(t){for(var e,r={},n=0;n<t.length;n++){if(e=t[n],-1!==this.ATTR_WATCH.indexOf(e.name)&&-1!==e.value.indexOf("%"))throw new Error("Pathformer [parseAttr]: a SVG shape got values in percentage. This cannot be transformed into 'path' tags. Please use 'viewBox'.");r[e.name]=e.value}return r};var r,n,o;e.prototype.setElement=function(t){if("undefined"==typeof t)throw new Error('Vivus [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Vivus [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Vivus [constructor]: "element" parameter must be a string or a SVGelement');this.el=t},e.prototype.setOptions=function(t){var e=["delayed","async","oneByOne","scenario","scenario-sync"],r=["inViewport","manual","autostart"];if(void 0!==t&&t.constructor!==Object)throw new Error('Vivus [constructor]: "options" parameter must be an object');if(t=t||{},t.type&&-1===e.indexOf(t.type))throw new Error("Vivus [constructor]: "+t.type+" is not an existing animation `type`");if(this.type=t.type||e[0],t.start&&-1===r.indexOf(t.start))throw new Error("Vivus [constructor]: "+t.start+" is not an existing `start` option");if(this.start=t.start||r[0],this.isIE=-1!==navigator.userAgent.indexOf("MSIE"),this.duration=o(t.duration,120),this.delay=o(t.delay,null),this.dashGap=o(t.dashGap,2),this.forceRender=t.hasOwnProperty("forceRender")?!!t.forceRender:this.isIE,this.selfDestroy=!!t.selfDestroy,this.delay>=this.duration)throw new Error("Vivus [constructor]: delay must be shorter than duration")},e.prototype.setCallback=function(t){if(t&&t.constructor!==Function)throw new Error('Vivus [constructor]: "callback" parameter must be a function');this.callback=t||function(){}},e.prototype.mapping=function(){var t,e,r,n,a,i,s,h;for(h=i=s=0,e=this.el.querySelectorAll("path"),t=0;t<e.length;t++)r=e[t],a={el:r,length:Math.ceil(r.getTotalLength())},isNaN(a.length)?window.console&&console.warn&&console.warn("Vivus [mapping]: cannot retrieve a path element length",r):(i+=a.length,this.map.push(a),r.style.strokeDasharray=a.length+" "+(a.length+this.dashGap),r.style.strokeDashoffset=a.length,this.isIE&&(a.length+=this.dashGap),this.renderPath(t));for(i=0===i?1:i,this.delay=null===this.delay?this.duration/3:this.delay,this.delayUnit=this.delay/(e.length>1?e.length-1:1),t=0;t<this.map.length;t++){switch(a=this.map[t],this.type){case"delayed":a.startAt=this.delayUnit*t,a.duration=this.duration-this.delay;break;case"oneByOne":a.startAt=s/i*this.duration,a.duration=a.length/i*this.duration;break;case"async":a.startAt=0,a.duration=this.duration;break;case"scenario-sync":r=e[t],n=this.parseAttr(r),a.startAt=h+(o(n["data-delay"],this.delayUnit)||0),a.duration=o(n["data-duration"],this.duration),h=void 0!==n["data-async"]?a.startAt:a.startAt+a.duration,this.frameLength=Math.max(this.frameLength,a.startAt+a.duration);break;case"scenario":r=e[t],n=this.parseAttr(r),a.startAt=o(n["data-start"],this.delayUnit)||0,a.duration=o(n["data-duration"],this.duration),this.frameLength=Math.max(this.frameLength,a.startAt+a.duration)}s+=a.length,this.frameLength=this.frameLength||this.duration}},e.prototype.drawer=function(){var t=this;this.currentFrame+=this.speed,this.currentFrame<=0?(this.stop(),this.reset()):this.currentFrame>=this.frameLength?(this.stop(),this.currentFrame=this.frameLength,this.trace(),this.selfDestroy&&this.destroy(),this.callback(this)):(this.trace(),this.handle=r(function(){t.drawer()}))},e.prototype.trace=function(){var t,e,r;for(t=0;t<this.map.length;t++)r=this.map[t],e=(this.currentFrame-r.startAt)/r.duration,e=Math.max(0,Math.min(1,e)),r.progress!==e&&(r.progress=e,r.el.style.strokeDashoffset=Math.floor(r.length*(1-e)),this.renderPath(t))},e.prototype.renderPath=function(t){if(this.forceRender&&this.map&&this.map[t]){var e=this.map[t],r=e.el.cloneNode(!0);e.el.parentNode.replaceChild(r,e.el),e.el=r}},e.prototype.starter=function(){switch(this.start){case"manual":return;case"autostart":this.play();break;case"inViewport":var t=this,e=function(){t.isInViewport(t.el,1)&&(t.play(),window.removeEventListener("scroll",e))};window.addEventListener("scroll",e),e()}},e.prototype.reset=function(){return this.currentFrame=0,this.trace(),this},e.prototype.play=function(t){if(t&&"number"!=typeof t)throw new Error("Vivus [play]: invalid speed");return this.speed=t||1,this.handle||this.drawer(),this},e.prototype.stop=function(){return this.handle&&(n(this.handle),delete this.handle),this},e.prototype.destroy=function(){var t,e;for(t=0;t<this.map.length;t++)e=this.map[t],e.el.style.strokeDashoffset=null,e.el.style.strokeDasharray=null,this.renderPath(t)},e.prototype.parseAttr=function(t){var e,r={};if(t&&t.attributes)for(var n=0;n<t.attributes.length;n++)e=t.attributes[n],r[e.name]=e.value;return r},e.prototype.isInViewport=function(t,e){var r=this.scrollY(),n=r+this.getViewportH(),o=t.getBoundingClientRect(),a=o.height,i=r+o.top,s=i+a;return e=e||0,n>=i+a*e&&s>=r},e.prototype.docElem=window.document.documentElement,e.prototype.getViewportH=function(){var t=this.docElem.clientHeight,e=window.innerHeight;return e>t?e:t},e.prototype.scrollY=function(){return window.pageYOffset||this.docElem.scrollTop},r=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(t){return window.setTimeout(t,1e3/60)}}(),n=function(){return window.cancelAnimationFrame||window.webkitCancelAnimationFrame||window.mozCancelAnimationFrame||window.oCancelAnimationFrame||window.msCancelAnimationFrame||function(t){return window.clearTimeout(t)}}(),o=function(t,e){var r=parseInt(t,10);return r>=0?r:e},window.Vivus=e}();</script><style>
+                        a, a:link, a:visited { color: #207bbf; cursor:pointer;}
+                        a:active, a:hover { color: #308bcf; }</style><script>
+            if ( localStorage.theme == 'night' ) {
+               var root = document.getElementsByTagName( 'html' )[0];
+               root.className += ' theme_night';
+               rym_initdata.theme = 'night';
+            } else {
+               rym_initdata.theme = 'default';
+            }
+
+
+            function switchThemeTo ( theme ) {
+
+               if ( theme === 'default' ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').removeClass('theme_night theme_default').addClass('theme_' + theme);
+
+            }
+
+            function switchTheme ( ) {
+
+               if ( $('html').hasClass('theme_night') ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').toggleClass('theme_night')
+
+            }
+            </script> <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style></head><body id="body"><div style="position:fixed;right:0;bottom:0;width:2.5em;height:2.5em;z-index:24000;    background: linear-gradient(130deg, rgba(0,125,255,0.2), rgba(200,200,200,0.5));border-radius:50%;cursor:pointer;" onclick="switchTheme();"></div>
+         <link rel="stylesheet" href="./Rock - Sonemic _ Rate Your Music music database_files/min.css">
+      
+   <meta name="description" content="Rock music genre.">
+   <meta name="keywords" content="rate your music, sonemic, rate music, rate albums, music catalog, music catalogue, social software, album reviews, music lists, community, music recommendations, concert listings, record labels, venues, shows">
+
+         <script>
+            ryminit = window.ryminit || [];
+
+            function rymInitPush( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+            
+            function rymQ( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+
+         </script>
+
+      <script type="text/javascript">rymInitPush( function() { rym.session.init(0, '0', '');} );</script>
+         <script></script>
+      
+               <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+          <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:site" content="@SonemicMusic">
+                <meta property="og:site_name" content="Sonemic / Rate Your Music">
+
+                <meta property="og:url" content="https://sonemic.com/music/genre/rock/">
+                <meta property="og:type" content="website">
+                <meta property="og:title" content="Rock - Sonemic / Rate Your Music">
+                <meta property="og:description" content="Rock music genre."><meta property="og:image" content="https://e.snmc.io/3.0/img/logo/sonemic-512.png">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         
+         <link rel="icon" href="https://e.snmc.io/3.0/img/sonemic.png" type="image/png">
+
+
+                      
+
+          
+
+         <header>
+            <div class="header_inner ">
+
+      
+                <div onclick="RYMheader.onClickBars()" class="header_profile_bars"><i class="fa fa-bars"></i></div>
+
+
+               <div class="header_profile">
+                  <div class="header_profile_logged_out">
+                     <span>   
+                        <a onclick="return RYMlogin.login();" class="header_profile_login">signup • login</a>
+                     </span>
+                  </div>
+            
+               </div>
+
+
+
+               <div class="header_logo">
+                  <a class="main header_item hide-for-touch sonemic" href="https://sonemic.com/">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <a class="main header_item show-for-touch sonemic">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <div class="divider mobile_divider"></div>
+                  <div class="header_extended_section">
+                     <a class="main show-for-touch header_item sonemic" href="https://sonemic.com/">
+                        <div class="logo_sonemic_32 logo_header"></div>
+                        <span class="logo_name">Sonemic <span class="header_extended_subtext">music</span></span>
+                     </a>
+                     <a class="main  header_item cinemos" href="https://cinemos.com/">
+                        <div class="logo_cinemos_32 logo_header"></div>
+                        <span class="logo_name">Cinemos <span class="header_extended_subtext">film</span></span>
+                     </a>
+                     <a class="main  header_item  glitchwave" href="https://beta.glitchwave.com/">
+                        <div class="logo_glitchwave_32 logo_header"></div>
+                        <span class="logo_name">Glitchwave <span class="header_extended_subtext">video games</span></span>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="header_links">
+                  <div class="divider"></div>
+                  <div class="header_charts">
+                  <a class="header_charts header_item" href="https://sonemic.com/charts/">charts</a>
+                  </div>
+                  <a class="header_item" href="https://sonemic.com/music/genre/">genres</a>
+                  <a class="header_item" href="https://sonemic.com/lists/">lists</a>
+                  <a class="header_item" href="https://sonemic.com/community/">community</a>
+                  <div class="divider"></div>
+               </div>
+               <div class="header_search">
+<div class="ui_chooser_frame" id="ui_chooser_frame_main_search"> <div class="ui_chooser" id="ui_chooser_main_search" data-id="main_search" data-parent-id="" data-allowed-types="music" data-select-first-result="true" data-select-action="navigate" data-placeholder="" data-custom-action="custom_action"> <i class="fa fa-search"></i> <div class="ui_chooser_input_frame"> <input id="ui_chooser_input_main_search" data-id="main_search" placeholder="search music..."> </div> <div class="ui_chooser_type" id="ui_chooser_type_main_search"> <span class="ui_chooser_type_text" id="ui_chooser_type_text_main_search"></span> <i class="fa fa-caret-down"></i> <select onfocus="" data-id="main_search" id="ui_chooser_select_main_search"> <optgroup label="Music"><option value="music">All music</option><option value="artist">Artist</option><option value="release">Release</option><option value="company_music">Company</option><option value="genre_music">Genre</option><option value="song">Song</option><option value="work">Work</option><option value="descriptor_music">Descriptor</option><option value="venue">Venue</option></optgroup></select> </div> </div>
+</div>
+</div>   
+
+
+
+
+            </div>
+
+         </header>
+
+         <div class="mobile_header_menu"><a href="https://sonemic.com/charts/" class="mobile_header_menu_item mobile_header_menu_item_charts">
+                  Charts
+            </a><a href="https://sonemic.com/music/genre/" class="mobile_header_menu_item mobile_header_menu_item_genres">
+               Genres
+            </a><a href="https://sonemic.com/lists/" class="mobile_header_menu_item mobile_header_menu_item_lists">
+               Lists 
+            </a><a href="https://sonemic.com/community/" class="mobile_header_menu_item mobile_header_menu_item_community">
+               Community
+            </a></div>
+
+
+         <div class="header_border"></div>
+
+         <div class="header_error" onclick="$(this).fadeOut();" id="header_error">
+            <div class="header_error_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_error_text"></div>
+         </div>
+
+         <div class="header_message" onclick="$(this).fadeOut();" id="header_message">
+            <div class="header_message_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_message_text"></div>
+         </div>
+
+         <div id="header_toolbar" class="header_toolbar">
+
+            <div class="header_toolbar_inner">
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/artist/profile_history">Artist <span class="toolbar_num">45/100</span></a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/queues/">Queues</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/notepad/">Notepad</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/rymzilla/">RYMzilla</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/settings/">Settings</a>
+               </div>
+            </div>
+
+         </div>
+
+
+         <div id="header_expanded" class="header_expanded">
+
+            <a class="header_expanded_section" href="https://sonemic.com/charts/">Charts</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/music/genre/">Genres</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/lists/">Lists</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/community/">Community</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/settings/">Settings</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/messaging/">Messaging</a>
+      
+            <div class="header_expanded_section">
+               <a class="header_expanded_link" onclick="return RYMlogin.login();">Login</a>
+            </div>
+         
+
+         </div>
+
+         <div id="content_wrapper" class="content_wrapper">
+         <div id="content"><div class="abpmessage">Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href="https://sonemic.com/subscribe">subscribing</a> to help with bandwidth/server costs.</div>
+         <div id="precontent" style="-webkit-transform: scale3d(1,1,1);"></div>
+         <div id="content_cover"></div>
+         <div id="total_cover"></div>
+         <div id="content_total_cover"></div>
+
+
+      
+ <script> var page_options = {}; </script>
+<div id="page_object_header" class="page_object_header  no_hero"> <div class="page_object_header_info"> 
+ <div class="page_object_shortcut has_tip"><input readonly="" onclick="$(this).focus().select();" value="[Genre5]"></div> <div class="page_object_header_main"> <h1 class="page_object_header_title 
+ 
+ 
+ 
+ ">Rock
+ </h1> 
+ <div class="clearfix"></div> </div> <div class="page_object_header_second"> 
+
+ <div class="page_object_header_right"> 
+
+
+ <span class="page_object_header_field_item  "> <span class="page_object_header_field"></span> <span class="page_object_header_field_item_single"><span>Genre</span></span>
+ </span>  
+ 
+ </div> 
+
+
+
+
+ <div class="clearfix"></div> </div> </div> <div class="page_object_overlay"> </div> <div id="page_object_hero_image" class="page_object_hero_image"> </div>  <div class="clearfix"></div>
+</div>
+
+
+<div class="row page_object_row_main">
+
+   <div class="large-5 medium-5 small-12 columns page_object_left_column">
+<div class="page_object_section page_object_section_biography">
+<div class="page_section_dynamic_fade height_mobile_20em height_60em"> <div class="page_section_biography_body cl-444">Rock is a widely popular and vast genre that gathers together a wide range of different styles. Its origins can be traced to US recordings in the late 1940s that combined major elements from <a href="https://sonemic.com/music/genre/jump-blues/" class="music_genre">Jump-Blues</a> and <a href="https://sonemic.com/music/genre/swing/" class="music_genre">Swing</a> with the increased prominence given to the role of the electric guitar drawn from <a href="https://sonemic.com/music/genre/chicago-blues/" class="music_genre">Chicago blues</a>. Even though the term ‘Rock’ was originally used by some Blues performers in the late 1930s to describe their faster tempo songs and bawdier version of their music, it went largely unrecorded until the late 1940s.<br><br>Rock in its original form was a song-based type of music that typically used a verse-chorus structure with a backbeat rhythm and the electric guitar at the forefront of the music being heavier and/or faster than its predecessor genres. Rock is characterized by the prominence of the electric guitar, usually played loud, and accompanied by bass and drums. In addition, right from the beginning rock music has been linked to a rebel or provocative attitude towards the system and conservative culture.<br><br>Rock became popular in the 1950s through two of their original forms <a href="https://sonemic.com/music/genre/rock-and-roll/" class="music_genre">Rock &amp; Roll</a> and <a href="https://sonemic.com/music/genre/rockabilly/" class="music_genre">Rockabilly</a>. <a href="https://sonemic.com/music/genre/rock-and-roll/" class="music_genre">Rock &amp; Roll</a> originated as a category to describe African American musicians that were playing a fast tempo <a href="https://sonemic.com/music/genre/rhythm-and-blues/" class="music_genre">Rhythm &amp; Blues</a> such as <a href="https://sonemic.com/music/little-richard/" class="music_artist">Little Richard</a> and <a href="https://sonemic.com/music/chuck-berry/" class="music_artist">Chuck Berry</a>. <a href="https://sonemic.com/music/genre/rockabilly/" class="music_genre">Rockabilly</a> comes from some young <a href="https://sonemic.com/music/genre/western-swing/" class="music_genre">Western Swing</a> performers that began to incorporate its faster tempo combining it with <a href="https://sonemic.com/music/genre/country/" class="music_genre">Country</a> influences and tends to be applied to white musicians like <a href="https://sonemic.com/music/carl-perkins/" class="music_artist">Carl Perkins</a> and was most popular through the early recordings of <a href="https://sonemic.com/music/elvis-presley/" class="music_artist">Elvis Presley</a>. This type of music was very popular through 1958 when it started to fade with the arrival of <a href="https://sonemic.com/music/genre/teen-pop/" class="music_genre">Teen Pop</a>, despite the emergence of <a href="https://sonemic.com/music/genre/surf-rock/" class="music_genre">Surf Rock</a> with bands like <a href="https://sonemic.com/music/the-shadows.f3/" class="music_artist">The Shadows</a> and <a href="https://sonemic.com/music/the-ventures/" class="music_artist">The Ventures</a> in the late 1950s and early 1960s and <a href="https://sonemic.com/music/genre/garage-rock/" class="music_genre">Garage Rock</a> in the early 1960s.<br><br>In the 1960s, a lot of British bands like <a href="https://sonemic.com/music/the-rolling-stones/" class="music_artist">The Rolling Stones</a>, <a href="https://sonemic.com/music/the-kinks/" class="music_artist">The Kinks</a> and <a href="https://sonemic.com/music/the-beatles/" class="music_artist">The Beatles</a>, recreated elements of American <a href="https://sonemic.com/music/genre/blues/" class="music_genre">Blues</a> and <a href="https://sonemic.com/music/genre/rock-and-roll/" class="music_genre">Rock &amp; Roll</a> generating a cross-influence between the US and the UK and bring Rock back to popularity. During that decade, Rock expanded the use of the electric guitar with different guitar effects, the use of heavier riffs and more experimental solos. <br><br>Since then, Rock has become extensively and internationally popular, evolving into different subgenres depending on the different elements that have been emphasized by the artists. A raw, straightforward attitude and way of playing, along with a counterculture aesthetic shaped <a href="https://sonemic.com/music/genre/punk-rock/" class="music_genre">Punk Rock</a>. The use of guitar distortion and a more aggressive sound led to <a href="https://sonemic.com/music/genre/hard-rock/" class="music_genre">Hard Rock</a> and <a href="https://sonemic.com/music/genre/heavy-metal/" class="music_genre">Heavy Metal</a>. The use of keyboards, the combination of guitar scales, melodic progressions and tempo changes into complex compositions led to <a href="https://sonemic.com/music/genre/progressive-rock/" class="music_genre">Progressive Rock</a>. A very fast way of playing led to <a href="https://sonemic.com/music/genre/speed-metal/" class="music_genre">Speed Metal</a> and <a href="https://sonemic.com/music/genre/thrash-metal/" class="music_genre">Thrash Metal</a>. These only show a couple of examples of how different elements were emphasized, but Rock has also combined with other genres, instruments and influences to expand its boundaries, hence <a href="https://sonemic.com/music/genre/folk-rock/" class="music_genre">Folk Rock</a>, <a href="https://sonemic.com/music/genre/funk-rock/" class="music_genre">Funk Rock</a>, <a href="https://sonemic.com/music/genre/blues-rock/" class="music_genre">Blues Rock</a> and other subgenre terms have become widely used.<br><br>In the last decades, since rock has been brought a number of times into the mainstream, that original rebel attitude has become a less characteristic trait. Lots of bands have retained elements of the Rock sound, but have been polished and shaped by the commercial industry into mass consumption products. Therefore, terms like <a href="https://sonemic.com/music/genre/alternative-rock/" class="music_genre">Alternative Rock</a> and <a href="https://sonemic.com/music/genre/indie-rock/" class="music_genre">Indie Rock</a> has been used to describe artists that record independently or that initially made music that was off the mainstream.</div> <div class="page_section_dynamic_fade_cover" style="display: block;"></div> <div class="page_section_dynamic_fade_expand_button bg-f8f8f8 cl-333" style="display: block;"> <span class="expand_text">Expand</span> <span class="hide_text" style="margin-top:1em">Hide</span> </div>
+</div>
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_akas">
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_subgenres"><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acoustic-rock/">Acoustic Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/afro-rock/">Afro-Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/alternative-rock/">Alternative Rock</a>  <div class="subgenre_list_num_subgenres">20</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/alternative-dance/">Alternative Dance</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/grebo/">Grebo</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/baggy-madchester/">Baggy / Madchester</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/britpop/">Britpop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dream-pop/">Dream Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/emo-pop/">Emo-Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/grunge/">Grunge</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/indie-rock/">Indie Rock</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dunedin-sound/">Dunedin Sound</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hamburger-schule/">Hamburger Schule</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/lo-fi-indie/">Lo-Fi Indie</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/midwest-emo/">Midwest emo</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-punk-revival/">Post-Punk Revival</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/slowcore/">Slowcore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jangle-pop/">Jangle Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/math-rock/">Math Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/noise-pop/">Noise Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/paisley-underground/">Paisley Underground</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-grunge/">Post-Grunge</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/shoegaze/">Shoegaze</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/andean-rock/">Andean Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/aor/">AOR</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/art-rock/">Art Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/blues-rock/">Blues Rock</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/boogie-rock/">Boogie Rock</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/british-rhythm-and-blues/">British Rhythm &amp; Blues</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/christian-rock/">Christian rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/comedy-rock/">Comedy Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/country-rock/">Country Rock</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/cowpunk/">Cowpunk</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dark-cabaret/">Dark Cabaret</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deutschrock/">Deutschrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/emo/">Emo</a>  <div class="subgenre_list_num_subgenres">4</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/emocore/">Emocore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/emo-pop/">Emo-Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/midwest-emo/">Midwest emo</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/screamo/">Screamo</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/experimental-rock/">Experimental Rock</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/avant-prog/">Avant-Prog</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rock-in-opposition/">Rock in Opposition</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/zeuhl/">Zeuhl</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/brutal-prog/">Brutal Prog</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/krautrock/">Krautrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/no-wave/">No Wave</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/folk-rock/">Folk Rock</a>  <div class="subgenre_list_num_subgenres">8</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/alpenrock/">Alpenrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/anatolian-rock/">Anatolian rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/andalusian-rock/">Andalusian rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/british-folk-rock/">British folk rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/celtic-rock/">Celtic rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/medieval-rock/">Medieval Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nordic-folk-rock/">Nordic folk rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/pinoy-folk-rock/">Pinoy Folk Rock</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk-rock/">Funk Rock</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk-metal/">Funk Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/garage-rock/">Garage Rock</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/freakbeat/">Freakbeat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/garage-punk/">Garage Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/garage-rock-revival/">Garage Rock Revival</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/glam-rock/">Glam Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hard-rock/">Hard Rock</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/glam-metal/">Glam Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/heavy-psych/">Heavy Psych</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/stoner-rock/">Stoner Rock</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/heartland-rock/">Heartland Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-rock/">Industrial Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jam-band/">Jam Band</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jazz-rock/">Jazz-Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-rock/">Latin rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/metal/">Metal</a>  <div class="subgenre_list_num_subgenres">58</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/alternative-metal/">Alternative Metal</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk-metal/">Funk Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nu-metal/">Nu Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rap-metal/">Rap Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/avant-garde-metal/">Avant-Garde Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/black-metal/">Black Metal</a>  <div class="subgenre_list_num_subgenres">7</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/atmospheric-black-metal/">Atmospheric Black Metal</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/blackgaze/">Blackgaze</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/depressive-black-metal/">Depressive Black Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/melodic-black-metal/">Melodic Black Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/pagan-black-metal/">Pagan Black Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/symphonic-black-metal/">Symphonic Black Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/war-metal/">War Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/death-metal/">Death Metal</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/brutal-death-metal/">Brutal Death Metal</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/slam-death-metal/">Slam Death Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/death-n-roll/">Death 'n' Roll</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathgrind/">Deathgrind</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/melodic-death-metal/">Melodic Death Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/technical-death-metal/">Technical Death Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/doom-metal/">Doom Metal</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/death-doom-metal/">Death Doom Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funeral-doom-metal/">Funeral Doom Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/traditional-doom-metal/">Traditional Doom Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/drone-metal/">Drone Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/folk-metal/">Folk Metal</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/celtic-music/">Celtic music</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/medieval-folk-metal/">Medieval Folk Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/gothic-metal/">Gothic Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/grindcore/">Grindcore</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/cybergrind/">Cybergrind</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathgrind/">Deathgrind</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/goregrind/">Goregrind</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/groove-metal/">Groove Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/heavy-metal/">Heavy Metal</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nwobhm/">NWOBHM</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-metal/">Industrial Metal</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/cyber-metal/">Cyber Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neue-deutsche-harte/">Neue Deutsche Härte</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/melodic-metalcore/">Melodic Metalcore</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nintendocore/">Nintendocore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/trancecore/">Trancecore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/metalcore/">Metalcore</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathcore/">Deathcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/mathcore/">Mathcore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neoclassical-metal/">Neoclassical Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/power-metal/">Power Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/progressive-metal/">Progressive Metal</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/djent/">Djent</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/sludge-metal/">Sludge Metal</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/atmospheric-sludge-metal/">Atmospheric Sludge Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/speed-metal/">Speed Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/stoner-metal/">Stoner Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/symphonic-metal/">Symphonic Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/thrash-metal/">Thrash Metal</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/crossover-thrash/">Crossover Thrash</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/technical-thrash-metal/">Technical Thrash Metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/trance-metal/">Trance Metal</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/viking-metal/">Viking metal</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/mod/">Mod</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/mod-revival/">Mod Revival</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-wave/">New Wave</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/coldwave/">Coldwave</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neue-deutche-welle/">Neue Deutche Welle</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-romantic/">New Romantic</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/noise-rock/">Noise Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/pop-rock/">Pop Rock</a>  <div class="subgenre_list_num_subgenres">15</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/beat-music/">Beat Music</a>  <div class="subgenre_list_num_subgenres">5</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/freakbeat/">Freakbeat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/group-sounds/">Group Sounds</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jovem-guarda/">Jovem Guarda</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/merseybeat/">Merseybeat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nederbeat/">Nederbeat</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/britpop/">Britpop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jangle-pop/">Jangle Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/manila-sound/">Manila Sound</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/piano-rock/">Piano Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/power-pop/">Power Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/soft-rock/">Soft Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/stereo/">Stereo</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/vocal-surf/">Vocal Surf</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/west-coast-rock/">West Coast rock</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-hardcore/">Post-Hardcore</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/emocore/">Emocore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/screamo/">Screamo</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-punk/">Post-Punk</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/coldwave/">Coldwave</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dance-punk/">Dance-Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/gothic-rock/">Gothic Rock</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathrock/">Deathrock</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/no-wave/">No Wave</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-punk-revival/">Post-Punk Revival</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/post-rock/">Post-Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/progressive-rock/">Progressive Rock</a>  <div class="subgenre_list_num_subgenres">9</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/andalusian-rock/">Andalusian rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/avant-prog/">Avant-Prog</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rock-in-opposition/">Rock in Opposition</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/zeuhl/">Zeuhl</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/brutal-prog/">Brutal Prog</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/canterbury-scene/">Canterbury scene</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/krautrock/">Krautrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neo-prog/">Neo-Prog</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/symphonic-prog/">Symphonic Prog</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/proto-punk/">Proto-Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/psychedelic-rock/">Psychedelic Rock</a>  <div class="subgenre_list_num_subgenres">4</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acid-rock/">Acid Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/heavy-psych/">Heavy Psych</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/raga-rock/">Raga Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/space-rock/">Space Rock</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/pub-rock/">Pub Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/punk-rock/">Punk Rock</a>  <div class="subgenre_list_num_subgenres">40</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/anarcho-punk/">Anarcho-Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/art-punk/">Art Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/cowpunk/">Cowpunk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathrock/">Deathrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deutschpunk/">Deutschpunk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/folk-punk/">Folk Punk</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/celtic-punk/">Celtic punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/gypsy-punk/">Gypsy punk</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/garage-punk/">Garage Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/glam-punk/">Glam Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hardcore-punk/">Hardcore Punk</a>  <div class="subgenre_list_num_subgenres">18</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/beatdown-hardcore/">Beatdown Hardcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/crossover-thrash/">Crossover Thrash</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/crust-punk/">Crust Punk</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/d-beat/">D-Beat</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/grindcore/">Grindcore</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/cybergrind/">Cybergrind</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathgrind/">Deathgrind</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/goregrind/">Goregrind</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/japanese-hardcore/">Japanese hardcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/melodic-hardcore/">Melodic Hardcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/metalcore/">Metalcore</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathcore/">Deathcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/mathcore/">Mathcore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-york-hardcore/">New York hardcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/noisecore/">Noisecore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/powerviolence/">Powerviolence</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/thrashcore/">Thrashcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/uk82/">UK82</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/horror-punk/">Horror Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/konsrock/">Könsrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/oi/">Oi!</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/pop-punk/">Pop Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/psychobilly/">Psychobilly</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/punk-blues/">Punk Blues</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/queercore/">Queercore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/riot-grrrl/">Riot Grrrl</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ska-punk/">Ska Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/skate-punk/">Skate Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/surf-punk/">Surf Punk</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rap-rock/">Rap Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rock-and-roll/">Rock &amp; Roll</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/indorock/">Indorock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rockabilly/">Rockabilly</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/psychobilly/">Psychobilly</a>  
+               </div></li></ul></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rock-opera/">Rock Opera</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rock-urbano-espanol/">Rock urbano español</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/roots-rock/">Roots Rock</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/swamp-rock/">Swamp Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tex-mex/">Tex-Mex</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/southern-rock/">Southern Rock</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/red-dirt/">Red Dirt</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/sufi-rock/">Sufi rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/surf-music/">Surf Music</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/surf-punk/">Surf Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/surf-rock/">Surf Rock</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/eleki/">Eleki</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rautalanka/">Rautalanka</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/shadow-music/">Shadow Music</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/vocal-surf/">Vocal Surf</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/symphonic-rock/">Symphonic Rock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/zamrock/">Zamrock</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/zolo/">Zolo</a>  
+               </div></li></ul></div>
+
+
+   </div><div class="large-7 medium-7 small-12 columns page_object_right_column bg-eee"><div class="page_object_section">
+<div class="page_object_section_discography">
+<div class="page_object_section_discography_header"> 
+ <div class="page_object_section_discography_nav"> 
+<nav id="nav_page_discography_nav_release_top" data-mainid="page_discography_nav_release_top" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="454413" data-num-pages="9089" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/rock/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_top"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_top">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_top">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_top">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_top">9089</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_top" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_top" href="https://sonemic.com/genre/music/genre/rock/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+ <div class="page_discography_search"> 
+ 
+<div id="ui_textfilter_frame_all_object_list_release_" class="ui_textfilter_frame"> <div class="ui_textfilter_input_filter"><i class="fa fa-spinner fa-pulse fa-fw"></i><i class="fa fa-search fa-fw"></i></div> <div id="ui_textfilter_close_all_object_list_release_" class="ui_textfilter_input_close"><i class="fa fa-times-circle"></i></div> <input id="ui_textfilter_all_object_list_release_" class="ui_textfilter" type="text" data-component="object_list" data-scope="all" data-object-type="release" data-object-assoc-id="" data-initialized="false" data-cover-target="" data-result-target="page_discography_search_results_release" placeholder="Search releases...">
+</div> 
+ </div> 
+ <h3>Releases <span class="subtext cl-888">454,413</span></h3> 
+ <div class="clearfix"></div>
+</div> <div class="page_discography_after_header"> <div id="page_discography_search_results_release" class="page_discography_search_results"> </div> <div class="page_discography_sort" id="page_discography_sort_release" data-object="release" data-filter="genre" data-filter-id="5" data-devpub-filter="" data-page=""> <div id="page_discography_sort_link_release_avg_rating" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;avg_rating&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_average page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Average 
+ </div> <div id="page_discography_sort_link_release_num_ratings" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_ratings&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_ratings page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Ratings
+ </div> <div id="page_discography_sort_link_release_num_reviews" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_reviews&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_reviews page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Reviews
+ </div> <div class="page_discography_sort_title"> <span id="page_discography_sort_link_release_title" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;title&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction=""><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Title</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;release_date&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Release date</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;recommended&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link sorted_d" data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Recommended</span> </div> <div class="clearfix"></div> </div> <ul id="page_discography_items_release" class="page_discography_items"> <div id="page_discography_item_cover_release" class="page_discography_release_cover"></div> <div id="page_discography_itemlist_release"> 
+ 
+<li id="page_discography_line_release_443276" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;443276&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.73</span> </div> <div class="page_discography_ratings"> 123
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1181f3e565b2dac42769870ad87e8d2e/4868082&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/1181f3e565b2dac42769870ad87e8d2e/4868082&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/wynonie-harris/good-rockin-tonight-good-morning-mr-blues/" class="release">Good Rockin' Tonight / Good Morning Mr. Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Wynonie Harris</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1948</span> <span class="page_discography_date_full">March 1948</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_443276" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1050138" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1050138&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.82</span> </div> <div class="page_discography_ratings"> 73
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/7b78cdd9e84a45412e738cfe36be198d/4684870&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/7b78cdd9e84a45412e738cfe36be198d/4684870&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/jimmy-preston/rock-the-joint-drinking-woman/" class="release">Rock the Joint / Drinking Woman</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jimmy Preston</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1949</span> <span class="page_discography_date_full">1949</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1050138" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_344456" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;344456&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.66</span> </div> <div class="page_discography_ratings"> 72
+ </div> <div class="page_discography_reviews"> 7
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/8b3c287eb2b98cebad83cac717fde63a/4129018&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/8b3c287eb2b98cebad83cac717fde63a/4129018&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/stick-mcghee-and-his-buddies/drinkin-wine-spo-dee-o-dee-blues-mixture-id-rather-drink-muddy-water/" class="release">Drinkin' Wine, Spo-Dee-O-Dee / Blues Mixture (I'd Rather Drink Muddy Water)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">"Stick" McGhee and His Buddies</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1949</span> <span class="page_discography_date_full">March 1949</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">&amp;#34;Stick&amp;#34; McGhee and His Buddies</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_344456" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2846499" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2846499&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.01</span> </div> <div class="page_discography_ratings"> 13
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/goree-carter/back-home-blues-rock-awhile/" class="release">Back Home Blues / Rock Awhile</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Goree Carter</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1949</span> <span class="page_discography_date_full">May 1949</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2846499" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_394905" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;394905&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.85</span> </div> <div class="page_discography_ratings"> 141
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/80e062984eb10766fba101e71510c226/4338638&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/80e062984eb10766fba101e71510c226/4338638&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/louis-jordan-and-his-tympany-five/saturday-night-fish-fry-part-1-saturday-night-fish-fry-concluded/" class="release">Saturday Night Fish Fry (Part 1) / Saturday Night Fish Fry (Concluded)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Louis Jordan and His Tympany Five</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1949</span> <span class="page_discography_date_full">September 1949</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Louis Jordan and His Tympany Five</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">New Orleans r&amp;b</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_394905" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_744362" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;744362&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.93</span> </div> <div class="page_discography_ratings"> 18
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/7470fc3eede1b6c0e3cd71d5be1012ff/4729466&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/7470fc3eede1b6c0e3cd71d5be1012ff/4729466&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/roy-brown/boogie-at-midnight-the-blues-got-me-again/" class="release">Boogie at Midnight / The Blues Got Me Again</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Roy Brown</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1949</span> <span class="page_discography_date_full">November 1949</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_744362" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4499348" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4499348&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.67</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/hardrock-gunter/birmingham-bounce-how-can-i-believe-you-love-me/" class="release">Birmingham Bounce / How Can I Believe You Love Me</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Hardrock Gunter</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1950</span> <span class="page_discography_date_full">1950</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Country Boogie</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4499348" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1329848" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1329848&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.77</span> </div> <div class="page_discography_ratings"> 9
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/tiny-bradshaw/breaking-up-the-house-if-you-dont-love-me-tell-me-so/" class="release">Breaking Up the House / If You Don't Love Me, Tell Me So</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tiny Bradshaw</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1950</span> <span class="page_discography_date_full">1950</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1329848" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2687876" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2687876&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.23</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/erline-harris/jump-and-shout-no-good-man-of-mine/" class="release">Jump and Shout / No Good Man of Mine</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Erline Harris</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1950</span> <span class="page_discography_date_full">June 1950</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2687876" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1978620" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1978620&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.14</span> </div> <div class="page_discography_ratings"> 18
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/rosemary-clooney/beautiful-brown-eyes-shot-gun-boogie/" class="release">Beautiful Brown Eyes / Shot Gun Boogie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Rosemary Clooney</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1951</span> <span class="page_discography_date_full">February 1951</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1978620" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_113040" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;113040&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.76</span> </div> <div class="page_discography_ratings"> 153
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/ead617be00900e570734ef29428f35a3/2525341&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/ead617be00900e570734ef29428f35a3/2525341&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/jackie-brenston-and-his-delta-cats/rocket-88-come-back-where-you-belong/" class="release">Rocket "88" / Come Back Where You Belong</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jackie Brenston and His Delta Cats</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1951</span> <span class="page_discography_date_full">01 April 1951</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Jackie Brenston and His Delta Cats</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_113040" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2687903" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2687903&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.81</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/erline-harris-with-john-peek-and-his-orchestra/long-tall-papa-pushin-my-heart-around/" class="release">Long Tall Papa / Pushin' My Heart Around</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Erline Harris with John Peek and His Orchestra</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1951</span> <span class="page_discography_date_full">July 1951</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Erline Harris with John Peek and His Orchestra</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2687903" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518271" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518271&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.59</span> </div> <div class="page_discography_ratings"> 46
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/ec4a5930074e64bd288f6363349ea200/1570698&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/ec4a5930074e64bd288f6363349ea200/1570698&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-the-saddlemen/rocket-88-tearstains-on-my-heart/" class="release">Rocket "88" / Tearstains on My Heart</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and The Saddlemen</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1951</span> <span class="page_discography_date_full">July 1951</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bill Haley and The Saddlemen</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518271" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_633161" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;633161&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.84</span> </div> <div class="page_discography_ratings"> 132
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/e28b3c77882d66023b7c50c435f91b8d/4767491&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/e28b3c77882d66023b7c50c435f91b8d/4767491&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/lloyd-price/lawdy-miss-clawdy-mailman-blues/" class="release">Lawdy Miss Clawdy / Mailman Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Lloyd Price</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1952</span> <span class="page_discography_date_full">April 1952</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">New Orleans r&amp;b</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_633161" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2584717" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2584717&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release"></span> </div> <div class="page_discography_ratings"> 
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/the-rhythm-kings/rock-and-roll-bob-horn-band-stand/" class="release">Rock and Roll  [Bob Horn Band Stand]</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">The Rhythm Kings</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2584717" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518266" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518266&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.42</span> </div> <div class="page_discography_ratings"> 49
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1b23c07b55826b28b86764727167107b/1570690&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/crazy-man-crazy-whatcha-gonna-do/" class="release">Crazy Man, Crazy / Whatcha Gonna Do</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">April 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518266" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_629901" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;629901&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.36</span> </div> <div class="page_discography_ratings"> 40
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/024baccb3571f73773366f68addcb104/3585768&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/ruth-brown/wild-wild-young-men-mend-your-ways/" class="release">Wild Wild Young Men / Mend Your Ways</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Ruth Brown</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">May 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_629901" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518279" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518279&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.90</span> </div> <div class="page_discography_ratings"> 20
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/16786ac123631e5add13f00e90f4293f/6196335&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-with-haleys-comets/pat-a-cake-fractured/" class="release">Pat-a-Cake / Fractured</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley with Haley's Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">June 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bill Haley with Haley&amp;#39;s Comets</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518279" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_635468" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;635468&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.67</span> </div> <div class="page_discography_ratings"> 63
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/25ea87bc103b48a974ce6fb49d1a14f5/6352044&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/joe-turner-and-his-band/honey-hush-crawdad-hole/" class="release">Honey Hush / Crawdad Hole</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Joe Turner and His Band</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">July 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Joe Turner and His Band</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_635468" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_850140" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;850140&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.86</span> </div> <div class="page_discography_ratings"> 9
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/b98a384ec6fd88db729b94e52df2ea04/1892980&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/curtis-gordon/rompin-and-stompin-rocky-road-of-love/" class="release">Rompin' and Stompin' / Rocky Road of Love</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Curtis Gordon</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">04 July 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rockabilly</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_850140" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518282" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518282&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.12</span> </div> <div class="page_discography_ratings"> 9
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/4eef0e52b3db0c6d832fe1e5908eca7c/1570708&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/live-it-up-farewell-so-long-good-bye/" class="release">Live It Up! / Farewell - So Long - Good-bye</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">August 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518282" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1515293" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1515293&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.50</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/108b6f7c251c4628906aab668a88ac1c/3423821&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-guitar-watson/i-got-eyes-walkin-to-my-baby/" class="release">I Got Eyes / Walkin' to My Baby</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny "Guitar" Watson</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">September 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1515293" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_847099" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;847099&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.72</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/b126efcda1baf3a7d45408bd4e7d86da/1890140&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/rudy-grayzell/bonita-chiquita-im-gone-again/" class="release">Bonita Chiquita / I'm Gone Again</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Rudy Grayzell</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">14 November 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_847099" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518284" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518284&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.28</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/0aa99507330ca616f7e35d90d601de93/1570709&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/ill-be-true-ten-little-indians/" class="release">I'll Be True / Ten Little Indians</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1953</span> <span class="page_discography_date_full">December 1953</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518284" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_662286" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;662286&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.30</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/cc9ad5ae6f851d26343dda4d1db534e6/4198645&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/ruth-brown/love-contest-if-you-dont-want-me-i-dont-want-no-part-of-you/" class="release">Love Contest / If You Don't Want Me (I Don't Want No Part of You)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Ruth Brown</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">January 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_662286" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_738961" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;738961&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.78</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/978bf9a541b8841b2cd3c1d8a868a970/1783878&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/bill-haley-and-his-comets/dim-dim-the-lights/" class="release">Dim, Dim the Lights</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_738961" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_6057959" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;6057959&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.31</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/the-sly-fox/im-tired-of-beggin-hoo-doo-say/" class="release">I'm Tired of Beggin' / Hoo-Doo Say</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">The Sly Fox</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_6057959" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2603342" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2603342&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.44</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/jody-levins/jingle-bells-boogie/" class="release">Jingle Bells Boogie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jody Levins</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Christmas Music</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rockabilly</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2603342" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_321111" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;321111&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.75</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/bba0cccc2f64dcbf1c6b1a109cedd9c2/3367353&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/bill-haley-and-his-comets/shake-rattle-and-roll/" class="release">Shake Rattle and Roll</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_321111" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1581559" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1581559&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.43</span> </div> <div class="page_discography_ratings"> 12
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/28b940eae30f63ef75d0f6a2f044c252/5134316&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/sonny-dae-and-his-knights/-were-gonna-rock-around-the-clock-moving-guitar/" class="release">(We're Gonna) Rock Around the Clock / Moving Guitar</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Sonny Dae and His Knights</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1581559" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4215605" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4215605&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.50</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/al-terry/good-deal-lucille-say-a-prayer-for-me/" class="release">Good Deal, Lucille / Say a Prayer for Me</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Al Terry</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">February 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4215605" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_536880" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;536880&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.40</span> </div> <div class="page_discography_ratings"> 10
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/aea0ad1e4068ab0aaed10e85e5f4889b/2492415&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/james-cotton/my-baby-straighten-up-baby/" class="release">My Baby / Straighten Up Baby</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">James Cotton</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">01 April 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electric Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_536880" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_662312" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;662312&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.39</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/2e7ed2f51d4b173431a89e5132df8fe4/3806750&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/ruth-brown/hello-little-boy-if-i-had-any-sense/" class="release">Hello Little Boy / If I Had Any Sense</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Ruth Brown</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">April 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_662312" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_103727" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;103727&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.82</span> </div> <div class="page_discography_ratings"> 210
+ </div> <div class="page_discography_reviews"> 6
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/c43a31d22ed5333b1290232c14aba82d/3165974&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/joe-turner-and-his-blues-kings/shake-rattle-and-roll-you-know-i-love-you/" class="release">Shake, Rattle and Roll / You Know I Love You</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Joe Turner and His Blues Kings</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">April 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Joe Turner and His Blues Kings</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_103727" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_855990" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;855990&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.69</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/ffe8f2d4e187cfa957188ff63405f6c4/1898369&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/werly-fairburn/good-deal-lucille-baby-hes-a-wolf/" class="release">Good Deal, Lucille / Baby He's a Wolf</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Werly Fairburn</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">23 April 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_855990" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_122332" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;122332&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.91</span> </div> <div class="page_discography_ratings"> 463
+ </div> <div class="page_discography_reviews"> 16
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/9bac7b2c0b9522ec123eb9d31a9209bd/2238209&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/-were-gonna-rock-around-the-clock-thirteen-women-and-only-one-man-in-town/" class="release">(We're Gonna) Rock Around the Clock / Thirteen Women (And Only One Man in Town)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">10 May 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_122332" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_850146" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;850146&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/01af07cb584febc76e66c1eb29cb9640/5200965&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/curtis-gordon/caffeine-and-nicotine-divided-heart/" class="release">Caffeine and Nicotine / Divided Heart</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Curtis Gordon</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">12 June 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_850146" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_122330" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;122330&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.63</span> </div> <div class="page_discography_ratings"> 149
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/bed539d55ff4dbe997f59e750dfc1611/1570527&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/shake-rattle-and-roll-a-b-c-boogie/" class="release">Shake, Rattle and Roll / A. B. C. Boogie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">July 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_122330" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_108700" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;108700&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.92</span> </div> <div class="page_discography_ratings"> 399
+ </div> <div class="page_discography_reviews"> 17
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1cb0bd34a824a6815f8c6e2442cd9781/1849968&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/elvis-presley/thats-all-right-blue-moon-of-kentucky/" class="release">That's All Right / Blue Moon of Kentucky</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Elvis Presley</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">19 July 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rockabilly</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_108700" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_103775" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;103775&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.79</span> </div> <div class="page_discography_ratings"> 170
+ </div> <div class="page_discography_reviews"> 8
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/f4b47f7bdf5fc25b10a97525c2a675c8/1849963&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/elvis-presley/good-rockin-tonight-i-dont-care-if-the-sun-dont-shine/" class="release">Good Rockin' Tonight / I Don't Care If the Sun Don't Shine</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Elvis Presley</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">September 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rockabilly</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_103775" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_627135" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;627135&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.42</span> </div> <div class="page_discography_ratings"> 17
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/ff19d7d52ab798c46653b1b267a176b3/3948772&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/the-drifters/bip-bam-someday-youll-want-me-to-want-you/" class="release">Bip Bam / Someday You'll Want Me to Want You</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">The Drifters</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">October 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_627135" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_847122" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;847122&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.77</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/6e827fbeb71865baad451660d7cd922b/1890156&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/rudy-grayzell/theres-gonna-be-a-ball-hearts-made-of-stone/" class="release">There's Gonna Be a Ball / Hearts Made of Stone</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Rudy Grayzell</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">October 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_847122" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518214" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518214&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.24</span> </div> <div class="page_discography_ratings"> 32
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/536c5fd1f9bae19eb1b1526d51b97400/1570635&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/dim-dim-the-lights-i-want-some-atmosphere-happy-baby/" class="release">Dim, Dim the Lights (I Want Some Atmosphere) / Happy Baby</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">30 October 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518214" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_666567" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;666567&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.45</span> </div> <div class="page_discography_ratings"> 19
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/c84d2d6f97b859e7e755444b31cb1a96/1707849&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/malcolm-yelvington/drinkin-wine-spodee-o-dee-just-rolling-along/" class="release">Drinkin' Wine Spodee-O-Dee / Just Rolling Along</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Malcolm Yelvington</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">10 November 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rockabilly</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_666567" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_722368" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;722368&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.86</span> </div> <div class="page_discography_ratings"> 26
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/b141771cb8bb1c30f74cd0cd7ffe343a/4626047&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/joe-houston/all-night-long-way-out/" class="release">All Night Long / Way Out</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Joe Houston</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1954</span> <span class="page_discography_date_full">December 1954</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_722368" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1603478" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1603478&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.02</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/cf8c225fac52a9b5e63edbccf892a04d/2308528&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bobby-lord/why-were-you-only-fooling-me-no-more-no-more-no-more/" class="release">Why Were You Only Fooling Me? / No More, No More, No More!</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bobby Lord</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">01 January 1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rockabilly</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1603478" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1492436" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1492436&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.00</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/tommy-scott/dance-with-her-henry-jumpin-from-6-to-6/" class="release">Dance With Her Henry / Jumpin' From 6 to 6</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tommy Scott</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">January 1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1492436" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3194687" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3194687&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">1.81</span> </div> <div class="page_discography_ratings"> 2
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bill-haley-and-his-comets/green-tree-boogie-rocket-88/" class="release">Green Tree Boogie / Rocket "88"</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bill Haley and His Comets</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3194687" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_779679" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;779679&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.80</span> </div> <div class="page_discography_ratings"> 14
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/937b38bac4d24de533841747fcd7fd1d/2700012&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/lillian-briggs/i-want-you-to-be-my-baby-dont-stay-away-too-long/" class="release">I Want You to Be My Baby / Don't Stay Away Too Long</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Lillian Briggs</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rock &amp; Roll</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_779679" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_856831" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;856831&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.77</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/4ace499129c29e8ded18889d1c2deaed/1899184&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/al-ferrier/lets-go-boppin-tonight-what-is-that-thing-called-love/" class="release">Let's Go Boppin' Tonight / What is That Thing Called Love</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Al Ferrier</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_856831" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ </div> </ul> 
+ <div class="page_object_section_discography_nav page_object_section_discography_nav_bottom"> 
+<nav id="nav_page_discography_nav_release_bottom" data-mainid="page_discography_nav_release_bottom" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="454413" data-num-pages="9089" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/rock/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_bottom"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_bottom">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_bottom">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_bottom">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_bottom">9089</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_bottom" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_bottom" href="https://sonemic.com/genre/music/genre/rock/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><script>rymInitPush( function() { RYMobjectListPage.setupPage('release', '/music/genre/rock/');})</script><div class="clearfix"></div>
+         <!-- end content and content_wrapper -->
+         </div>
+      </div>
+
+      <div id="track_preview_frame" class="track_preview_frame">
+
+         <div class="track_preview_close" onclick="$(&#39;#track_preview_frame&#39;).hide();$(&#39;#track_preview&#39;).html(&#39;&#39;);">
+            <i class="fa fa-times-circle"></i>
+         </div>
+
+         <div id="track_preview_text" class="track_preview_text">
+         </div>
+
+         <div id="track_preview" class="track_preview">
+
+         </div>
+      </div>
+
+      <div class="overlay_invisible" id="overlay_invisible"></div>
+
+      <div class="ui_cropper_frame" id="ui_cropper_frame"></div>
+
+      <div class="modal_parent_frame" id="modal_parent_frame">
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay" class="modal_overlay" style="">Close <i class="fa fa-times"></i></div>
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay_invisible" class="modal_overlay_invisible" style=""></div>
+         <div id="modal_parent_frame_inner" class="modal_parent_frame_inner">
+                <div id="modal_content" class="modal_content">
+                </div>
+         </div>
+      </div>
+
+         <!-- ~~~~~~~~ end content ~~~~~~~~~~~~~~~ -->
+        <div class="ui_chooser_results_frame" id="ui_chooser_results_frame">
+            <div class="ui_chooser_results bg-fff alternate" id="ui_chooser_results" style="display: none;">
+            </div>
+        </div>  
+
+         <div id="content_cover">
+            <div id="preview_frame"></div>
+         </div>
+
+
+
+         <div id="loading_anim" style="display:none;">
+            <div class="loading_anim">
+               <i class="fa fa-cog fa-spin"></i> Loading...
+            </div>
+         </div>
+
+
+         <div id="voting_ui_frame"></div>
+
+
+
+
+      <div style="clear:both;"></div>
+      <footer>
+      <div class="footer_inner">
+
+         <div class="footer_main_section"><div class="minilogo_frame"><div class="minilogo"> <div class="logo_sonemic_bw_24"></div>
+                            <span class="minilogo_text">Sonemic <sup class="has_tip">®</sup></span>
+                        </div></div>
+
+
+            <div class="copyright">© 2000-2017 Sonemic, Inc.<br>All rights reserved.</div><div class="copyright">Rate Your Music</div>
+
+            
+
+            <div class="clearfix"></div>
+            <!-- <div class="trademark">Sonemic is a registered trademark of Sonemic, Inc. </div> -->
+
+            <div class="clearfix"></div>
+
+            <div class="social_icons"> 
+               <a href="https://facebook.com/sonemic.network/" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+               <a href="https://twitter.com/sonemic/" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+
+      
+            <a href="https://open.spotify.com/user/sonemic.com" target="_blank"><i class="fa fa-spotify"></i></a> 
+         
+            </div>
+         </div> 
+      
+      <div id="expand_full_footer" class="mobile_expandable_full mobile_expand_footer">
+
+            <div id="expand_full_header_footer" class="mobile_expandable_full_header" onclick="RYMmobile.mobileExpand.toggleFull(&#39;footer&#39;);">
+
+               <div class="mobile_expandable_full_icons">
+                  <div class="mobile_expandable_full_expand_icon_expanded">
+                     <i class="fa fa-caret-down"></i>
+                  </div>
+                  <div class="mobile_expandable_full_expand_icon_hidden">
+                     <i class="fa fa-caret-right"></i>
+                  </div>
+               </div>
+
+               <div id="expand_full_name_footer" class="mobile_expandable_full_name">
+                  Site links
+               </div>
+
+            </div>
+
+            <div id="expand_full_content_footer" class="mobile_expandable_full_content">
+               
+         <div class="footer_sections">
+            <div class="footer_section" id="section_network">
+               <div class="footer_header">Sonemic network</div>
+               <div class="footer_sub_links">
+                  <a class="asonemic" href="https://sonemic.com/">Sonemic <span class="sub">music</span></a>
+                  <a class="acinemos" href="https://cinemos.com/">Cinemos <span class="sub">film</span></a>
+                  <a class="aglitchwave" href="https://glitchwave.com/">Glitchwave <span class="sub">video games</span></a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Info</div>
+               <div class="footer_sub_links"><a href="https://sonemic.com/about/">About Sonemic</a>
+                  <a href="https://sonemic.com/docs/faq/">Site FAQ</a>
+                  <a href="https://sonemic.com/docs/standards/">Site standards</a>
+                  <a href="https://sonemic.com/submissions/">Queues</a>
+                  <a href="https://sonemic.com/docs/api/">API</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Policy</div>
+               <div class="footer_sub_links">
+                  <a class="" href="https://sonemic.com/docs/community_rules/">Community rules</a>
+                  <a class="" href="https://sonemic.com/docs/general_rules/">General rules</a>
+                  <!--<div class="updated">Updated 22 May 2017</div> -->
+                  <a class="" href="https://sonemic.com/privacy/">Privacy</a>
+                  <a class="" href="https://sonemic.com/terms-of-service/">Terms of service</a>
+                  <a href="https://sonemic.com/artist_portal/">For artists/labels</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Contact us</div>
+               <div class="footer_sub_links">
+                  <a href="https://sonemic.com/support/">Get support</a>
+                  <a href="https://sonemic.com/support/">Send feedback</a>
+                  <a href="https://sonemic.com/support/?partnerships">Advertise</a>
+                  <a href="https://sonemic.com/jobs/">Jobs</a>
+               </div>
+            </div>
+         </div>
+      
+            </div>
+         </div>
+      
+      <div class="g-recaptcha" data-sitekey="6LdaLxkUAAAAAJYzVmL0OQJiqH9Hev7JQ4AxcvhG" data-callback="_captchaCallback" data-size="invisible">
+      </div>
+
+     
+         <div class="server_info">Instance: 6 Ads: disabled</div>
+
+         <div style="clear:both;"></div>
+      </div>
+
+    </footer>
+    
+
+   <div id="ui_date_help">
+      <div class="ui_date_help_text" style="font-size:0.9em;line-height:1.4">
+         <b>Examples</b>
+         <br>
+         1980s-1996
+         <br>
+         23 mar 2015
+         <br>
+         8 apr - 12 may 2015
+         <br>
+         1998-05
+      </div>
+   </div>
+    <div id="image_browser" class="image_browser" onclick="RYMimageBrowser.hide();"> 
+
+
+         <div class="image_browser_loading_frame">
+            <div class="image_browser_loading" id="image_browser_loading">
+               <div id="block_1" class="load_block"></div>
+               <div id="block_2" class="load_block"></div>
+               <div id="block_3" class="load_block"></div>
+            </div> 
+            <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_image" id="image_browser_image">
+            
+            <img id="image_browser_image_img"> <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_navigation">
+            <div class="image_browser_prev" onclick="RYMimageBrowser.prev(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-left"></i></div>
+            <div class="image_browser_next" onclick="RYMimageBrowser.next(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-right"></i></div>
+         </div>
+
+         <div id="image_browser_preload" class="image_browser_preload"></div>
+         <div class="image_browser_controls" onclick="event.stopPropagation();">   
+
+            <div class="image_browser_btn" id="image_browser_report_btn" onclick="RYMimageBrowser.toggleReport();">  
+               <i class="fa fa-warning"></i> Report
+            </div>
+            <a class="image_browser_btn" id="image_browser_download_btn">  
+               <i class="fa fa-download"></i> Download
+            </a>
+
+            <div class="image_browser_progress" id="image_browser_progress">Image 1 of 2</div>
+
+         </div>
+         <div class="image_browser_date_caption_bar" onclick="event.stopPropagation();">
+
+            <div class="image_browser_date" id="image_browser_date" onclick="event.stopPropagation();"></div>
+
+            <div class="image_browser_caption" id="image_browser_caption" onclick="event.stopPropagation();"></div>  
+
+         </div>
+
+    </div>
+    <script>
+      rymInitPush(function()  {
+         if ( location.search === "?email_verified") {  
+            rym.showGlobalMessage('Thanks! Your email has been verified.')
+         } else if ( location.search === "?email_not_verified") {
+            rym.showGlobalError('Sorry, there was a problem validating your email address.  Please go to site settings and request a new confirmation mail.');
+         }
+      });
+    </script>
+    
+   
+      <script type="text/javascript" src="./Rock - Sonemic _ Rate Your Music music database_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./Rock - Sonemic _ Rate Your Music music database_files/min.js.download" async=""></script>
+
+
+      <script>$( document ).ready(function() { rymInitPush(function() { rym.setupPage() }) } ) </script>
+
+   <script type="text/javascript" src="./Rock - Sonemic _ Rate Your Music music database_files/advertisement.js.download"></script>
+
+      <script> function areAdsBlocked() { return ($('#ad_1').length == 0) } 
+      function politeAdRequest() {
+         var xx = '<div class=abpmessage>Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href=/subscribe>subscribing</a> to help with bandwidth/server costs.</div>' 
+         $('#content').prepend(xx)
+      }
+      </script>
+
+    
+         <script>if(areAdsBlocked()) { politeAdRequest() }</script>
+      </div><div id="tiptip_holder" style="pointer-events:none;max-width:1200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body></html>

@@ -1,0 +1,1153 @@
+Folk : Folk
+Contemporary Folk : Folk
+American Primitivism : Folk
+Anti-Folk : Folk
+Avant-Folk : Folk
+Bard Music : Folk & Singer/Songwriter
+Canzone D'Autore : Folk & Singer/Songwriter
+Chamber Folk : Folk
+Euskal Kantagintza Berria : Folk
+Folk Baroque : Folk
+Folk Pop : Folk & Pop
+Indie Folk : Folk
+Música De Intervenção : Folk & Singer/Songwriter
+Neofolk : Folk
+Dark Folk : Folk
+Nova Cançó : Folk
+Nòva Cançon : Folk
+Nueva Canción : Folk & Singer/Songwriter
+Nueva Canción Española : Folk & Singer/Songwriter
+Nueva Canción Latinoamericana : Folk & Singer/Songwriter
+Nueva Trova : Folk & Singer/Songwriter
+Progressive Folk : Folk
+Psychedelic Folk : Folk & Psychedelia
+Freak Folk : Folk & Psychedelia
+Free Folk : Folk & Psychedelia
+Skiffle : Folk
+Tamborera : Folk
+Traditional Folk Music : Folk
+African Folk Music : Folk
+Ambasse Bey : Folk
+Apala : Folk
+Batuque : Folk
+Dagomba Music : Folk
+Gnawa : Folk
+Kabye Folk Music : Folk
+Kilapanga : Folk
+Mbenga-Mbuti Music : Folk
+Moutya : Folk
+Ngoma : Folk
+Unyago : Folk
+Semba : Folk
+Southern African Folk Music : Folk
+Khoisan Folk Music : Folk
+Nguni Folk Music : Folk
+Shona Mbira Music : Folk
+Sotho-Tswana Folk Music : Folk
+Tchinkoumé : Folk
+Traditional Maloya : Folk
+Traditional Séga : Folk
+Zinli : Folk
+American Folk Music : Folk
+Appalachian Folk Music : Folk
+Barbershop : Folk
+Boogie Woogie : Blues & Folk
+Cajun : Folk
+Traditional Cajun : Folk
+Zydeco : Folk
+Country Blues : Blues & Folk
+Acoustic Texas Blues : Blues & Folk
+Delta Blues : Blues & Folk
+Piedmont Blues : Blues & Folk
+Gospel : Folk
+Country Gospel : Folk
+Bluegrass Gospel : Folk
+Southern Gospel : Folk
+Traditional Black Gospel : Folk
+Jug Band : Blues & Folk
+Ragtime : Folk
+Cakewalk : Folk
+Coon Song : Folk
+Novelty Piano : Folk
+Stride : Folk & Jazz
+Sacred Harp Music : Folk
+Spirituals : Folk
+Talking Blues : Folk
+Traditional Country : Folk
+Bluegrass : Folk
+Close Harmony : Folk
+Country Boogie : Folk
+Country Yodeling : Folk
+Cowboy : Folk
+Old-Time : Folk
+Arabic Folk Music : Folk
+Arabic Bellydance Music : Folk
+Armenian Folk Music : Folk
+Australian Folk Music : Folk
+Austronesian Traditional Music : Folk
+Gondang : Folk
+Pakacaping Music : Folk
+Balitaw : Folk
+Canadian Folk Music : Folk
+Canadian Maritime Folk : Folk
+Cape Breton Folk Music : Folk
+Cape Breton Fiddling : Folk
+French-Canadian Folk Music : Folk
+Newfoundland Folk Music : Folk
+Caribbean Folk Music : Folk
+Cariso : Folk
+Fungi : Folk
+Garifuna Folk Music : Folk
+Junkanoo : Folk
+Méringue : Folk
+Ripsaw : Folk
+Tumba : Folk
+East Asian Folk Music : Folk
+Ainu Folk Music : Folk
+Upopo : Folk
+Yukar : Folk
+Chinese Folk Music : Folk
+Guoyue : Folk
+Han Folk Music : Folk
+Jiangnan Sizhu : Folk
+Japanese Folk Music : Folk
+Amami Shimauta : Folk
+Heikyoku : Classical Music & Folk
+Kagura : Folk
+Kouta : Folk
+Min'yō : Folk
+Ondō : Folk
+Rōkyoku : Folk
+Taiko : Folk
+Tsugaru Shamisen : Folk
+Korean Folk Music : Folk
+Sanjo : Folk
+Sinawi : Folk
+European Folk Music : Folk
+Alpine Folk Music : Folk
+Balkan Folk Music : Folk
+Albanian Folk Music : Folk
+Lab Polyphony : Folk
+Musika Popullore : Folk & Pop
+Tosk Polyphony : Folk
+Balkan Brass Band : Folk
+Bulgarian Folk Music : Folk
+Csango Folk Music : Folk
+Gagauz Folk Music : Folk
+Greek Folk Music : Folk
+Dimotika : Folk
+Kritika : Folk
+Nisiotika Aigaiou : Folk
+Nisiotika Ioniou : Folk
+Rembetika : Folk
+Lăutărească : Folk
+Macedonian Folk Music : Folk
+Čalgija : Folk
+Sevdalinka : Folk
+Starogradska Muzika : Folk
+Basque Folk Music : Folk
+Catalan Folk Music : Folk
+Sardana : Folk
+Celtic Folk Music : Folk
+Asturian Folk Music : Folk
+Breton Celtic Folk Music : Folk
+Bagad : Folk
+Cornish Folk Music : Folk
+Galician Folk Music : Folk
+Irish Folk Music : Folk
+Country & Irish : Folk
+Sean-nós : Folk
+Manx Folk Music : Folk
+Scottish Folk Music : Folk
+Gaelic Psalm : Folk
+Pibroch : Classical Music & Folk
+Shetland and Orkney Islands Folk Music : Folk
+Trás-os-Montes Folk Music : Folk
+Welsh Folk Music : Folk
+Dutch Folk Music : Folk
+English Folk Music : Folk
+Northumbrian Folk Music : Folk
+Scrumpy and Western : Folk
+Estonian Folk Music : Folk
+Fanfare : Folk
+Brass Band : Folk
+Flemish Folk Music : Folk
+French Folk Music : Folk
+Alsatian Folk Music : Folk
+Breton Folk Music : Folk
+Corsican Folk Music : Folk
+Musette : Folk
+Occitan Folk Music : Folk
+Auvergnat Folk Music : Folk
+Gascon Folk Music : Folk
+German Folk Music : Folk
+Għana : Folk
+Hungarian Folk Music : Folk
+Italian Folk Music : Folk
+Cantu A Tenore : Folk
+Canzone Napoletana : Folk
+Latvian Folk Music : Folk
+Lithuanian Folk Music : Folk
+Sutartinės : Folk
+Neo-Medieval Folk : Folk
+Nordic Folk Music : Folk
+Danish Folk Music : Folk
+Faroese Folk Music : Folk
+Finnish Folk Music : Folk
+Icelandic Folk Music : Folk
+Joik : Folk
+Nordic Old Time Dance Music : Folk
+Humppa : Folk & Pop
+Norwegian Folk Music : Folk
+Runolaulu : Folk
+Swedish Folk Music : Folk
+Visor : Folk
+Polka : Folk
+Portuguese Folk Music : Folk
+Cante Alentejano : Folk
+Fado : Folk
+Coimbra Fado : Folk
+Romanian Folk Music : Folk
+Bocet : Folk
+Colinde : Folk
+Doina : Folk
+Slavic Folk Music : Folk
+Belarusian Folk Music : Folk
+Croatian Folk Music : Folk
+Czech Folk Music : Folk
+Goral Music : Folk
+Polish Carpathian Folk Music : Folk
+Klapa : Folk
+Moravian Folk Music : Folk
+Polish Folk Music : Folk
+Russian Folk Music : Folk
+Slovak Folk Music : Folk
+Slovenian Folk Music : Folk
+Narodno Zabavna Glasba : Folk
+Ukrainian Folk Music : Folk
+Duma : Folk
+Spanish Folk Music : Folk
+Andalusian Folk Music : Folk
+Saeta : Folk
+Aragonese Folk Music : Folk
+Canarian Folk Music : Folk
+Chotis Madrileño : Folk
+Copla : Folk
+Cuplé : Folk & Musical Theatre and Entertainment
+Flamenco : Folk
+Flamenco Nuevo : Folk
+Flamenco Jazz : Folk & Jazz
+Rumba Flamenca : Folk
+Pasodoble : Folk
+Sevillanas : Folk
+Warsaw City Folk : Folk
+Georgian Folk Music : Folk
+Hill Tribe Music : Folk
+Hmong Folk Music : Folk
+Indigenous Australian Music : Folk
+Djanba : Folk
+Iranian Folk Music : Folk
+Israeli Folk Music : Folk
+Kundiman : Folk
+Kurdish Folk Music : Folk
+Malagasy Folk Music : Folk
+Mexican Folk Music : Folk
+Canto Cardenche : Folk
+Ranchera : Folk
+Son Calentano : Folk
+Son Huasteco : Folk
+Son Istmeño : Folk
+Son Jarocho : Folk
+Trova Yucateca : Folk
+Native American Music : Folk
+Inuit Vocal Games : Folk
+Powwow Music : Folk
+Papuan Traditional Music : Folk
+Rapai Dabõih : Folk
+Romani Folk Music : Folk
+Samoyedic Traditional Music : Folk
+Sephardic Music : Folk
+Maftirim : Folk
+South American Folk Music : Folk
+Andean Folk Music : Folk
+Chacarera : Folk
+Harawi : Folk
+Huayno : Folk
+Muliza : Folk
+Canto A Lo Poeta : Folk
+Cueca : Folk
+Joropo : Folk
+Mapuche Music : Folk
+Milonga : Folk
+Música Criolla Peruana : Folk
+Marinera : Folk
+Tondero : Folk
+Vals Criollo : Folk
+Sertanejo De Raiz : Folk
+Moda De Viola : Folk
+Tamborito : Folk
+Taquirari : Folk
+Vallenato : Folk
+Venezuelan Malagueña : Folk
+Zamba : Folk
+South Asian Folk Music : Folk
+Bengali Folk Music : Folk
+Kirtan : Folk
+Malayali Folk Music : Folk
+Newa Folk Music : Folk
+Pashto Folk Music : Folk
+Sri Lankan Folk Music : Folk
+Sarala Gee : Folk
+Southeast Asian Folk Music : Folk
+Keroncong : Folk
+Molam : Folk
+Tatar Folk Music : Folk
+Throat Singing : Folk
+Mongolian Throat Singing : Folk
+Tuvan Throat Singing : Folk
+Tonada : Folk
+Turkish Folk Music : Folk
+Karadeniz Folk Music : Folk
+Uzun Hava : Folk
+Zeybek : Folk
+Vietnamese Folk Music : Folk
+Work Songs : Folk
+Field Hollers : Folk
+Sea Shanties : Folk
+Yodeling : Folk
+Blues : Blues
+Acoustic Blues : Blues
+Acoustic Chicago Blues : Blues
+Electric Blues : Blues
+British Blues : Blues
+Chicago Blues : Blues
+Electric Texas Blues : Blues
+Swamp Blues : Blues
+Hill Country Blues : Blues
+Jump-Blues : Blues
+New Orleans Blues : Blues
+Piano Blues : Blues
+Vaudeville Blues : Blues & Musical Theatre and Entertainment
+Dance : Dance
+Alternative Dance : Dance & Rock
+Grebo : Dance & Rock
+Dance-Pop : Dance & Pop
+Afrobeats : Dance & Pop
+Disco Polo : Dance & Pop
+Eurodance : Dance & Electronic & Pop
+Bubblegum Dance : Dance & Electronic & Pop
+Italo Dance : Dance & Electronic & Pop
+Freestyle : Dance & Electronic & Pop
+Latin Freestyle : Dance & Electronic & Pop
+Funk Melody : Dance & Electronic & Pop
+Romanian Dance-Pop : Dance & Electronic & Pop
+Tecnorumba : Dance & Electronic & Pop
+Dance-Punk : Dance & Punk & Rock
+Disco : Dance
+Boogie : Dance & R&B
+Electro-Disco : Dance & Electronic
+Hi-NRG : Dance & Electronic
+Italo-disco : Dance & Electronic
+Eurobeat : Dance & Electronic
+Space Disco : Dance & Electronic
+Euro-disco : Dance
+Latin Disco : Dance
+Nu-Disco : Dance & Electronic
+Future Funk : Dance & Electronic
+Electronic Dance Music : Dance & Electronic
+Breakbeat : Dance & Electronic
+Baltimore Club : Dance & Electronic
+Big Beat : Dance & Electronic
+Breakbeat Hardcore : Dance & Electronic
+Hardcore Breaks : Dance & Electronic
+Jersey Club : Dance & Electronic
+Broken Beat : Dance & Electronic
+Bubblegum Bass : Dance & Electronic
+Coupé-Décalé : Dance & Electronic
+Digital Cumbia : Dance & Electronic
+Drum and Bass : Dance & Electronic
+Atmospheric Drum and Bass : Dance & Electronic
+Darkstep : Dance & Electronic
+Drumfunk : Dance & Electronic
+Drumstep : Dance & Electronic
+Hardstep : Dance & Electronic
+Jazzstep : Dance & Electronic
+Jump-Up : Dance & Electronic
+Jungle : Dance & Electronic
+Ragga Jungle : Dance & Electronic
+Liquid Funk : Dance & Electronic
+Minimal Drum and Bass : Dance & Electronic
+Neurofunk : Dance & Electronic
+Techstep : Dance & Electronic
+Trancestep : Dance & Electronic
+Dubstep : Dance & Electronic
+Brostep : Dance & Electronic
+Deathstep : Dance & Electronic
+Riddim : Dance & Electronic
+Chillstep : Dance & Electronic
+Purple Sound : Dance & Electronic
+EBM : Dance & Electronic & Industrial Music
+Aggrotech : Dance & Electronic & Industrial Music
+Futurepop : Dance & Electronic & Industrial Music & Pop
+New Beat : Dance & Electronic & Industrial Music
+Electro : Dance & Electronic
+Skweee : Dance & Electronic
+Electroclash : Dance & Electronic
+Electro Latino : Dance & Electronic
+Electro Swing : Dance & Electronic
+Funk Carioca : Dance & Electronic
+Funk Ostentação : Dance & Electronic
+Funktronica : Dance & Electronic
+Hardcore [EDM] : Dance & Electronic
+Acidcore : Dance & Electronic
+Digital Hardcore : Dance & Electronic & Punk
+Freeform : Dance & Electronic
+Frenchcore : Dance & Electronic
+Funkot : Dance & Electronic
+Gabber : Dance & Electronic
+Nu Style Gabber : Dance & Electronic
+Happy Hardcore : Dance & Electronic
+J-core : Dance & Electronic
+Speedcore : Dance & Electronic
+Extratone : Dance & Electronic
+Splittercore : Dance & Electronic
+Terrorcore : Dance & Electronic
+House : Dance & Electronic
+Acid House : Dance & Electronic
+Afro-House : Dance & Electronic
+Ambient House : Dance & Electronic
+Balearic Beat : Dance & Electronic
+Ballroom : Dance & Electronic
+Bass House : Dance & Electronic
+Chicago House : Dance & Electronic
+Deep House : Dance & Electronic
+Outsider House : Dance & Electronic
+Tropical House : Dance & Electronic
+Dutch House : Dance & Electronic
+Electro House : Dance & Electronic
+Big Room : Dance & Electronic
+Complextro : Dance & Electronic
+Fidget House : Dance & Electronic
+Jungle Terror : Dance & Electronic
+Melbourne Bounce : Dance & Electronic
+Euro House : Dance & Electronic
+French House : Dance & Electronic
+Funky House : Dance & Electronic
+Future House : Dance & Electronic
+Garage House : Dance & Electronic
+Ghetto House : Dance & Electronic
+Ghettotech : Dance & Electronic
+Juke : Dance & Electronic
+Footwork : Dance & Electronic
+Gqom : Dance & Electronic
+Hard House : Dance & Electronic
+NRG : Dance & Electronic
+Hip House : Dance & Electronic
+Italo House : Dance & Electronic
+Kwaito : Dance & Electronic
+Latin House : Dance & Electronic
+Microhouse : Dance & Electronic
+Progressive House : Dance & Electronic
+Scouse House : Dance & Electronic
+Tech House : Dance & Electronic
+Tribal House : Dance & Electronic
+Kuduro : Dance & Electronic
+Mahraganat : Dance & Electronic
+Makina : Dance & Electronic
+Moombahton : Dance & Electronic
+Moombahcore : Dance & Electronic
+Shangaan Electro : Dance & Electronic
+Spacesynth : Dance & Electronic
+Techno : Dance & Electronic
+Acid Techno : Dance & Electronic
+Ambient Techno : Dance & Electronic
+Bleep Techno : Dance & Electronic
+Detroid Techno : Dance & Electronic
+Freetekno : Dance & Electronic
+Industrial Techno : Dance & Electronic & Industrial Music
+Minimal Techno : Dance & Electronic
+Dub Techno : Dance & Electronic
+Schranz : Dance & Electronic
+Wonky Techno : Dance & Electronic
+Tecnobrega : Dance & Electronic
+Trance : Dance & Electronic
+Acid Trance : Dance & Electronic
+Ambient Trance : Dance & Electronic
+Dream Trance : Dance & Electronic
+Euro-trance : Dance & Electronic
+Goa Trance : Dance & Electronic
+Nitzhonot : Dance & Electronic
+Hard Trance : Dance & Electronic
+Hardstyle : Dance & Electronic
+Dubstyle : Dance & Electronic
+Jumpstyle : Dance & Electronic
+Ibiza Trance : Dance & Electronic
+Progressive Trance : Dance & Electronic
+Psytrance : Dance & Electronic
+Dark Psytrance : Dance & Electronic
+Full-On Psytrance : Dance & Electronic
+Progressive Psytrance : Dance & Electronic
+Suomisaundi : Dance & Electronic
+Tech Trance : Dance & Electronic
+Uplifting Trance : Dance & Electronic
+Vocal Trance : Dance & Electronic
+Trap [EDM] : Dance & Electronic
+Tribal Guarachero : Dance & Electronic
+UK Garage : Dance & Electronic
+2-Step : Dance & Electronic
+Bassline : Dance & Electronic
+Breakstep : Dance & Electronic
+Future Garage : Dance & Electronic
+Speed Garage : Dance & Electronic
+UK Bass : Dance & Electronic
+UK Funky : Dance & Electronic
+Wonky : Dance & Electronic
+Electronic : Electronic
+Acid Croft : Electronic
+Ambient Dub : Ambient & Electronic
+Bit Music : Electronic
+16-Bit : Electronic
+Chiptune : Electronic
+Sequencer & MIDI : Electronic
+Bitpop : Electronic & Pop
+Picopop : Electronic & Pop
+Downtempo : Electronic
+Trip Hop : Electronic
+Electroacoustic : Electronic & Experimental
+EAI : Electronic & Experimental
+Musique Concrète : Electronic & Experimental
+Electro-Industrial : Electronic & Industrial Music
+Dark Electro : Electronic & Industrial Music
+Electropop : Electronic & Pop
+Folktronica : Electronic
+Glitch : Electronic & Experimental
+Glitch Pop : Electronic & Pop
+Grime : Electronic
+Horror Synth : Electronic
+IDM : Electronic
+Breakcore : Electronic
+Lolicore : Electronic
+Raggacore : Electronic
+Drill and Bass : Electronic
+Flashcore : Electronic
+Glitch Hop : Electronic
+Illbient : Electronic
+Indietronica : Electronic
+Chillwave : Electronic
+Latin Electronic : Electronic
+Electrotango : Electronic
+Nortec : Electronic
+Microsound : Electronic & Experimental
+Minimal Wave : Electronic
+Minimal Synth : Electronic
+Nu Jazz : Electronic
+Progressive Electronic : Electronic
+Berlin School : Electronic
+Psybient : Electronic
+Synthpop : Electronic & Pop
+Synth Punk : Electronic & Punk
+Synthwave : Electronic
+Techno Kayō : Electronic & Pop
+Vaporwave : Electronic
+Witch House : Electronic
+Singer/Songwriter : Singer/Songwriter
+Chanson À Texte : Singer/Songwriter
+Liedermacher : Singer/Songwriter
+Poezja Śpiewana : Singer/Songwriter
+Sounds and Effects : Sounds and Effects
+Field Recordings : Sounds and Effects
+Nature Recordings : Sounds and Effects
+Birdsong : Sounds and Effects
+Whale Song : Sounds and Effects
+Numbers Stations Broadcasts : Sounds and Effects
+Spoken Word : Spoken Word
+Fairy Tales : Spoken Word
+Interview : Spoken Word
+Poetry : Spoken Word
+Beat Poetry : Spoken Word
+Cantillation : Spoken Word
+Dub Poetry : Spoken Word
+Jazz Poetry : Jazz & Spoken Word
+Nursery Rhymes : Spoken Word
+Sound Poetry : Experimental & Spoken Word
+Radio Play : Spoken Word
+Speeches : Spoken Word
+Ska : Ska
+2 Tone : Ska
+Jamaican Ska : Ska
+Spouge : Ska
+Third Wave Ska : Ska
+Ska Punk : Punk & Rock & Ska
+Psychedelia : Psychedelia
+Neo-Psychedelia : Psychedelia
+Hypnagogic Pop : Psychedelia
+Paisley Underground : Psychedelia & Rock
+Psychedelic Pop : Pop & Psychedelia
+Psychedelic Rock : Psychedelia & Rock
+Acid Rock : Psychedelia & Rock
+Heavy Psych : Psychedelia & Rock
+Raga Rock : Psychedelia & Rock
+Space Rock : Psychedelia & Rock
+Psychedelic Soul : Psychedelia & R&B
+Punk : Punk
+Emo : Punk & Rock
+Emocore : Punk & Rock
+Emo-Pop : Punk & Rock
+Midwest Emo : Punk & Rock
+Screamo : Punk & Rock
+Post-Hardcore : Punk & Rock
+Post-Punk : Punk & Rock
+Coldwave : Punk & Rock
+Gothic Rock : Punk & Rock
+Deathrock : Punk & Rock
+No Wave : Punk & Rock
+Post-Punk Revival : Punk & Rock
+Proto-Punk : Punk & Rock
+Punk Rock : Punk & Rock
+Anarcho-Punk : Punk & Rock
+Art Punk : Punk & Rock
+Cowpunk : Punk & Rock
+Deutschpunk : Punk & Rock
+Folk Punk : Punk & Rock
+Celtic Punk : Punk & Rock
+Gypsy Punk : Punk & Rock
+Garage Punk : Punk & Rock
+Glam Punk : Punk & Rock
+Hardcore Punk : Punk & Rock
+Beatdown Hardcore : Punk & Rock
+Crossover Thrash : Punk & Rock
+Crust Punk : Punk & Rock
+D-Beat : Punk & Rock
+Grindcore : Punk & Rock
+Cybergrind : Punk & Rock
+Deathgrind : Punk & Rock
+Goregrind : Punk & Rock
+Japanese Hardcore : Punk & Rock
+Melodic Hardcore : Punk & Rock
+Metalcore : Punk & Rock
+Deathcore : Punk & Rock
+Mathcore : Punk & Rock
+New York Hardcore : Punk & Rock
+Noisecore : Punk & Rock
+Powerviolence : Punk & Rock
+Thrashcore : Punk & Rock
+UK82 : Punk & Rock
+Horror Punk : Punk & Rock
+Könsrock : Punk & Rock
+Oi! : Punk & Rock
+Pop Punk : Punk & Rock
+Psychobilly : Punk & Rock
+Punk Blues : Punk & Rock
+Queercore : Punk & Rock
+Riot Grrrl : Punk & Rock
+Skate Punk : Punk & Rock
+Surf Punk : Punk & Rock
+Rock : Rock
+Acoustic Rock : Rock
+Afro-Rock : Rock
+Alternative Rock : Rock
+Baggy / Madchester : Rock
+Britpop : Pop & Rock
+Dream Pop : Rock
+Grunge : Rock
+Indie Rock : Rock
+Dunedin Sound : Rock
+Hamburger Schule : Rock
+Lo-Fi / Slacker Rock : Rock
+Slowcore : Rock
+Jangle Pop : Pop & Rock
+Math Rock : Rock
+Noise Pop : Rock
+Post-Grunge : Rock
+Shoegaze : Rock
+Andean Rock : Rock
+AOR : Rock
+Art Rock : Rock
+Blues Rock : Rock
+Boogie Rock : Rock
+British Rhythm & Blues : R&B & Rock
+Christian Rock : Rock
+Comedy Rock : Comedy & Rock
+Country Rock : Rock
+Dark Cabaret : Rock
+Deutschrock : Rock
+Experimental Rock : Rock
+Avant-Prog : Rock
+Rock In Opposition : Rock
+Zeuhl : Rock
+Brutal Prog : Rock
+Krautrock : Rock
+Folk Rock : Rock
+Alpenrock : Rock
+Anatolian Rock : Rock
+Andalusian Rock : Rock
+British Folk Rock : Rock
+Celtic Rock : Rock
+Medieval Rock : Rock
+Nordic Folk Rock : Rock
+Pinoy Folk Rock : Rock
+Funk Rock : Rock
+Funk Metal : Rock
+Garage Rock : Rock
+Freakbeat : Pop & Rock
+Garage Rock Revival : Rock
+Glam Rock : Rock
+Hard Rock : Rock
+Glam Metal : Rock
+Stoner Rock : Rock
+Heartland Rock : Rock
+Industrial Rock : Industrial Music & Rock
+Jam Band : Rock
+Jazz-Rock : Rock
+Latin Rock : Rock
+Metal : Rock
+Alternative Metal : Rock
+Nu Metal : Rock
+Rap Metal : Rock
+Avant-Garde Metal : Rock
+Black Metal : Rock
+Atmospheric Black Metal : Rock
+Blackgaze : Rock
+Depressive Black Metal : Rock
+Melodic Black Metal : Rock
+Pagan Black Metal : Rock
+Symphonic Black Metal : Rock
+War Metal : Rock
+Death Metal : Rock
+Brutal Death Metal : Rock
+Slam Death Metal : Rock
+Death 'N' Roll : Rock
+Melodic Death Metal : Rock
+Technical Death Metal : Rock
+Doom Metal : Rock
+Death Doom Metal : Rock
+Funeral Doom Metal : Rock
+Traditional Doom Metal : Rock
+Drone Metal : Rock
+Folk Metal : Rock
+Celtic Music : Rock
+Medieval Folk Metal : Rock
+Gothic Metal : Rock
+Groove Metal : Rock
+Heavy Metal : Rock
+NWOBHM : Rock
+Industrial Metal : Industrial Music & Rock
+Cyber Metal : Industrial Music & Rock
+Neue Deutsche Härte : Industrial Music & Rock
+Melodic Metalcore : Rock
+Nintendocore : Rock
+Trancecore : Rock
+Neoclassical Metal : Rock
+Power Metal : Rock
+Progressive Metal : Rock
+Djent : Rock
+Sludge Metal : Rock
+Atmospheric Sludge Metal : Rock
+Speed Metal : Rock
+Stoner Metal : Rock
+Symphonic Metal : Rock
+Thrash Metal : Rock
+Technical Thrash Metal : Rock
+Trance Metal : Rock
+Viking Metal : Rock
+Mod : Rock
+Mod Revival : Rock
+New Wave : Rock
+Neue Deutche Welle : Rock
+New Romantic : Pop & Rock
+Noise Rock : Rock
+Pop Rock : Pop & Rock
+Beat Music : Pop & Rock
+Group Sounds : Pop & Rock
+Jovem Guarda : Pop & Rock
+Merseybeat : Pop & Rock
+Nederbeat : Pop & Rock
+Manila Sound : Pop & Rock
+Piano Rock : Pop & Rock
+Power Pop : Pop & Rock
+Soft Rock : Pop & Rock
+Stereo : Pop & Rock
+Vocal Surf : Pop & Rock
+West Coast Rock : Pop & Rock
+Post-Rock : Rock
+Progressive Rock : Rock
+Canterbury Scene : Rock
+Neo-Prog : Rock
+Symphonic Prog : Rock
+Pub Rock : Rock
+Rap Rock : Rock
+Rock & Roll : Rock
+Indorock : Rock
+Rockabilly : Rock
+Rock Opera : Rock
+Rock Urbano Español : Rock
+Roots Rock : Rock
+Swamp Rock : Rock
+Tex-Mex : Rock
+Southern Rock : Rock
+Red Dirt : Rock
+Sufi Rock : Rock
+Surf Music : Rock
+Surf Rock : Rock
+Eleki : Rock
+Rautalanka : Rock
+Shadow Music : Rock
+Symphonic Rock : Rock
+Zamrock : Rock
+Zolo : Rock
+Hip Hop : Hip Hop
+Abstract Hip Hop : Hip Hop
+Arabesque Rap : Hip Hop
+Bongo Flava : Hip Hop
+Bounce : Hip Hop
+Chopped and Screwed : Hip Hop
+Christian Hip Hop : Hip Hop
+Cloud Rap : Hip Hop
+Comedy Rap : Comedy & Hip Hop
+Conscious Hip Hop : Hip Hop
+Country Rap : Hip Hop
+Crunk : Hip Hop
+Crunkcore : Hip Hop
+Dirty South : Hip Hop
+Disco Rap : Hip Hop
+East Coast Hip Hop : Hip Hop
+Experimental Hip Hop : Hip Hop
+Industrial Hip Hop : Hip Hop & Industrial Music
+French Hip Hop : Hip Hop
+Genge : Hip Hop
+G-funk : Hip Hop
+Hardcore Hip Hop : Hip Hop
+Boom Bap : Hip Hop
+Britcore : Hip Hop
+Gangsta Rap : Hip Hop
+Chicano Rap : Hip Hop
+Drill : Hip Hop
+Bop : Hip Hop
+Horrorcore : Hip Hop
+Memphis Rap : Hip Hop
+Trap : Hip Hop
+Hiplife : Hip Hop
+Hyphy : Hip Hop
+Jerk Rap : Hip Hop
+Instrumental Hip Hop : Hip Hop
+Japanese Hip Hop : Hip Hop
+Jazz Rap : Hip Hop
+Latin Rap : Hip Hop
+Miami Bass : Hip Hop
+Car Audio Bass : Hip Hop
+Mobb Music : Hip Hop
+Nerdcore : Hip Hop
+Political Hip Hop : Hip Hop
+Pop Rap : Hip Hop
+Snap : Hip Hop
+Southern Hip Hop : Hip Hop
+Turntablism : Hip Hop
+UK Hip Hop : Hip Hop
+West Coast Hip Hop : Hip Hop
+Musical Theatre and Entertainment : Musical Theatre and Entertainment
+Cabaret : Musical Theatre and Entertainment
+Dutch Cabaret : Comedy & Musical Theatre and Entertainment
+Kabarett : Comedy & Musical Theatre and Entertainment
+Kanto : Musical Theatre and Entertainment
+Murga : Musical Theatre and Entertainment
+Music Hall : Musical Theatre and Entertainment
+Revue : Musical Theatre and Entertainment
+Show Tunes : Musical Theatre and Entertainment
+Operetta : Classical Music & Musical Theatre and Entertainment
+Zarzuela : Classical Music & Musical Theatre and Entertainment
+Vaudeville : Musical Theatre and Entertainment
+Classical Music : Classical Music
+Arabic Classical Music : Classical Music
+Al-maqam al-Iraqi : Classical Music
+Andalusian Classical Music : Classical Music
+Brazilian Classical Music : Classical Music
+East Asian Classical Music : Classical Music
+Chinese Classical Music : Classical Music
+Chinese Opera : Classical Music
+Cantonese Opera : Classical Music
+Peking Opera : Classical Music
+Shaoxing Opera : Classical Music
+Yayue : Classical Music
+Japanese Classical Music : Classical Music
+Gagaku : Classical Music
+Jiuta : Classical Music
+Jōruri : Classical Music
+Nagauta : Classical Music
+Noh : Classical Music
+Shomyo : Classical Music
+Soukyoku : Classical Music
+Danmono : Classical Music
+Kumiuta : Classical Music
+Korean Classical Music : Classical Music
+Aak : Classical Music
+Dang-ak : Classical Music
+Hyang-ak : Classical Music
+Jeong-ak : Classical Music
+Vietnamese Classical Music : Classical Music
+Latin Classical Music : Classical Music
+Modern Classical : Classical Music
+Expressionism : Classical Music
+Futurism : Classical Music & Experimental
+Indeterminacy : Classical Music & Experimental
+Microtonal : Classical Music
+Minimalism : Classical Music
+New Complexity : Classical Music
+Post-Minimalism : Classical Music
+Totalism : Classical Music
+Serialism : Classical Music
+Integral Serialism : Classical Music
+Sonorism : Classical Music
+Spectralism : Classical Music
+Stochastic Music : Classical Music
+Persian Classical Music : Classical Music
+Shashmaqam : Classical Music
+South Asian Classical Music : Classical Music
+Carnatic Classical Music : Classical Music
+Hindustani Classical Music : Classical Music
+Dhrupad : Classical Music
+Khyal : Classical Music
+Qawwali : Classical Music
+Kafi : Classical Music
+Thumri : Classical Music
+Southeast Asian Classical Music : Classical Music
+Burmese Classical Music : Classical Music
+Caklempong : Classical Music
+Gamelan : Classical Music
+Gamelan Angklung : Classical Music
+Gamelan Degung : Classical Music
+Gamelan Gong Kebyar : Classical Music
+Gamelan Jawa : Classical Music
+Kecapi Suling : Classical Music
+Kulintang : Classical Music
+Mahori : Classical Music
+Pinpeat : Classical Music
+Saluang Klasik : Classical Music
+Tembang Cianjuran : Classical Music
+Thai Classical Music : Classical Music
+Piphat : Classical Music
+Turkish Classical Music : Classical Music
+Western Classical Music : Classical Music
+Baroque Music : Classical Music
+Tragédie En Musique : Classical Music
+Byzantine Music : Classical Music
+Byzantine Chant : Classical Music
+Chamber Music : Classical Music
+Choral : Classical Music
+Classical March : Classical Music
+Classical Period : Classical Music
+Classical Waltz : Classical Music
+Impressionism : Classical Music
+Lieder : Classical Music
+Madrigal : Classical Music
+Medieval Classical Music : Classical Music
+Ars Antiqua : Classical Music
+Ars Nova : Classical Music
+Ars Subtilior : Classical Music
+Plainsong : Classical Music
+Gregorian Chant : Classical Music
+Neoclassicism : Classical Music
+Opera : Classical Music
+Opera Buffa : Classical Music
+Opera Semiseria : Classical Music
+Opera Seria : Classical Music
+Oratorio : Classical Music
+Orchestral : Classical Music
+Concerto : Classical Music
+Symphony : Classical Music
+Tone Poem : Classical Music
+Renaissance Music : Classical Music
+Romanticism : Classical Music
+Spanish Classical Music : Classical Music
+R&B : R&B
+Contemporary R&B : R&B
+Alternative R&B : R&B
+New Jack Swing : R&B
+Doo-Wop : R&B
+Funk : R&B
+Afrobeat : R&B
+Afro-Funk : R&B
+Deep Funk : R&B
+Go-Go : R&B
+Jazz-Funk : Jazz & R&B
+Latin Funk : R&B
+P-funk : R&B
+Porn Groove : R&B
+Synth Funk : R&B
+New Orleans R&B : R&B
+Rhythm & Blues : R&B
+Soul : R&B
+Chicago Soul : R&B
+Country Soul : R&B
+Deep Soul : R&B
+Latin Soul : R&B
+Neo-Soul : R&B
+Northern Soul : R&B
+Philly Soul : R&B
+Pop Soul : Pop & R&B
+Samba Soul : R&B
+Smooth Soul : R&B
+Southern Soul : R&B
+Ambient : Ambient
+Dark Ambient : Ambient & Industrial Music
+Black Ambient : Ambient & Industrial Music
+Ritual Ambient : Ambient & Industrial Music
+Dungeon Synth : Ambient
+Space Ambient : Ambient
+Tribal Ambient : Ambient
+Industrial Music : Industrial Music
+Industrial : Experimental & Industrial Music
+Power Electronics : Experimental & Industrial Music
+Death Industrial : Experimental & Industrial Music
+Post-Industrial : Industrial Music
+Martial Industrial : Industrial Music
+Power Noise : Experimental & Industrial Music
+New Age : New Age
+Andean New Age : New Age
+Celtic New Age : New Age
+Neoclassical New Age : New Age
+Jazz : Jazz
+Acid Jazz : Jazz
+Afro-Jazz : Jazz
+Arabic Jazz : Jazz
+Avant-Garde Jazz : Jazz
+Experimental Big Band : Jazz
+Free Jazz : Jazz
+European Free Jazz : Jazz
+Spiritual Jazz : Jazz
+Yass : Jazz
+Bebop : Jazz
+Hard Bop : Jazz
+Post-Bop : Jazz
+Big Band : Jazz
+Progressive Big Band : Jazz
+British Dance Band : Jazz & Pop
+Bulawayo Jazz : Jazz
+Cape Jazz : Jazz
+Cartoon Music : Jazz
+Chamber Jazz : Jazz
+Cool Jazz : Jazz
+Dark Jazz : Jazz
+Dixieland : Jazz
+ECM Style Jazz : Jazz
+Ethio-jazz : Jazz
+Gypsy Jazz : Jazz
+Jazz Fusion : Jazz
+Latin Jazz : Jazz
+Afro-Cuban Jazz : Jazz
+Marabi : Jazz
+Kwela : Jazz
+Mbaqanga : Jazz
+Modal Jazz : Jazz
+New Orleans Brass Band : Jazz
+Samba-Jazz : Jazz
+Smooth Jazz : Jazz
+Soul Jazz : Jazz
+Swing : Jazz
+Swing Revival : Jazz
+Third Stream : Jazz
+Vocal Jazz : Jazz
+Pop : Pop
+Adult Contemporary : Pop
+City Pop : Pop
+Ambient Pop : Pop
+Arabic Pop : Pop
+Al Jeel : Pop
+Art Pop : Pop
+Balkan Pop-Folk : Pop
+Chalga : Pop
+Manele : Pop
+Modern Laika : Pop
+Muzică De Mahala : Pop
+Skiladika : Pop
+Tallava : Pop
+Turbo-Folk : Pop
+Baroque Pop : Pop
+Blue-Eyed Soul : Pop
+Boy Band : Pop
+Brill Building : Pop
+Bubblegum : Pop
+Cambodian Pop : Pop
+CCM : Pop
+Praise & Worship : Pop
+Classical Crossover : Pop
+Country Pop : Pop
+Bro-Country : Pop
+Nashville Sound : Pop
+Urban Cowboy : Pop
+C-pop : Pop
+Cantopop : Pop
+Mandopop : Pop
+Dangdut : Pop
+Dangdut Koplo : Pop
+Dansbandsmusik : Pop
+Dansktop : Pop
+Easy Listening : Pop
+Exotica : Pop
+Light Music : Pop
+Lounge : Pop
+Cocktail : Pop
+Pops Orchestra : Pop
+Space Age Pop : Pop
+Euro Pop : Pop
+Flamenco Pop : Pop
+French Pop : Pop
+Girl Group : Pop
+Indian Pop : Pop
+Indie Pop : Pop
+C86 : Pop
+Chamber Pop : Pop
+Twee Pop : Pop
+Italo Pop : Pop
+Jazz Pop : Pop
+J-Pop : Pop
+Denpa : Pop
+K-Pop : Pop
+Latin Pop : Pop
+Tropipop : Pop
+Nederpop : Pop
+Palingsound : Pop
+Persian Pop : Pop
+Pop Ghazal : Pop
+Pop Raï : Pop
+Pop Sunda : Pop
+Progressive Pop : Pop
+Rabiz : Pop
+Rumba Catalana : Pop
+Russian Chanson : Pop
+Schlager : Pop
+Levenslied : Pop
+Volkstümliche Musik : Pop
+Sertanejo Universitário : Pop
+Shibuya-kei : Pop
+Sophisti-Pop : Pop
+Sunshine Pop : Pop
+Teen Pop : Pop
+Traditional Pop : Pop
+Romanţe : Pop
+Standards : Pop
+Turkish Pop : Pop
+Yé-yé : Pop
+Experimental : Experimental
+Drone : Experimental
+Free Improvisation : Experimental
+Lowercase : Experimental
+Onkyo : Experimental
+Noise : Experimental
+Harsh Noise : Experimental
+Harsh Noise Wall : Experimental
+Sound Collage : Experimental
+Tape Music : Experimental
+Turntable Music : Experimental
+Comedy : Comedy
+Musical Comedy : Comedy
+Prank Calls : Comedy
+Sketch Comedy : Comedy
+Stand-up Comedy : Comedy
+Darkwave : Darkwave
+Ethereal Wave : Darkwave
+Neoclassical Darkwave : Darkwave
+Cinematic Classical : Classical Music
+Darksynth : Electronic
+Deconstructed Club : Dance & Electronic & Industrial Music
+Future Bass : Dance & Electronic
+Spaghetti Western : Classical Music

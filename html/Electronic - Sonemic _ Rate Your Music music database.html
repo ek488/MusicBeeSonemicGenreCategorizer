@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://sonemic.com/music/genre/electronic/ -->
+<html class="sonemic theme_ page_object page_genre noTouch" id="page_genre"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta name="msvalidate.01" content="DC9BDD5AA0A6394617D74DC653B74FE5"> 
+         <script async="" src="./Electronic - Sonemic _ Rate Your Music music database_files/analytics.js.download"></script><script>
+                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-70490370-1', 'auto');
+                 ga('send', 'pageview');
+
+               </script>
+         <script>
+
+         var rating_system = {}
+      var rating_system = {'games':{}, 'film':{}, 'music':{}};</script>
+         <script>
+            var hasTouch = 'ontouchstart' in window;
+            var streamBaseUrl = 'wss://sonemic.com:8088/ws/'
+
+            if ( hasTouch ) {
+               document.documentElement.className += ' touch';
+            } else {
+               document.documentElement.className += ' noTouch';
+            }
+            var rym_initdata = {user_id:0, username:'0', login_token:'', theme:''}
+
+            var issue_data = {
+               release:[],
+               game:[],
+               film:[],
+               song:[]
+            }
+         </script>
+         
+         <title>Electronic - Sonemic / Rate Your Music music database</title><script>"use strict";!function(){function t(t){if("undefined"==typeof t)throw new Error('Pathformer [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Pathformer [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Pathformer [constructor]: "element" parameter must be a string or a SVGelement');this.el=t,this.scan(t)}function e(e,r,n){this.setElement(e),this.setOptions(r),this.setCallback(n),this.frameLength=0,this.currentFrame=0,this.map=[],new t(e),this.mapping(),this.starter()}t.prototype.TYPES=["line","elipse","circle","polygon","polyline","rect"],t.prototype.ATTR_WATCH=["cx","cy","points","r","rx","ry","x","x1","x2","y","y1","y2"],t.prototype.scan=function(t){for(var e,r,n,o,a=t.querySelectorAll(this.TYPES.join(",")),i=0;i<a.length;i++)r=a[i],e=this[r.tagName.toLowerCase()+"ToPath"],n=e(this.parseAttr(r.attributes)),o=this.pathMaker(r,n),r.parentNode.replaceChild(o,r)},t.prototype.lineToPath=function(t){var e={};return e.d="M"+t.x1+","+t.y1+"L"+t.x2+","+t.y2,e},t.prototype.rectToPath=function(t){var e={},r=parseFloat(t.x)||0,n=parseFloat(t.y)||0,o=parseFloat(t.width)||0,a=parseFloat(t.height)||0;return e.d="M"+r+" "+n+" ",e.d+="L"+(r+o)+" "+n+" ",e.d+="L"+(r+o)+" "+(n+a)+" ",e.d+="L"+r+" "+(n+a)+" Z",e},t.prototype.polylineToPath=function(t){for(var e={},r=t.points.split(" "),n="M"+r[0],o=1;o<r.length;o++)-1!==r[o].indexOf(",")&&(n+="L"+r[o]);return e.d=n,e},t.prototype.polygonToPath=function(e){var r=t.prototype.polylineToPath(e);return r.d+="Z",r},t.prototype.elipseToPath=function(t){var e=t.cx-t.rx,r=t.cy,n=parseFloat(t.cx)+parseFloat(t.rx),o=t.cy,a={};return a.d="M"+e+","+r+"A"+t.rx+","+t.ry+" 0,1,1 "+n+","+o+"A"+t.rx+","+t.ry+" 0,1,1 "+e+","+o,a},t.prototype.circleToPath=function(t){var e={},r=t.cx-t.r,n=t.cy,o=parseFloat(t.cx)+parseFloat(t.r),a=t.cy;return e.d="M"+r+","+n+"A"+t.r+","+t.r+" 0,1,1 "+o+","+a+"A"+t.r+","+t.r+" 0,1,1 "+r+","+a,e},t.prototype.pathMaker=function(t,e){var r,n,o=document.createElementNS("http://www.w3.org/2000/svg","path");for(r=0;r<t.attributes.length;r++)n=t.attributes[r],-1===this.ATTR_WATCH.indexOf(n.name)&&o.setAttribute(n.name,n.value);for(r in e)o.setAttribute(r,e[r]);return o},t.prototype.parseAttr=function(t){for(var e,r={},n=0;n<t.length;n++){if(e=t[n],-1!==this.ATTR_WATCH.indexOf(e.name)&&-1!==e.value.indexOf("%"))throw new Error("Pathformer [parseAttr]: a SVG shape got values in percentage. This cannot be transformed into 'path' tags. Please use 'viewBox'.");r[e.name]=e.value}return r};var r,n,o;e.prototype.setElement=function(t){if("undefined"==typeof t)throw new Error('Vivus [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Vivus [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Vivus [constructor]: "element" parameter must be a string or a SVGelement');this.el=t},e.prototype.setOptions=function(t){var e=["delayed","async","oneByOne","scenario","scenario-sync"],r=["inViewport","manual","autostart"];if(void 0!==t&&t.constructor!==Object)throw new Error('Vivus [constructor]: "options" parameter must be an object');if(t=t||{},t.type&&-1===e.indexOf(t.type))throw new Error("Vivus [constructor]: "+t.type+" is not an existing animation `type`");if(this.type=t.type||e[0],t.start&&-1===r.indexOf(t.start))throw new Error("Vivus [constructor]: "+t.start+" is not an existing `start` option");if(this.start=t.start||r[0],this.isIE=-1!==navigator.userAgent.indexOf("MSIE"),this.duration=o(t.duration,120),this.delay=o(t.delay,null),this.dashGap=o(t.dashGap,2),this.forceRender=t.hasOwnProperty("forceRender")?!!t.forceRender:this.isIE,this.selfDestroy=!!t.selfDestroy,this.delay>=this.duration)throw new Error("Vivus [constructor]: delay must be shorter than duration")},e.prototype.setCallback=function(t){if(t&&t.constructor!==Function)throw new Error('Vivus [constructor]: "callback" parameter must be a function');this.callback=t||function(){}},e.prototype.mapping=function(){var t,e,r,n,a,i,s,h;for(h=i=s=0,e=this.el.querySelectorAll("path"),t=0;t<e.length;t++)r=e[t],a={el:r,length:Math.ceil(r.getTotalLength())},isNaN(a.length)?window.console&&console.warn&&console.warn("Vivus [mapping]: cannot retrieve a path element length",r):(i+=a.length,this.map.push(a),r.style.strokeDasharray=a.length+" "+(a.length+this.dashGap),r.style.strokeDashoffset=a.length,this.isIE&&(a.length+=this.dashGap),this.renderPath(t));for(i=0===i?1:i,this.delay=null===this.delay?this.duration/3:this.delay,this.delayUnit=this.delay/(e.length>1?e.length-1:1),t=0;t<this.map.length;t++){switch(a=this.map[t],this.type){case"delayed":a.startAt=this.delayUnit*t,a.duration=this.duration-this.delay;break;case"oneByOne":a.startAt=s/i*this.duration,a.duration=a.length/i*this.duration;break;case"async":a.startAt=0,a.duration=this.duration;break;case"scenario-sync":r=e[t],n=this.parseAttr(r),a.startAt=h+(o(n["data-delay"],this.delayUnit)||0),a.duration=o(n["data-duration"],this.duration),h=void 0!==n["data-async"]?a.startAt:a.startAt+a.duration,this.frameLength=Math.max(this.frameLength,a.startAt+a.duration);break;case"scenario":r=e[t],n=this.parseAttr(r),a.startAt=o(n["data-start"],this.delayUnit)||0,a.duration=o(n["data-duration"],this.duration),this.frameLength=Math.max(this.frameLength,a.startAt+a.duration)}s+=a.length,this.frameLength=this.frameLength||this.duration}},e.prototype.drawer=function(){var t=this;this.currentFrame+=this.speed,this.currentFrame<=0?(this.stop(),this.reset()):this.currentFrame>=this.frameLength?(this.stop(),this.currentFrame=this.frameLength,this.trace(),this.selfDestroy&&this.destroy(),this.callback(this)):(this.trace(),this.handle=r(function(){t.drawer()}))},e.prototype.trace=function(){var t,e,r;for(t=0;t<this.map.length;t++)r=this.map[t],e=(this.currentFrame-r.startAt)/r.duration,e=Math.max(0,Math.min(1,e)),r.progress!==e&&(r.progress=e,r.el.style.strokeDashoffset=Math.floor(r.length*(1-e)),this.renderPath(t))},e.prototype.renderPath=function(t){if(this.forceRender&&this.map&&this.map[t]){var e=this.map[t],r=e.el.cloneNode(!0);e.el.parentNode.replaceChild(r,e.el),e.el=r}},e.prototype.starter=function(){switch(this.start){case"manual":return;case"autostart":this.play();break;case"inViewport":var t=this,e=function(){t.isInViewport(t.el,1)&&(t.play(),window.removeEventListener("scroll",e))};window.addEventListener("scroll",e),e()}},e.prototype.reset=function(){return this.currentFrame=0,this.trace(),this},e.prototype.play=function(t){if(t&&"number"!=typeof t)throw new Error("Vivus [play]: invalid speed");return this.speed=t||1,this.handle||this.drawer(),this},e.prototype.stop=function(){return this.handle&&(n(this.handle),delete this.handle),this},e.prototype.destroy=function(){var t,e;for(t=0;t<this.map.length;t++)e=this.map[t],e.el.style.strokeDashoffset=null,e.el.style.strokeDasharray=null,this.renderPath(t)},e.prototype.parseAttr=function(t){var e,r={};if(t&&t.attributes)for(var n=0;n<t.attributes.length;n++)e=t.attributes[n],r[e.name]=e.value;return r},e.prototype.isInViewport=function(t,e){var r=this.scrollY(),n=r+this.getViewportH(),o=t.getBoundingClientRect(),a=o.height,i=r+o.top,s=i+a;return e=e||0,n>=i+a*e&&s>=r},e.prototype.docElem=window.document.documentElement,e.prototype.getViewportH=function(){var t=this.docElem.clientHeight,e=window.innerHeight;return e>t?e:t},e.prototype.scrollY=function(){return window.pageYOffset||this.docElem.scrollTop},r=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(t){return window.setTimeout(t,1e3/60)}}(),n=function(){return window.cancelAnimationFrame||window.webkitCancelAnimationFrame||window.mozCancelAnimationFrame||window.oCancelAnimationFrame||window.msCancelAnimationFrame||function(t){return window.clearTimeout(t)}}(),o=function(t,e){var r=parseInt(t,10);return r>=0?r:e},window.Vivus=e}();</script><style>
+                        a, a:link, a:visited { color: #207bbf; cursor:pointer;}
+                        a:active, a:hover { color: #308bcf; }</style><script>
+            if ( localStorage.theme == 'night' ) {
+               var root = document.getElementsByTagName( 'html' )[0];
+               root.className += ' theme_night';
+               rym_initdata.theme = 'night';
+            } else {
+               rym_initdata.theme = 'default';
+            }
+
+
+            function switchThemeTo ( theme ) {
+
+               if ( theme === 'default' ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').removeClass('theme_night theme_default').addClass('theme_' + theme);
+
+            }
+
+            function switchTheme ( ) {
+
+               if ( $('html').hasClass('theme_night') ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').toggleClass('theme_night')
+
+            }
+            </script> <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style></head><body id="body"><div style="position:fixed;right:0;bottom:0;width:2.5em;height:2.5em;z-index:24000;    background: linear-gradient(130deg, rgba(0,125,255,0.2), rgba(200,200,200,0.5));border-radius:50%;cursor:pointer;" onclick="switchTheme();"></div>
+         <link rel="stylesheet" href="./Electronic - Sonemic _ Rate Your Music music database_files/min.css">
+      
+   <meta name="description" content="Electronic music genre.">
+   <meta name="keywords" content="rate your music, sonemic, rate music, rate albums, music catalog, music catalogue, social software, album reviews, music lists, community, music recommendations, concert listings, record labels, venues, shows">
+
+         <script>
+            ryminit = window.ryminit || [];
+
+            function rymInitPush( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+            
+            function rymQ( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+
+         </script>
+
+      <script type="text/javascript">rymInitPush( function() { rym.session.init(0, '0', '');} );</script>
+         <script></script>
+      
+               <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+          <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:site" content="@SonemicMusic">
+                <meta property="og:site_name" content="Sonemic / Rate Your Music">
+
+                <meta property="og:url" content="https://sonemic.com/music/genre/electronic/">
+                <meta property="og:type" content="website">
+                <meta property="og:title" content="Electronic - Sonemic / Rate Your Music">
+                <meta property="og:description" content="Electronic music genre."><meta property="og:image" content="https://e.snmc.io/3.0/img/logo/sonemic-512.png">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         
+         <link rel="icon" href="https://e.snmc.io/3.0/img/sonemic.png" type="image/png">
+
+
+                      
+
+          
+
+         <header>
+            <div class="header_inner ">
+
+      
+                <div onclick="RYMheader.onClickBars()" class="header_profile_bars"><i class="fa fa-bars"></i></div>
+
+
+               <div class="header_profile">
+                  <div class="header_profile_logged_out">
+                     <span>   
+                        <a onclick="return RYMlogin.login();" class="header_profile_login">signup • login</a>
+                     </span>
+                  </div>
+            
+               </div>
+
+
+
+               <div class="header_logo">
+                  <a class="main header_item hide-for-touch sonemic" href="https://sonemic.com/">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <a class="main header_item show-for-touch sonemic">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <div class="divider mobile_divider"></div>
+                  <div class="header_extended_section">
+                     <a class="main show-for-touch header_item sonemic" href="https://sonemic.com/">
+                        <div class="logo_sonemic_32 logo_header"></div>
+                        <span class="logo_name">Sonemic <span class="header_extended_subtext">music</span></span>
+                     </a>
+                     <a class="main  header_item cinemos" href="https://cinemos.com/">
+                        <div class="logo_cinemos_32 logo_header"></div>
+                        <span class="logo_name">Cinemos <span class="header_extended_subtext">film</span></span>
+                     </a>
+                     <a class="main  header_item  glitchwave" href="https://beta.glitchwave.com/">
+                        <div class="logo_glitchwave_32 logo_header"></div>
+                        <span class="logo_name">Glitchwave <span class="header_extended_subtext">video games</span></span>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="header_links">
+                  <div class="divider"></div>
+                  <div class="header_charts">
+                  <a class="header_charts header_item" href="https://sonemic.com/charts/">charts</a>
+                  </div>
+                  <a class="header_item" href="https://sonemic.com/music/genre/">genres</a>
+                  <a class="header_item" href="https://sonemic.com/lists/">lists</a>
+                  <a class="header_item" href="https://sonemic.com/community/">community</a>
+                  <div class="divider"></div>
+               </div>
+               <div class="header_search">
+<div class="ui_chooser_frame" id="ui_chooser_frame_main_search"> <div class="ui_chooser" id="ui_chooser_main_search" data-id="main_search" data-parent-id="" data-allowed-types="music" data-select-first-result="true" data-select-action="navigate" data-placeholder="" data-custom-action="custom_action"> <i class="fa fa-search"></i> <div class="ui_chooser_input_frame"> <input id="ui_chooser_input_main_search" data-id="main_search" placeholder="search music..."> </div> <div class="ui_chooser_type" id="ui_chooser_type_main_search"> <span class="ui_chooser_type_text" id="ui_chooser_type_text_main_search"></span> <i class="fa fa-caret-down"></i> <select onfocus="" data-id="main_search" id="ui_chooser_select_main_search"> <optgroup label="Music"><option value="music">All music</option><option value="artist">Artist</option><option value="release">Release</option><option value="company_music">Company</option><option value="genre_music">Genre</option><option value="song">Song</option><option value="work">Work</option><option value="descriptor_music">Descriptor</option><option value="venue">Venue</option></optgroup></select> </div> </div>
+</div>
+</div>   
+
+
+
+
+            </div>
+
+         </header>
+
+         <div class="mobile_header_menu"><a href="https://sonemic.com/charts/" class="mobile_header_menu_item mobile_header_menu_item_charts">
+                  Charts
+            </a><a href="https://sonemic.com/music/genre/" class="mobile_header_menu_item mobile_header_menu_item_genres">
+               Genres
+            </a><a href="https://sonemic.com/lists/" class="mobile_header_menu_item mobile_header_menu_item_lists">
+               Lists 
+            </a><a href="https://sonemic.com/community/" class="mobile_header_menu_item mobile_header_menu_item_community">
+               Community
+            </a></div>
+
+
+         <div class="header_border"></div>
+
+         <div class="header_error" onclick="$(this).fadeOut();" id="header_error">
+            <div class="header_error_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_error_text"></div>
+         </div>
+
+         <div class="header_message" onclick="$(this).fadeOut();" id="header_message">
+            <div class="header_message_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_message_text"></div>
+         </div>
+
+         <div id="header_toolbar" class="header_toolbar">
+
+            <div class="header_toolbar_inner">
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/artist/profile_history">Artist <span class="toolbar_num">45/100</span></a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/queues/">Queues</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/notepad/">Notepad</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/rymzilla/">RYMzilla</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/settings/">Settings</a>
+               </div>
+            </div>
+
+         </div>
+
+
+         <div id="header_expanded" class="header_expanded">
+
+            <a class="header_expanded_section" href="https://sonemic.com/charts/">Charts</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/music/genre/">Genres</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/lists/">Lists</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/community/">Community</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/settings/">Settings</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/messaging/">Messaging</a>
+      
+            <div class="header_expanded_section">
+               <a class="header_expanded_link" onclick="return RYMlogin.login();">Login</a>
+            </div>
+         
+
+         </div>
+
+         <div id="content_wrapper" class="content_wrapper">
+         <div id="content"><div class="abpmessage">Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href="https://sonemic.com/subscribe">subscribing</a> to help with bandwidth/server costs.</div>
+         <div id="precontent" style="-webkit-transform: scale3d(1,1,1);"></div>
+         <div id="content_cover"></div>
+         <div id="total_cover"></div>
+         <div id="content_total_cover"></div>
+
+
+      
+ <script> var page_options = {}; </script>
+<div id="page_object_header" class="page_object_header  no_hero"> <div class="page_object_header_info"> 
+ <div class="page_object_shortcut has_tip"><input readonly="" onclick="$(this).focus().select();" value="[Genre82]"></div> <div class="page_object_header_main"> <h1 class="page_object_header_title 
+ 
+ 
+ 
+ ">Electronic
+ </h1> 
+ <div class="clearfix"></div> </div> <div class="page_object_header_second"> 
+
+ <div class="page_object_header_right"> 
+
+
+ <span class="page_object_header_field_item  "> <span class="page_object_header_field"></span> <span class="page_object_header_field_item_single"><span>Genre</span></span>
+ </span>  
+ 
+ </div> 
+
+
+
+
+ <div class="clearfix"></div> </div> </div> <div class="page_object_overlay"> </div> <div id="page_object_hero_image" class="page_object_hero_image"> </div>  <div class="clearfix"></div>
+</div>
+
+
+<div class="row page_object_row_main">
+
+   <div class="large-5 medium-5 small-12 columns page_object_left_column">
+<div class="page_object_section page_object_section_biography">
+<div class="height_mobile_20em height_60em"> <div class="page_section_biography_body cl-444">Electronic music is music which uses non-traditional electronic instrumentation and sound manipulation technology as the primary musical backbone of a composition. <br><br>In its original form, as pioneered by avant-garde classical composers like <a href="https://sonemic.com/music/edgard-varese/" class="music_artist">Edgard Varèse</a> and <a href="https://sonemic.com/music/karlheinz_stockhausen/" class="music_artist">Karlheinz Stockhausen</a>, electronic music compositions were abstract noise collages created through the use of tape loops, oscillators, sirens and field recordings. Arguably the first composer to create electronic music using traditional rhythms and melodies was <a href="https://sonemic.com/music/raymond-scott/" class="music_artist">Raymond Scott</a>.<br><br>Since the 1960s, starting with bands like <a href="https://sonemic.com/music/silver-apples/" class="music_artist">Silver Apples</a> and <a href="https://sonemic.com/music/white_noise/" class="music_artist">White Noise</a>, electronic music has filtered into pop music, with its commercial breakthrough arguably occurring in the 1980s with the advent of <a href="https://sonemic.com/music/genre/synthpop/" class="music_genre">Synthpop</a>.</div> <div class="page_section_dynamic_fade_cover"></div> <div class="page_section_dynamic_fade_expand_button bg-f8f8f8 cl-333"> <span class="expand_text">Expand</span> <span class="hide_text" style="margin-top:1em">Hide</span> </div>
+</div>
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_akas">
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_subgenres"><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acid-croft/">Acid Croft</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ambient-dub/">Ambient Dub</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bit-music/">Bit Music</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/16-bit/">16-bit</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/chiptune/">Chiptune</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/sequencer-midi/">Sequencer &amp; MIDI</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bitpop/">Bitpop</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/picopop/">Picopop</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/downtempo/">Downtempo</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/trip-hop/">Trip Hop</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electroacoustic/">Electroacoustic</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/eai/">EAI</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/musique-concrete/">Musique concrète</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-industrial/">Electro-Industrial</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dark-electro/">Dark Electro</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/aggrotech/">Aggrotech</a>  
+               </div></li></ul></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electronic-dance-music/">Electronic Dance Music</a>  <div class="subgenre_list_num_subgenres">162</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/breakbeat/">Breakbeat</a>  <div class="subgenre_list_num_subgenres">5</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/baltimore-club/">Baltimore club</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/big-beat/">Big Beat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/breakbeat-hardcore/">Breakbeat Hardcore</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hardcore-breaks/">Hardcore Breaks</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jersey-club/">Jersey Club</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/broken-beat/">Broken Beat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bubblegum-bass/">Bubblegum Bass</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/coupe-decale/">Coupé-Décalé</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/digital-cumbia/">Digital Cumbia</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/drum-and-bass/">Drum and Bass</a>  <div class="subgenre_list_num_subgenres">14</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/atmospheric-drum-and-bass/">Atmospheric Drum and Bass</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/darkstep/">Darkstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/drumfunk/">Drumfunk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/drumstep/">Drumstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hardstep/">Hardstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jazzstep/">Jazzstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jump-up/">Jump-Up</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jungle/">Jungle</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ragga-jungle/">Ragga Jungle</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/liquid-funk/">Liquid Funk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/minimal-drum-and-bass/">Minimal Drum and Bass</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neurofunk/">Neurofunk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/techstep/">Techstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/trancestep/">Trancestep</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dubstep/">Dubstep</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/brostep/">Brostep</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deathstep/">Deathstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/drumstep/">Drumstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/riddim/">Riddim</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/chillstep/">Chillstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/purple-sound/">Purple Sound</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ebm/">EBM</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/aggrotech/">Aggrotech</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/futurepop/">Futurepop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-beat/">New Beat</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro/">Electro</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/skweee/">Skweee</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electroclash/">Electroclash</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-disco/">Electro-Disco</a>  <div class="subgenre_list_num_subgenres">4</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hi-nrg/">Hi-NRG</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/italo-disco/">Italo-disco</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/eurobeat/">Eurobeat</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/space-disco/">Space Disco</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-latino/">Electro latino</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-swing/">Electro Swing</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/eurodance/">Eurodance</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bubblegum-dance/">Bubblegum Dance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/italo-dance/">Italo dance</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/freestyle/">Freestyle</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-freestyle/">Latin freestyle</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk-carioca/">Funk carioca</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk-melody/">Funk Melody</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk-ostentacao/">Funk ostentação</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funktronica/">Funktronica</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hardcore-edm/">Hardcore [EDM]</a>  <div class="subgenre_list_num_subgenres">15</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acidcore/">Acidcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/breakbeat-hardcore/">Breakbeat Hardcore</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hardcore-breaks/">Hardcore Breaks</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/digital-hardcore/">Digital Hardcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/freeform/">Freeform</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/frenchcore/">Frenchcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funkot/">Funkot</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/gabber/">Gabber</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nu-style-gabber/">Nu Style Gabber</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/happy-hardcore/">Happy Hardcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/j-core/">J-core</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/speedcore/">Speedcore</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/extratone/">Extratone</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/splittercore/">Splittercore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/terrorcore/">Terrorcore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/house/">House</a>  <div class="subgenre_list_num_subgenres">42</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acid-house/">Acid House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/afro-house/">Afro-House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ambient-house/">Ambient House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/balearic-beat/">Balearic beat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ballroom/">Ballroom</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/baltimore-club/">Baltimore club</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bass-house/">Bass House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/chicago-house/">Chicago house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deep-house/">Deep House</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/outsider-house/">Outsider House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tropical-house/">Tropical House</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dutch-house/">Dutch house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-house/">Electro House</a>  <div class="subgenre_list_num_subgenres">5</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/big-room/">Big Room</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/complextro/">Complextro</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/fidget-house/">Fidget House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jungle-terror/">Jungle Terror</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/melbourne-bounce/">Melbourne Bounce</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/euro-house/">Euro house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/french-house/">French house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funky-house/">Funky House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/future-house/">Future House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/garage-house/">Garage House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ghetto-house/">Ghetto House</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ghettotech/">Ghettotech</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/juke/">Juke</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/footwork/">Footwork</a>  
+               </div></li></ul></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/gqom/">Gqom</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hard-house/">Hard House</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nrg/">NRG</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hip-house/">Hip House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/italo-house/">Italo house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jersey-club/">Jersey Club</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/kwaito/">Kwaito</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-house/">Latin house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/microhouse/">Microhouse</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nu-disco/">Nu-Disco</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/future-funk/">Future Funk</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/progressive-house/">Progressive House</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/big-room/">Big Room</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/scouse-house/">Scouse House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tech-house/">Tech House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tribal-house/">Tribal House</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/kuduro/">Kuduro</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/mahraganat/">Mahraganat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/makina/">Makina</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/moombahton/">Moombahton</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/moombahcore/">Moombahcore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/romanian-dance-pop/">Romanian dance-pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/shangaan-electro/">Shangaan electro</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/spacesynth/">Spacesynth</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/techno/">Techno</a>  <div class="subgenre_list_num_subgenres">11</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acid-techno/">Acid Techno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ambient-techno/">Ambient Techno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bleep-techno/">Bleep Techno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/detroid-techno/">Detroid techno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/freetekno/">Freetekno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/industrial-techno/">Industrial Techno</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/minimal-techno/">Minimal Techno</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dub-techno/">Dub Techno</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/schranz/">Schranz</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tech-house/">Tech House</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/wonky-techno/">Wonky Techno</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tecnobrega/">Tecnobrega</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tecnorumba/">Tecnorumba</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/trance/">Trance</a>  <div class="subgenre_list_num_subgenres">21</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/acid-trance/">Acid Trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ambient-trance/">Ambient Trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dream-trance/">Dream Trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/euro-trance/">Euro-trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/goa-trance/">Goa Trance</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nitzhonot/">Nitzhonot</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hard-trance/">Hard Trance</a>  <div class="subgenre_list_num_subgenres">3</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/hardstyle/">Hardstyle</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dubstyle/">Dubstyle</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jumpstyle/">Jumpstyle</a>  
+               </div></li></ul></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/ibiza-trance/">Ibiza trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nrg/">NRG</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/progressive-trance/">Progressive Trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/psytrance/">Psytrance</a>  <div class="subgenre_list_num_subgenres">4</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/dark-psytrance/">Dark Psytrance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/full-on-psytrance/">Full-On Psytrance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/progressive-psytrance/">Progressive Psytrance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/suomisaundi/">Suomisaundi</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tech-trance/">Tech Trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/uplifting-trance/">Uplifting Trance</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/vocal-trance/">Vocal Trance</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/trap/">Trap</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tribal-guarachero/">Tribal Guarachero</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/uk-garage/">UK garage</a>  <div class="subgenre_list_num_subgenres">7</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/2-step/">2-Step</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/bassline/">Bassline</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/breakstep/">Breakstep</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/future-garage/">Future Garage</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/speed-garage/">Speed Garage</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/uk-bass/">UK bass</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/uk-funky/">UK funky</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/wonky/">Wonky</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electropop/">Electropop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/folktronica/">Folktronica</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/glitch/">Glitch</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/glitch-pop/">Glitch Pop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/grime/">Grime</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/horror-synth/">Horror Synth</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/idm/">IDM</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/breakcore/">Breakcore</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/lolicore/">Lolicore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/raggacore/">Raggacore</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/drill-and-bass/">Drill and Bass</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/flashcore/">Flashcore</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/glitch-hop/">Glitch Hop</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/illbient/">Illbient</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/indietronica/">Indietronica</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/chillwave/">Chillwave</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-electronic/">Latin electronic</a>  <div class="subgenre_list_num_subgenres">6</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/digital-cumbia/">Digital Cumbia</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-latino/">Electro latino</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electrotango/">Electrotango</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-house/">Latin house</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nortec/">Nortec</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/tribal-guarachero/">Tribal Guarachero</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/microsound/">Microsound</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/minimal-wave/">Minimal Wave</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/minimal-synth/">Minimal Synth</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/nu-jazz/">Nu Jazz</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/electro-swing/">Electro Swing</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/progressive-electronic/">Progressive Electronic</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/berlin-school/">Berlin school</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/psybient/">Psybient</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/synthpop/">Synthpop</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/futurepop/">Futurepop</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/synth-punk/">Synth Punk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/synthwave/">Synthwave</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/techno-kayo/">Techno Kayō</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/vaporwave/">Vaporwave</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/future-funk/">Future Funk</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/witch-house/">Witch House</a>  
+               </div></li></ul></div>
+
+
+   </div><div class="large-7 medium-7 small-12 columns page_object_right_column bg-eee"><div class="page_object_section">
+<div class="page_object_section_discography">
+<div class="page_object_section_discography_header"> 
+ <div class="page_object_section_discography_nav"> 
+<nav id="nav_page_discography_nav_release_top" data-mainid="page_discography_nav_release_top" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="173109" data-num-pages="3463" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/electronic/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_top"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_top">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_top">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_top">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_top">3463</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_top" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_top" href="https://sonemic.com/genre/music/genre/electronic/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+ <div class="page_discography_search"> 
+ 
+<div id="ui_textfilter_frame_all_object_list_release_" class="ui_textfilter_frame"> <div class="ui_textfilter_input_filter"><i class="fa fa-spinner fa-pulse fa-fw"></i><i class="fa fa-search fa-fw"></i></div> <div id="ui_textfilter_close_all_object_list_release_" class="ui_textfilter_input_close"><i class="fa fa-times-circle"></i></div> <input id="ui_textfilter_all_object_list_release_" class="ui_textfilter" type="text" data-component="object_list" data-scope="all" data-object-type="release" data-object-assoc-id="" data-initialized="false" data-cover-target="" data-result-target="page_discography_search_results_release" placeholder="Search releases...">
+</div> 
+ </div> 
+ <h3>Releases <span class="subtext cl-888">173,109</span></h3> 
+ <div class="clearfix"></div>
+</div> <div class="page_discography_after_header"> <div id="page_discography_search_results_release" class="page_discography_search_results"> </div> <div class="page_discography_sort" id="page_discography_sort_release" data-object="release" data-filter="genre" data-filter-id="82" data-devpub-filter="" data-page=""> <div id="page_discography_sort_link_release_avg_rating" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;avg_rating&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_average page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Average 
+ </div> <div id="page_discography_sort_link_release_num_ratings" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_ratings&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_ratings page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Ratings
+ </div> <div id="page_discography_sort_link_release_num_reviews" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_reviews&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_reviews page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Reviews
+ </div> <div class="page_discography_sort_title"> <span id="page_discography_sort_link_release_title" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;title&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction=""><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Title</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;release_date&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Release date</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;recommended&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link sorted_d" data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Recommended</span> </div> <div class="clearfix"></div> </div> <ul id="page_discography_items_release" class="page_discography_items"> <div id="page_discography_item_cover_release" class="page_discography_release_cover"></div> <div id="page_discography_itemlist_release"> 
+ 
+<li id="page_discography_line_release_907050" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;907050&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.16</span> </div> <div class="page_discography_ratings"> 6
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/66f7ac3555b7bfd5cf9d0b2884ac43a0/5739933&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/66f7ac3555b7bfd5cf9d0b2884ac43a0/5739933&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/philippe-arthuys/le-crabe-qui-jouait-avec-la-mer/" class="release">Le crabe qui jouait avec la mer</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Philippe Arthuys</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_907050" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_440486" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;440486&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.45</span> </div> <div class="page_discography_ratings"> 31
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/73871abd39f186d625c3384160b38e9c/5996529&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/73871abd39f186d625c3384160b38e9c/5996529&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/henry-jacobs/radio-programme-no-1-henry-jacobs-music-and-folklore/" class="release">Radio Programme No.1: Henry Jacobs' Music and Folklore</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Henry Jacobs</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1955</span> <span class="page_discography_date_full">1955</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Interview</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_440486" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_543582" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;543582&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.70</span> </div> <div class="page_discography_ratings"> 9
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/ab3ccf18ce21a49ce629a4220f82730e/3731123&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/ab3ccf18ce21a49ce629a4220f82730e/3731123&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/compilation/radiodiffusion-television-francaise/1er-panorama-de-musique-concrete/" class="release">1er Panorama de Musique Concrète</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Pierre Henry</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Pierre Schaeffer</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Radiodiffusion-Télévision Française</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_compilation">Compilation</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_543582" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4335812" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4335812&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/rune-lindblad-bruno-epstein/consert-57/" class="release">Consert - 57</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Rune Lindblad</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bruno Epstein</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4335812" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3023433" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3023433&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.67</span> </div> <div class="page_discography_ratings"> 16
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/dick-raaijmakers/electronic-popular-music/" class="release">Electronic Popular Music</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Dick Raaijmakers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Tape Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3023433" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_375546" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;375546&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.61</span> </div> <div class="page_discography_ratings"> 65
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/c8da7cb1f7dc10b3d6967dc428e27ec3/1454951&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/c8da7cb1f7dc10b3d6967dc428e27ec3/1454951&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/jean-jacques-perrey/prelude-au-sommeil/" class="release">Prélude au sommeil</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jean-Jacques Perrey</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_375546" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4295528" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4295528&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.34</span> </div> <div class="page_discography_ratings"> 26
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/tom-dissevelt-and-kid-baltan/song-of-the-second-moon-colonel-bogey/" class="release">Song of the Second Moon / Colonel Bogey</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tom Dissevelt</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Kid Baltan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4295528" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_551525" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;551525&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.34</span> </div> <div class="page_discography_ratings"> 18
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/a5e97c25436a385c811f544d2c36b8a5/6009187&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/a5e97c25436a385c811f544d2c36b8a5/6009187&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/compilation/various-artists/sounds-of-new-music/" class="release">Sounds of New Music</a>
+
+
+
+
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_compilation">Compilation</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Futurism</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_551525" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2620111" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2620111&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.48</span> </div> <div class="page_discography_ratings"> 104
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/studio-fur-elektronische-musik-des-westdeutschen-rundfunks-koln/studie-i-studie-ii-gesang-der-junglinge/" class="release">Studie I; Studie II; Gesang der Jünglinge</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Karlheinz Stockhausen</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Studio für elektronische Musik des Westdeutschen Rundfunks, Köln</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1957</span> <span class="page_discography_date_full">October 1957</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2620111" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2890251" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2890251&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.56</span> </div> <div class="page_discography_ratings"> 15
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/henk-badings/electronic-ballet-music-cain-and-abel/" class="release">Electronic Ballet Music "Cain and Abel"</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Henk Badings</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1958</span> <span class="page_discography_date_full">1958</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Modern Classical</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2890251" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_774056" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;774056&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.50</span> </div> <div class="page_discography_ratings"> 2
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/d7773dabc9d60bb6a975bceec304ed06/1917883&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/d7773dabc9d60bb6a975bceec304ed06/1917883&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/les-structures-sonores-lasry-baschet/musique-de-latomium-structures-sonores-a-lexpo-1958/" class="release">Musique de l'Atomium - Structures sonores à L'expo 1958</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Les Structures Sonores Lasry-Baschet</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1958</span> <span class="page_discography_date_full">1958</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_774056" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3504753" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3504753&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release"></span> </div> <div class="page_discography_ratings"> 
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/wdr-koln-ernst-krenek-heinz-schutz/spiritus-intelligentiae-sanctus-klangfiguren/" class="release">"Spiritus intelligentiae sanctus" / Klangfiguren</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Ernst Krenek</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Gottfried Michael Koenig</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">WDR Köln / Ernst Krenek / Heinz Schütz</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1959</span> <span class="page_discography_date_full">1959</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">WDR Köln / Ernst Krenek / Heinz Schütz</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3504753" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_375547" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;375547&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.50</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/992dd53770263a6611fb8578d9fd7f45/1454953&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/992dd53770263a6611fb8578d9fd7f45/1454953&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/jean-jacques-perrey/cadmus-le-robot-de-lespace/" class="release">Cadmus, le robot de l'espace</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jean-Jacques Perrey</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1959</span> <span class="page_discography_date_full">1959</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_375547" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1093337" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1093337&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.15</span> </div> <div class="page_discography_ratings"> 27
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/c451f556212e619e66fe6aa84ae34ede/2063511&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/c451f556212e619e66fe6aa84ae34ede/2063511&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/various-artists/highlights-of-vortex/" class="release">Highlights of Vortex</a>
+
+
+
+
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1959</span> <span class="page_discography_date_full">1959</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1093337" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_457977" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;457977&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.39</span> </div> <div class="page_discography_ratings"> 23
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/3a64761f4952a37ef9e81425c0bef046/5991256&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/3a64761f4952a37ef9e81425c0bef046/5991256&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/groupe-de-recherches-musicales-de-la-rtf/musique-concrete-1959-n-2/" class="release">Musique concrète 1959 n° 2</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Groupe de Recherches Musicales de la RTF</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1959</span> <span class="page_discography_date_full">1959</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electroacoustic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_457977" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_498745" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;498745&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.65</span> </div> <div class="page_discography_ratings"> 264
+ </div> <div class="page_discography_reviews"> 13
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/2a6c87aa5fb05e056bbb932b95a5e72f/1553757&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/tom-dissevelt-and-kid-baltan/the-fascinating-world-of-electronic-music/" class="release">The Fascinating World of Electronic Music</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tom Dissevelt &amp; Kid Baltan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1959</span> <span class="page_discography_date_full">1959</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_498745" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_471847" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;471847&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.63</span> </div> <div class="page_discography_ratings"> 696
+ </div> <div class="page_discography_reviews"> 23
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/88bbbceeaadf7a10aea533f3ca87fded/4368065&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/karlheinz-stockhausen-gottfried-michael-koenig-david-tudor-christoph-caskel/kontakte-fur-elektronische-klange-klavier-und-schlagzeug/" class="release">Kontakte für elektronische Klänge, Klavier und Schlagzeug</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Karlheinz Stockhausen</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Karlheinz Stockhausen</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Gottfried Michael Koenig</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1960</span> <span class="page_discography_date_full">1960</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electroacoustic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Integral Serialism</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_471847" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_342996" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;342996&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.93</span> </div> <div class="page_discography_ratings"> 12
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/51fc5b92beb48768aa4dc2df65cbf131/1598866&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/groupe-de-recherches-musicales-de-la-rtf/musique-concrete/" class="release">Musique concrète</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Iannis Xenakis</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Groupe de Recherches Musicales de la RTF</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1960</span> <span class="page_discography_date_full">1960</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_342996" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_440774" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;440774&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.28</span> </div> <div class="page_discography_ratings"> 22
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/44ad6826d13be0494785e13b0feb4495/1508834&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/jim-fassett/symphony-of-the-birds/" class="release">Symphony of the Birds</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jim Fassett</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1960</span> <span class="page_discography_date_full">1960</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Birdsong</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_440774" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_917903" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;917903&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.44</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/327f92e0d04dc87c395f08026f15d3cb/6467151&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/studio-de-musique-electronique-apelac-brussel-madeleine-riviere-irene-vernal-henri-billen-jean-nergal-ives-larec-janine-cheirel-andre-gevrey-raoul-demanez/electre/" class="release">Electre</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Henri Pousseur</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Studio de Musique Electronique APELAC, Brüssel / Madeleine Rivière / Irène Vernal / Henri Billen / Jean Nergal / Ives Larec / Janine Cheirel / André Gevrey / Raoul Demanez</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1961</span> <span class="page_discography_date_full">January 1961</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Studio de Musique Electronique APELAC, Brüssel / Madeleine Rivière / Irène Vernal / Henri Billen / Jean Nergal / Ives Larec / Janine Cheirel / André Gevrey / Raoul Demanez</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_917903" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_730885" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;730885&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.46</span> </div> <div class="page_discography_ratings"> 200
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/5a1974d53eeb08c350a4429b21aa1e93/6444517&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/tod-dockstader/eight-electronic-pieces/" class="release">Eight Electronic Pieces</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tod Dockstader</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1961</span> <span class="page_discography_date_full">1961</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_730885" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_5288415" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;5288415&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/tom-dissevelt/electronic-music/" class="release">Electronic Music</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tom Dissevelt</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1961</span> <span class="page_discography_date_full">1961</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_5288415" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_834504" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;834504&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.07</span> </div> <div class="page_discography_ratings"> 22
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/77f0c0103055c8815e1e5e5126b9835a/5991258&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/henk-badings-dick-raaijmakers/electronic-music/" class="release">Electronic Music</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Henk Badings</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Dick Raaijmakers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1961</span> <span class="page_discography_date_full">1961</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_834504" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_540318" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;540318&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.03</span> </div> <div class="page_discography_ratings"> 19
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/6c5dab37a17e52bbd086f9a92085f926/6512039&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/forrest-j-ackerman-and-frank-coe/music-for-robots/" class="release">Music for Robots</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Forrest J. Ackerman</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Frank Coe</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1961</span> <span class="page_discography_date_full">1961</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_540318" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_8096344" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;8096344&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.06</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/bell-telephone-laboratories/music-from-mathematics-compositions-on-a-well-tempered-computer/" class="release">Music From Mathematics: Compositions on a Well-Tempered Computer</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bell Telephone Laboratories</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1961</span> <span class="page_discography_date_full">1961</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Bell Telephone Laboratories</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_8096344" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3019982" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3019982&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.77</span> </div> <div class="page_discography_ratings"> 42
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/tom-dissevelt/electronic-movements/" class="release">Electronic Movements</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tom Dissevelt</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3019982" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_307714" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;307714&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.97</span> </div> <div class="page_discography_ratings"> 37
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/ff281d26857073113805c7a914cb4f16/1395427&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/daphne-oram-and-vera-gray/electronic-sound-patterns-listen-move-and-dance-3/" class="release">Electronic Sound Patterns (Listen, Move and Dance 3)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Daphne Oram</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Vera Gray</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_307714" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_310422" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;310422&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.33</span> </div> <div class="page_discography_ratings"> 80
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/670ac6a2f072c8060578ea6c4ae62ff3/1784546&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/herbert-eimert/epitaph-fur-aikichi-kuboyama-sechs-studien/" class="release">Epitaph für Aikichi Kuboyama; Sechs Studien</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Herbert Eimert</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Tape Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_310422" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_518469" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;518469&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.48</span> </div> <div class="page_discography_ratings"> 14
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/bd534d7cf461306853f4088e0edeed9b/1570872&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/pierre-henry/malefices-soundtrack/" class="release">Maléfices Soundtrack</a>
+ <span class="page_discography_attribute">motion picture soundtrack</span> 
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Pierre Henry</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_518469" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_522820" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;522820&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.12</span> </div> <div class="page_discography_ratings"> 31
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/122c56e41f9a4569ba072b45defef360/5991266&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/bell-telephone-laboratories-inc/music-from-mathematics/" class="release">Music From Mathematics</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bell Telephone Laboratories, Inc.</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Experimental</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_522820" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_375549" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;375549&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.11</span> </div> <div class="page_discography_ratings"> 37
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/ebef50a0284121d3a166f9aeb5aeaaac/1454955&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/jean-jacques-perrey/musique-electronique-du-cosmos/" class="release">Musique électronique du cosmos</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jean-Jacques Perrey</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_375549" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2403278" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2403278&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.81</span> </div> <div class="page_discography_ratings"> 12
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/groupe-de-recherches-musicales-de-la-r-t-f/musique-experimentale/" class="release">Musique expérimentale</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">François-Bernard Mâche</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Romuald Vandelle</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Groupe de Recherches Musicales de la R.T.F.</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Groupe de Recherches Musicales de la R.T.F.</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electroacoustic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2403278" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3603019" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3603019&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.50</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/yaacov-agam/trans-formes-musicales/" class="release">Trans-Formes Musicales</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Yaacov Agam</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3603019" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_184832" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;184832&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.75</span> </div> <div class="page_discography_ratings"> 413
+ </div> <div class="page_discography_reviews"> 7
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/3956fe09a97258f058abef1907d7b927/2282836&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/karlheinz-stockhausen/gesang-der-junglinge-kontakte/" class="release">Gesang der Jünglinge · Kontakte</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Karlheinz Stockhausen</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Karlheinz Stockhausen</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1962</span> <span class="page_discography_date_full">September 1962</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electroacoustic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_184832" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_110997" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;110997&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.08</span> </div> <div class="page_discography_ratings"> 14
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/cc5b1eed22e13951db7ad0071043d094/1255761&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/miss-nelson-and-bruce/dance-sing-and-listen/" class="release">Dance Sing and Listen</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Miss Nelson &amp; Bruce</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Miss Nelson &amp;amp; Bruce</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Children's Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_110997" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2978314" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2978314&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.30</span> </div> <div class="page_discography_ratings"> 78
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/karel-appel/musique-barbare/" class="release">Musique barbare</a>
+ <span class="page_discography_attribute">film score</span> 
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Karel Appel</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electroacoustic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2978314" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_7131739" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;7131739&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.72</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/groupe-de-recherches-musicales-de-la-r-t-f/musique-experimentale-ii/" class="release">Musique expérimentale II</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Luc Ferrari</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Ivo Malec</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Groupe de Recherches Musicales de la R.T.F.</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+ <span class="page_discography_credited_name">Groupe de Recherches Musicales de la R.T.F.</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_7131739" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_773977" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;773977&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.94</span> </div> <div class="page_discography_ratings"> 9
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/4548a0987fdd26c8e3be69827e707f78/6417307&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/les-structures-sonores-lasry-baschet/pieces-nouvelles-marche-suite-sonatine-valse-spontaneite/" class="release">Pièces nouvelles / Marche / Suite / Sonatine / Valse / Spontanéité</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jacques Lasry</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Daniel Ouzounoff</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Les Structures Sonores Lasry-Baschet</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Modern Classical</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_773977" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_28469" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;28469&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.54</span> </div> <div class="page_discography_ratings"> 297
+ </div> <div class="page_discography_reviews"> 17
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/4e9b212dc0c51d90b8b406530002c7f3/1491944&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/raymond-scott/soothing-sounds-for-baby-volume-1/" class="release">Soothing Sounds for Baby: Volume 1</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Raymond Scott</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Children's Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_28469" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_28470" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;28470&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.47</span> </div> <div class="page_discography_ratings"> 149
+ </div> <div class="page_discography_reviews"> 6
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/268b4e85d7b03264d6c77b887085cb4d/2610907&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/raymond-scott/soothing-sounds-for-baby-volume-2/" class="release">Soothing Sounds for Baby: Volume 2</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Raymond Scott</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Children's Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_28470" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_28471" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;28471&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.60</span> </div> <div class="page_discography_ratings"> 142
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/7eb1bb80b86136233bbe95eba720bfab/2621186&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/raymond-scott/soothing-sounds-for-baby-volume-3/" class="release">Soothing Sounds for Baby: Volume 3</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Raymond Scott</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Children's Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_28471" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2903206" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2903206&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.72</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/studio-apsome/spatiodynamisme/" class="release">Spatiodynamisme</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Pierre Henry</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Studio Apsome</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1963</span> <span class="page_discography_date_full">1963</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2903206" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1027166" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1027166&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.53</span> </div> <div class="page_discography_ratings"> 26
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/26d519987c5bc7c70e3dc6d3c57346d0/2030078&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/columbia-princeton-electronic-music-center/columbia-princeton-electronic-music-center/" class="release">Columbia-Princeton Electronic Music Center</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bülent Arel</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Halim El-Dabh</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Columbia-Princeton Electronic Music Center</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1964</span> <span class="page_discography_date_full">1964</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1027166" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_582409" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;582409&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.80</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/2fc23ce0c31351266355f787c9b17e35/1630525&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/radiodiffusion-television-francaise/deuxieme-panorama-de-musique-concrete/" class="release">Deuxième panorama de musique concrète</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Pierre Henry</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Michel Philippot</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Radiodiffusion-Télévision Française</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1964</span> <span class="page_discography_date_full">1964</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_582409" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_281722" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;281722&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.74</span> </div> <div class="page_discography_ratings"> 106
+ </div> <div class="page_discography_reviews"> 5
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/b08e600b42f9c9bc956d4cc87267a619/3009520&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/the-bbc-radiophonic-workshop-brenda-and-johnny/doctor-who-this-cant-be-love/" class="release">Doctor Who / This Can't Be Love</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">The BBC Radiophonic Workshop</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Brenda &amp; Johnny</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1964</span> <span class="page_discography_date_full">1964</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Television Music</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_281722" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_867235" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;867235&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.46</span> </div> <div class="page_discography_ratings"> 68
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/5bf18e426b0a47848cdd38f379c841ac/2361389&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/tom-dissevelt/fantasy-in-orbit/" class="release">Fantasy in Orbit</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Tom Dissevelt</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1964</span> <span class="page_discography_date_full">1964</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_867235" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_5746458" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;5746458&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.20</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/ep/studio-eksperymentalne-polskiego-radia-w-warszawie/muzyka-na-tasme-magnetofonowa-nr-1/" class="release">Muzyka na taśmę magnetofonową nr 1</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Andrzej Dobrowolski</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Studio Eksperymentalne Polskiego Radia w Warszawie</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1964</span> <span class="page_discography_date_full">1964</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_ep">EP</span> 
+ <span class="page_discography_credited_name">Studio Eksperymentalne Polskiego Radia w Warszawie</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electronic</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Modern Classical</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_5746458" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_543586" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;543586&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.57</span> </div> <div class="page_discography_ratings"> 35
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/650de2b7397a7fae704893c21dfb6799/1778281&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/cathy-berberian/electronic-music/" class="release">Electronic Music</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">İlhan Mimaroğlu</span> 
+ <span class="comma_separated cl-555 page_discography_credited_name">John Cage</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Cathy Berberian</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1965</span> <span class="page_discography_date_full">1965</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Tape Music</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_543586" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1726724" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1726724&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.23</span> </div> <div class="page_discography_ratings"> 19
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/cbd171a1e8f83865cbb47f9d270e9061/2371901&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/pierre-henry/le-reine-verte/" class="release">Le reine verte</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Pierre Henry</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1965</span> <span class="page_discography_date_full">1965</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Musique concrète</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Experimental</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1726724" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2762929" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2762929&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.38</span> </div> <div class="page_discography_ratings"> 11
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/bengt-hambraeus/rota-2-tetragon/" class="release">Rota 2; Tetragon</a>
+
+
+ <span class="page_discography_composers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bengt Hambraeus</span> 
+ </span> 
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bengt Hambraeus</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1965</span> <span class="page_discography_date_full">1965</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electroacoustic</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2762929" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ </div> </ul> 
+ <div class="page_object_section_discography_nav page_object_section_discography_nav_bottom"> 
+<nav id="nav_page_discography_nav_release_bottom" data-mainid="page_discography_nav_release_bottom" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="173109" data-num-pages="3463" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/electronic/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_bottom"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_bottom">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_bottom">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_bottom">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_bottom">3463</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_bottom" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_bottom" href="https://sonemic.com/genre/music/genre/electronic/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><script>rymInitPush( function() { RYMobjectListPage.setupPage('release', '/music/genre/electronic/');})</script><div class="clearfix"></div>
+         <!-- end content and content_wrapper -->
+         </div>
+      </div>
+
+      <div id="track_preview_frame" class="track_preview_frame">
+
+         <div class="track_preview_close" onclick="$(&#39;#track_preview_frame&#39;).hide();$(&#39;#track_preview&#39;).html(&#39;&#39;);">
+            <i class="fa fa-times-circle"></i>
+         </div>
+
+         <div id="track_preview_text" class="track_preview_text">
+         </div>
+
+         <div id="track_preview" class="track_preview">
+
+         </div>
+      </div>
+
+      <div class="overlay_invisible" id="overlay_invisible"></div>
+
+      <div class="ui_cropper_frame" id="ui_cropper_frame"></div>
+
+      <div class="modal_parent_frame" id="modal_parent_frame">
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay" class="modal_overlay" style="">Close <i class="fa fa-times"></i></div>
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay_invisible" class="modal_overlay_invisible" style=""></div>
+         <div id="modal_parent_frame_inner" class="modal_parent_frame_inner">
+                <div id="modal_content" class="modal_content">
+                </div>
+         </div>
+      </div>
+
+         <!-- ~~~~~~~~ end content ~~~~~~~~~~~~~~~ -->
+        <div class="ui_chooser_results_frame" id="ui_chooser_results_frame">
+            <div class="ui_chooser_results bg-fff alternate" id="ui_chooser_results" style="display: none;">
+            </div>
+        </div>  
+
+         <div id="content_cover">
+            <div id="preview_frame"></div>
+         </div>
+
+
+
+         <div id="loading_anim" style="display:none;">
+            <div class="loading_anim">
+               <i class="fa fa-cog fa-spin"></i> Loading...
+            </div>
+         </div>
+
+
+         <div id="voting_ui_frame"></div>
+
+
+
+
+      <div style="clear:both;"></div>
+      <footer>
+      <div class="footer_inner">
+
+         <div class="footer_main_section"><div class="minilogo_frame"><div class="minilogo"> <div class="logo_sonemic_bw_24"></div>
+                            <span class="minilogo_text">Sonemic <sup class="has_tip">®</sup></span>
+                        </div></div>
+
+
+            <div class="copyright">© 2000-2017 Sonemic, Inc.<br>All rights reserved.</div><div class="copyright">Rate Your Music</div>
+
+            
+
+            <div class="clearfix"></div>
+            <!-- <div class="trademark">Sonemic is a registered trademark of Sonemic, Inc. </div> -->
+
+            <div class="clearfix"></div>
+
+            <div class="social_icons"> 
+               <a href="https://facebook.com/sonemic.network/" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+               <a href="https://twitter.com/sonemic/" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+
+      
+            <a href="https://open.spotify.com/user/sonemic.com" target="_blank"><i class="fa fa-spotify"></i></a> 
+         
+            </div>
+         </div> 
+      
+      <div id="expand_full_footer" class="mobile_expandable_full mobile_expand_footer">
+
+            <div id="expand_full_header_footer" class="mobile_expandable_full_header" onclick="RYMmobile.mobileExpand.toggleFull(&#39;footer&#39;);">
+
+               <div class="mobile_expandable_full_icons">
+                  <div class="mobile_expandable_full_expand_icon_expanded">
+                     <i class="fa fa-caret-down"></i>
+                  </div>
+                  <div class="mobile_expandable_full_expand_icon_hidden">
+                     <i class="fa fa-caret-right"></i>
+                  </div>
+               </div>
+
+               <div id="expand_full_name_footer" class="mobile_expandable_full_name">
+                  Site links
+               </div>
+
+            </div>
+
+            <div id="expand_full_content_footer" class="mobile_expandable_full_content">
+               
+         <div class="footer_sections">
+            <div class="footer_section" id="section_network">
+               <div class="footer_header">Sonemic network</div>
+               <div class="footer_sub_links">
+                  <a class="asonemic" href="https://sonemic.com/">Sonemic <span class="sub">music</span></a>
+                  <a class="acinemos" href="https://cinemos.com/">Cinemos <span class="sub">film</span></a>
+                  <a class="aglitchwave" href="https://glitchwave.com/">Glitchwave <span class="sub">video games</span></a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Info</div>
+               <div class="footer_sub_links"><a href="https://sonemic.com/about/">About Sonemic</a>
+                  <a href="https://sonemic.com/docs/faq/">Site FAQ</a>
+                  <a href="https://sonemic.com/docs/standards/">Site standards</a>
+                  <a href="https://sonemic.com/submissions/">Queues</a>
+                  <a href="https://sonemic.com/docs/api/">API</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Policy</div>
+               <div class="footer_sub_links">
+                  <a class="" href="https://sonemic.com/docs/community_rules/">Community rules</a>
+                  <a class="" href="https://sonemic.com/docs/general_rules/">General rules</a>
+                  <!--<div class="updated">Updated 22 May 2017</div> -->
+                  <a class="" href="https://sonemic.com/privacy/">Privacy</a>
+                  <a class="" href="https://sonemic.com/terms-of-service/">Terms of service</a>
+                  <a href="https://sonemic.com/artist_portal/">For artists/labels</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Contact us</div>
+               <div class="footer_sub_links">
+                  <a href="https://sonemic.com/support/">Get support</a>
+                  <a href="https://sonemic.com/support/">Send feedback</a>
+                  <a href="https://sonemic.com/support/?partnerships">Advertise</a>
+                  <a href="https://sonemic.com/jobs/">Jobs</a>
+               </div>
+            </div>
+         </div>
+      
+            </div>
+         </div>
+      
+      <div class="g-recaptcha" data-sitekey="6LdaLxkUAAAAAJYzVmL0OQJiqH9Hev7JQ4AxcvhG" data-callback="_captchaCallback" data-size="invisible">
+      </div>
+
+     
+         <div class="server_info">Instance: 6 Ads: disabled</div>
+
+         <div style="clear:both;"></div>
+      </div>
+
+    </footer>
+    
+
+   <div id="ui_date_help">
+      <div class="ui_date_help_text" style="font-size:0.9em;line-height:1.4">
+         <b>Examples</b>
+         <br>
+         1980s-1996
+         <br>
+         23 mar 2015
+         <br>
+         8 apr - 12 may 2015
+         <br>
+         1998-05
+      </div>
+   </div>
+    <div id="image_browser" class="image_browser" onclick="RYMimageBrowser.hide();"> 
+
+
+         <div class="image_browser_loading_frame">
+            <div class="image_browser_loading" id="image_browser_loading">
+               <div id="block_1" class="load_block"></div>
+               <div id="block_2" class="load_block"></div>
+               <div id="block_3" class="load_block"></div>
+            </div> 
+            <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_image" id="image_browser_image">
+            
+            <img id="image_browser_image_img"> <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_navigation">
+            <div class="image_browser_prev" onclick="RYMimageBrowser.prev(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-left"></i></div>
+            <div class="image_browser_next" onclick="RYMimageBrowser.next(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-right"></i></div>
+         </div>
+
+         <div id="image_browser_preload" class="image_browser_preload"></div>
+         <div class="image_browser_controls" onclick="event.stopPropagation();">   
+
+            <div class="image_browser_btn" id="image_browser_report_btn" onclick="RYMimageBrowser.toggleReport();">  
+               <i class="fa fa-warning"></i> Report
+            </div>
+            <a class="image_browser_btn" id="image_browser_download_btn">  
+               <i class="fa fa-download"></i> Download
+            </a>
+
+            <div class="image_browser_progress" id="image_browser_progress">Image 1 of 2</div>
+
+         </div>
+         <div class="image_browser_date_caption_bar" onclick="event.stopPropagation();">
+
+            <div class="image_browser_date" id="image_browser_date" onclick="event.stopPropagation();"></div>
+
+            <div class="image_browser_caption" id="image_browser_caption" onclick="event.stopPropagation();"></div>  
+
+         </div>
+
+    </div>
+    <script>
+      rymInitPush(function()  {
+         if ( location.search === "?email_verified") {  
+            rym.showGlobalMessage('Thanks! Your email has been verified.')
+         } else if ( location.search === "?email_not_verified") {
+            rym.showGlobalError('Sorry, there was a problem validating your email address.  Please go to site settings and request a new confirmation mail.');
+         }
+      });
+    </script>
+    
+   
+      <script type="text/javascript" src="./Electronic - Sonemic _ Rate Your Music music database_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./Electronic - Sonemic _ Rate Your Music music database_files/min.js.download" async=""></script>
+
+
+      <script>$( document ).ready(function() { rymInitPush(function() { rym.setupPage() }) } ) </script>
+
+   <script type="text/javascript" src="./Electronic - Sonemic _ Rate Your Music music database_files/advertisement.js.download"></script>
+
+      <script> function areAdsBlocked() { return ($('#ad_1').length == 0) } 
+      function politeAdRequest() {
+         var xx = '<div class=abpmessage>Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href=/subscribe>subscribing</a> to help with bandwidth/server costs.</div>' 
+         $('#content').prepend(xx)
+      }
+      </script>
+
+    
+         <script>if(areAdsBlocked()) { politeAdRequest() }</script>
+      </div><div id="tiptip_holder" style="pointer-events:none;max-width:1200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body></html>

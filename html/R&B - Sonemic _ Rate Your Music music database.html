@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://sonemic.com/music/genre/randb/ -->
+<html class="sonemic theme_ page_object page_genre noTouch" id="page_genre"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta name="msvalidate.01" content="DC9BDD5AA0A6394617D74DC653B74FE5"> 
+         <script async="" src="./R&amp;B - Sonemic _ Rate Your Music music database_files/analytics.js.download"></script><script>
+                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-70490370-1', 'auto');
+                 ga('send', 'pageview');
+
+               </script>
+         <script>
+
+         var rating_system = {}
+      var rating_system = {'games':{}, 'film':{}, 'music':{}};</script>
+         <script>
+            var hasTouch = 'ontouchstart' in window;
+            var streamBaseUrl = 'wss://sonemic.com:8088/ws/'
+
+            if ( hasTouch ) {
+               document.documentElement.className += ' touch';
+            } else {
+               document.documentElement.className += ' noTouch';
+            }
+            var rym_initdata = {user_id:0, username:'0', login_token:'', theme:''}
+
+            var issue_data = {
+               release:[],
+               game:[],
+               film:[],
+               song:[]
+            }
+         </script>
+         
+         <title>R&amp;B - Sonemic / Rate Your Music music database</title><script>"use strict";!function(){function t(t){if("undefined"==typeof t)throw new Error('Pathformer [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Pathformer [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Pathformer [constructor]: "element" parameter must be a string or a SVGelement');this.el=t,this.scan(t)}function e(e,r,n){this.setElement(e),this.setOptions(r),this.setCallback(n),this.frameLength=0,this.currentFrame=0,this.map=[],new t(e),this.mapping(),this.starter()}t.prototype.TYPES=["line","elipse","circle","polygon","polyline","rect"],t.prototype.ATTR_WATCH=["cx","cy","points","r","rx","ry","x","x1","x2","y","y1","y2"],t.prototype.scan=function(t){for(var e,r,n,o,a=t.querySelectorAll(this.TYPES.join(",")),i=0;i<a.length;i++)r=a[i],e=this[r.tagName.toLowerCase()+"ToPath"],n=e(this.parseAttr(r.attributes)),o=this.pathMaker(r,n),r.parentNode.replaceChild(o,r)},t.prototype.lineToPath=function(t){var e={};return e.d="M"+t.x1+","+t.y1+"L"+t.x2+","+t.y2,e},t.prototype.rectToPath=function(t){var e={},r=parseFloat(t.x)||0,n=parseFloat(t.y)||0,o=parseFloat(t.width)||0,a=parseFloat(t.height)||0;return e.d="M"+r+" "+n+" ",e.d+="L"+(r+o)+" "+n+" ",e.d+="L"+(r+o)+" "+(n+a)+" ",e.d+="L"+r+" "+(n+a)+" Z",e},t.prototype.polylineToPath=function(t){for(var e={},r=t.points.split(" "),n="M"+r[0],o=1;o<r.length;o++)-1!==r[o].indexOf(",")&&(n+="L"+r[o]);return e.d=n,e},t.prototype.polygonToPath=function(e){var r=t.prototype.polylineToPath(e);return r.d+="Z",r},t.prototype.elipseToPath=function(t){var e=t.cx-t.rx,r=t.cy,n=parseFloat(t.cx)+parseFloat(t.rx),o=t.cy,a={};return a.d="M"+e+","+r+"A"+t.rx+","+t.ry+" 0,1,1 "+n+","+o+"A"+t.rx+","+t.ry+" 0,1,1 "+e+","+o,a},t.prototype.circleToPath=function(t){var e={},r=t.cx-t.r,n=t.cy,o=parseFloat(t.cx)+parseFloat(t.r),a=t.cy;return e.d="M"+r+","+n+"A"+t.r+","+t.r+" 0,1,1 "+o+","+a+"A"+t.r+","+t.r+" 0,1,1 "+r+","+a,e},t.prototype.pathMaker=function(t,e){var r,n,o=document.createElementNS("http://www.w3.org/2000/svg","path");for(r=0;r<t.attributes.length;r++)n=t.attributes[r],-1===this.ATTR_WATCH.indexOf(n.name)&&o.setAttribute(n.name,n.value);for(r in e)o.setAttribute(r,e[r]);return o},t.prototype.parseAttr=function(t){for(var e,r={},n=0;n<t.length;n++){if(e=t[n],-1!==this.ATTR_WATCH.indexOf(e.name)&&-1!==e.value.indexOf("%"))throw new Error("Pathformer [parseAttr]: a SVG shape got values in percentage. This cannot be transformed into 'path' tags. Please use 'viewBox'.");r[e.name]=e.value}return r};var r,n,o;e.prototype.setElement=function(t){if("undefined"==typeof t)throw new Error('Vivus [constructor]: "element" parameter is required');if(t.constructor===String&&(t=document.getElementById(t),!t))throw new Error('Vivus [constructor]: "element" parameter is not related to an existing ID');if(t.constructor!==SVGSVGElement)throw new Error('Vivus [constructor]: "element" parameter must be a string or a SVGelement');this.el=t},e.prototype.setOptions=function(t){var e=["delayed","async","oneByOne","scenario","scenario-sync"],r=["inViewport","manual","autostart"];if(void 0!==t&&t.constructor!==Object)throw new Error('Vivus [constructor]: "options" parameter must be an object');if(t=t||{},t.type&&-1===e.indexOf(t.type))throw new Error("Vivus [constructor]: "+t.type+" is not an existing animation `type`");if(this.type=t.type||e[0],t.start&&-1===r.indexOf(t.start))throw new Error("Vivus [constructor]: "+t.start+" is not an existing `start` option");if(this.start=t.start||r[0],this.isIE=-1!==navigator.userAgent.indexOf("MSIE"),this.duration=o(t.duration,120),this.delay=o(t.delay,null),this.dashGap=o(t.dashGap,2),this.forceRender=t.hasOwnProperty("forceRender")?!!t.forceRender:this.isIE,this.selfDestroy=!!t.selfDestroy,this.delay>=this.duration)throw new Error("Vivus [constructor]: delay must be shorter than duration")},e.prototype.setCallback=function(t){if(t&&t.constructor!==Function)throw new Error('Vivus [constructor]: "callback" parameter must be a function');this.callback=t||function(){}},e.prototype.mapping=function(){var t,e,r,n,a,i,s,h;for(h=i=s=0,e=this.el.querySelectorAll("path"),t=0;t<e.length;t++)r=e[t],a={el:r,length:Math.ceil(r.getTotalLength())},isNaN(a.length)?window.console&&console.warn&&console.warn("Vivus [mapping]: cannot retrieve a path element length",r):(i+=a.length,this.map.push(a),r.style.strokeDasharray=a.length+" "+(a.length+this.dashGap),r.style.strokeDashoffset=a.length,this.isIE&&(a.length+=this.dashGap),this.renderPath(t));for(i=0===i?1:i,this.delay=null===this.delay?this.duration/3:this.delay,this.delayUnit=this.delay/(e.length>1?e.length-1:1),t=0;t<this.map.length;t++){switch(a=this.map[t],this.type){case"delayed":a.startAt=this.delayUnit*t,a.duration=this.duration-this.delay;break;case"oneByOne":a.startAt=s/i*this.duration,a.duration=a.length/i*this.duration;break;case"async":a.startAt=0,a.duration=this.duration;break;case"scenario-sync":r=e[t],n=this.parseAttr(r),a.startAt=h+(o(n["data-delay"],this.delayUnit)||0),a.duration=o(n["data-duration"],this.duration),h=void 0!==n["data-async"]?a.startAt:a.startAt+a.duration,this.frameLength=Math.max(this.frameLength,a.startAt+a.duration);break;case"scenario":r=e[t],n=this.parseAttr(r),a.startAt=o(n["data-start"],this.delayUnit)||0,a.duration=o(n["data-duration"],this.duration),this.frameLength=Math.max(this.frameLength,a.startAt+a.duration)}s+=a.length,this.frameLength=this.frameLength||this.duration}},e.prototype.drawer=function(){var t=this;this.currentFrame+=this.speed,this.currentFrame<=0?(this.stop(),this.reset()):this.currentFrame>=this.frameLength?(this.stop(),this.currentFrame=this.frameLength,this.trace(),this.selfDestroy&&this.destroy(),this.callback(this)):(this.trace(),this.handle=r(function(){t.drawer()}))},e.prototype.trace=function(){var t,e,r;for(t=0;t<this.map.length;t++)r=this.map[t],e=(this.currentFrame-r.startAt)/r.duration,e=Math.max(0,Math.min(1,e)),r.progress!==e&&(r.progress=e,r.el.style.strokeDashoffset=Math.floor(r.length*(1-e)),this.renderPath(t))},e.prototype.renderPath=function(t){if(this.forceRender&&this.map&&this.map[t]){var e=this.map[t],r=e.el.cloneNode(!0);e.el.parentNode.replaceChild(r,e.el),e.el=r}},e.prototype.starter=function(){switch(this.start){case"manual":return;case"autostart":this.play();break;case"inViewport":var t=this,e=function(){t.isInViewport(t.el,1)&&(t.play(),window.removeEventListener("scroll",e))};window.addEventListener("scroll",e),e()}},e.prototype.reset=function(){return this.currentFrame=0,this.trace(),this},e.prototype.play=function(t){if(t&&"number"!=typeof t)throw new Error("Vivus [play]: invalid speed");return this.speed=t||1,this.handle||this.drawer(),this},e.prototype.stop=function(){return this.handle&&(n(this.handle),delete this.handle),this},e.prototype.destroy=function(){var t,e;for(t=0;t<this.map.length;t++)e=this.map[t],e.el.style.strokeDashoffset=null,e.el.style.strokeDasharray=null,this.renderPath(t)},e.prototype.parseAttr=function(t){var e,r={};if(t&&t.attributes)for(var n=0;n<t.attributes.length;n++)e=t.attributes[n],r[e.name]=e.value;return r},e.prototype.isInViewport=function(t,e){var r=this.scrollY(),n=r+this.getViewportH(),o=t.getBoundingClientRect(),a=o.height,i=r+o.top,s=i+a;return e=e||0,n>=i+a*e&&s>=r},e.prototype.docElem=window.document.documentElement,e.prototype.getViewportH=function(){var t=this.docElem.clientHeight,e=window.innerHeight;return e>t?e:t},e.prototype.scrollY=function(){return window.pageYOffset||this.docElem.scrollTop},r=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(t){return window.setTimeout(t,1e3/60)}}(),n=function(){return window.cancelAnimationFrame||window.webkitCancelAnimationFrame||window.mozCancelAnimationFrame||window.oCancelAnimationFrame||window.msCancelAnimationFrame||function(t){return window.clearTimeout(t)}}(),o=function(t,e){var r=parseInt(t,10);return r>=0?r:e},window.Vivus=e}();</script><style>
+                        a, a:link, a:visited { color: #207bbf; cursor:pointer;}
+                        a:active, a:hover { color: #308bcf; }</style><script>
+            if ( localStorage.theme == 'night' ) {
+               var root = document.getElementsByTagName( 'html' )[0];
+               root.className += ' theme_night';
+               rym_initdata.theme = 'night';
+            } else {
+               rym_initdata.theme = 'default';
+            }
+
+
+            function switchThemeTo ( theme ) {
+
+               if ( theme === 'default' ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').removeClass('theme_night theme_default').addClass('theme_' + theme);
+
+            }
+
+            function switchTheme ( ) {
+
+               if ( $('html').hasClass('theme_night') ) {
+                  localStorage.theme = 'default'
+                  rym_initdata.theme = 'default';
+               } else {
+                  localStorage.theme = 'night'
+                  rym_initdata.theme = 'night';
+               }
+               $('html').toggleClass('theme_night')
+
+            }
+            </script> <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style></head><body id="body"><div style="position:fixed;right:0;bottom:0;width:2.5em;height:2.5em;z-index:24000;    background: linear-gradient(130deg, rgba(0,125,255,0.2), rgba(200,200,200,0.5));border-radius:50%;cursor:pointer;" onclick="switchTheme();"></div>
+         <link rel="stylesheet" href="./R&amp;B - Sonemic _ Rate Your Music music database_files/min.css">
+      
+   <meta name="description" content="R&amp;B music genre.">
+   <meta name="keywords" content="rate your music, sonemic, rate music, rate albums, music catalog, music catalogue, social software, album reviews, music lists, community, music recommendations, concert listings, record labels, venues, shows">
+
+         <script>
+            ryminit = window.ryminit || [];
+
+            function rymInitPush( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+            
+            function rymQ( a ) {
+               if ( !ryminit ) {
+                  a();
+               } else {
+                  ryminit.push(a);
+               }
+            }
+
+         </script>
+
+      <script type="text/javascript">rymInitPush( function() { rym.session.init(0, '0', '');} );</script>
+         <script></script>
+      
+               <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+          <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:site" content="@SonemicMusic">
+                <meta property="og:site_name" content="Sonemic / Rate Your Music">
+
+                <meta property="og:url" content="https://sonemic.com/music/genre/randb/">
+                <meta property="og:type" content="website">
+                <meta property="og:title" content="R&amp;B - Sonemic / Rate Your Music">
+                <meta property="og:description" content="R&amp;B music genre."><meta property="og:image" content="https://e.snmc.io/3.0/img/logo/sonemic-512.png">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         
+         <link rel="icon" href="https://e.snmc.io/3.0/img/sonemic.png" type="image/png">
+
+
+                      
+
+          
+
+         <header>
+            <div class="header_inner ">
+
+      
+                <div onclick="RYMheader.onClickBars()" class="header_profile_bars"><i class="fa fa-bars"></i></div>
+
+
+               <div class="header_profile">
+                  <div class="header_profile_logged_out">
+                     <span>   
+                        <a onclick="return RYMlogin.login();" class="header_profile_login">signup • login</a>
+                     </span>
+                  </div>
+            
+               </div>
+
+
+
+               <div class="header_logo">
+                  <a class="main header_item hide-for-touch sonemic" href="https://sonemic.com/">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <a class="main header_item show-for-touch sonemic">
+                     <div class="logo_sonemic_32 logo_header"></div>
+                     <span class="logo_name">sonemic</span>
+                  </a>
+
+                  <div class="divider mobile_divider"></div>
+                  <div class="header_extended_section">
+                     <a class="main show-for-touch header_item sonemic" href="https://sonemic.com/">
+                        <div class="logo_sonemic_32 logo_header"></div>
+                        <span class="logo_name">Sonemic <span class="header_extended_subtext">music</span></span>
+                     </a>
+                     <a class="main  header_item cinemos" href="https://cinemos.com/">
+                        <div class="logo_cinemos_32 logo_header"></div>
+                        <span class="logo_name">Cinemos <span class="header_extended_subtext">film</span></span>
+                     </a>
+                     <a class="main  header_item  glitchwave" href="https://beta.glitchwave.com/">
+                        <div class="logo_glitchwave_32 logo_header"></div>
+                        <span class="logo_name">Glitchwave <span class="header_extended_subtext">video games</span></span>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="header_links">
+                  <div class="divider"></div>
+                  <div class="header_charts">
+                  <a class="header_charts header_item" href="https://sonemic.com/charts/">charts</a>
+                  </div>
+                  <a class="header_item" href="https://sonemic.com/music/genre/">genres</a>
+                  <a class="header_item" href="https://sonemic.com/lists/">lists</a>
+                  <a class="header_item" href="https://sonemic.com/community/">community</a>
+                  <div class="divider"></div>
+               </div>
+               <div class="header_search">
+<div class="ui_chooser_frame" id="ui_chooser_frame_main_search"> <div class="ui_chooser" id="ui_chooser_main_search" data-id="main_search" data-parent-id="" data-allowed-types="music" data-select-first-result="true" data-select-action="navigate" data-placeholder="" data-custom-action="custom_action"> <i class="fa fa-search"></i> <div class="ui_chooser_input_frame"> <input id="ui_chooser_input_main_search" data-id="main_search" placeholder="search music..."> </div> <div class="ui_chooser_type" id="ui_chooser_type_main_search"> <span class="ui_chooser_type_text" id="ui_chooser_type_text_main_search"></span> <i class="fa fa-caret-down"></i> <select onfocus="" data-id="main_search" id="ui_chooser_select_main_search"> <optgroup label="Music"><option value="music">All music</option><option value="artist">Artist</option><option value="release">Release</option><option value="company_music">Company</option><option value="genre_music">Genre</option><option value="song">Song</option><option value="work">Work</option><option value="descriptor_music">Descriptor</option><option value="venue">Venue</option></optgroup></select> </div> </div>
+</div>
+</div>   
+
+
+
+
+            </div>
+
+         </header>
+
+         <div class="mobile_header_menu"><a href="https://sonemic.com/charts/" class="mobile_header_menu_item mobile_header_menu_item_charts">
+                  Charts
+            </a><a href="https://sonemic.com/music/genre/" class="mobile_header_menu_item mobile_header_menu_item_genres">
+               Genres
+            </a><a href="https://sonemic.com/lists/" class="mobile_header_menu_item mobile_header_menu_item_lists">
+               Lists 
+            </a><a href="https://sonemic.com/community/" class="mobile_header_menu_item mobile_header_menu_item_community">
+               Community
+            </a></div>
+
+
+         <div class="header_border"></div>
+
+         <div class="header_error" onclick="$(this).fadeOut();" id="header_error">
+            <div class="header_error_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_error_text"></div>
+         </div>
+
+         <div class="header_message" onclick="$(this).fadeOut();" id="header_message">
+            <div class="header_message_close"><i class="fa fa-times-circle"></i></div>
+            <div id="header_message_text"></div>
+         </div>
+
+         <div id="header_toolbar" class="header_toolbar">
+
+            <div class="header_toolbar_inner">
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/artist/profile_history">Artist <span class="toolbar_num">45/100</span></a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/queues/">Queues</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/notepad/">Notepad</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/rymzilla/">RYMzilla</a>
+               </div>
+               <div class="header_toolbar_separator"></div>
+               <div class="header_toolbar_item">
+                  <a href="https://sonemic.com/settings/">Settings</a>
+               </div>
+            </div>
+
+         </div>
+
+
+         <div id="header_expanded" class="header_expanded">
+
+            <a class="header_expanded_section" href="https://sonemic.com/charts/">Charts</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/music/genre/">Genres</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/lists/">Lists</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/community/">Community</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/settings/">Settings</a>
+
+            <a class="header_expanded_section" href="https://sonemic.com/messaging/">Messaging</a>
+      
+            <div class="header_expanded_section">
+               <a class="header_expanded_link" onclick="return RYMlogin.login();">Login</a>
+            </div>
+         
+
+         </div>
+
+         <div id="content_wrapper" class="content_wrapper">
+         <div id="content"><div class="abpmessage">Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href="https://sonemic.com/subscribe">subscribing</a> to help with bandwidth/server costs.</div>
+         <div id="precontent" style="-webkit-transform: scale3d(1,1,1);"></div>
+         <div id="content_cover"></div>
+         <div id="total_cover"></div>
+         <div id="content_total_cover"></div>
+
+
+      
+ <script> var page_options = {}; </script>
+<div id="page_object_header" class="page_object_header  no_hero"> <div class="page_object_header_info"> 
+ <div class="page_object_shortcut has_tip"><input readonly="" onclick="$(this).focus().select();" value="[Genre31829]"></div> <div class="page_object_header_main"> <h1 class="page_object_header_title 
+ 
+ 
+ 
+ ">R&amp;B
+ </h1> 
+ <div class="clearfix"></div> </div> <div class="page_object_header_second"> 
+
+ <div class="page_object_header_right"> 
+
+
+ <span class="page_object_header_field_item  "> <span class="page_object_header_field"></span> <span class="page_object_header_field_item_single"><span>Genre</span></span>
+ </span>  
+ 
+ </div> 
+
+
+
+
+ <div class="clearfix"></div> </div> </div> <div class="page_object_overlay"> </div> <div id="page_object_hero_image" class="page_object_hero_image"> </div>  <div class="clearfix"></div>
+</div>
+
+
+<div class="row page_object_row_main">
+
+   <div class="large-5 medium-5 small-12 columns page_object_left_column">
+<div class="page_object_section page_object_section_biography">
+<div class="height_mobile_20em height_60em"> <div class="page_section_biography_body cl-444">R&amp;B, which began as an abbreviation for <a href="https://sonemic.com/music/genre/rhythm-and-blues/" class="music_genre">Rhythm &amp; Blues</a>, is understood by many today as an umbrella term that includes the most popular forms of African-American music from the late 1940s, when the term rhythm &amp; blues first appeared, through to the <a href="https://sonemic.com/music/genre/contemporary-r-b/" class="music_genre">contemporary R&amp;B</a> of the 1980s forward. Between the time that the term faded in the late 1960s and then reappeared in the 1980s, <a href="https://sonemic.com/music/genre/soul/" class="music_genre">Soul</a> and <a href="https://sonemic.com/music/genre/funk/" class="music_genre">Funk</a> were two of the most popular genres in the African-American community. While there is much that is distinct about these genres, they are strongly influenced by the first decade of rhythm &amp; blues and often included under the R&amp;B umbrella. These genres collectively cover the career arc of some of the most notable stars of R&amp;B including <a href="https://sonemic.com/music/james-brown/" class="music_artist">James Brown</a>, <a href="https://sonemic.com/music/aretha-franklin/" class="music_artist">Aretha Franklin</a>, <a href="https://sonemic.com/music/the-temptations/" class="music_artist">The Temptations</a>, and <a href="https://sonemic.com/music/stevie-wonder/" class="music_artist">Stevie Wonder</a>.<br><br>In the early 1950s, the term would have also included late-period <a href="https://sonemic.com/music/genre/jump-blues/" class="music_genre">Jump-Blues</a> and early <a href="https://sonemic.com/music/genre/rock-and-roll/" class="music_genre">Rock &amp; Roll</a>; however, today's usage generally limits the early period of the genre to rhythm &amp; blues, <a href="https://sonemic.com/music/genre/doo-wop/" class="music_genre">Doo-Wop</a>, and <a href="https://sonemic.com/music/genre/new-orleans-r-b/" class="music_genre">New Orleans r&amp;b</a>. Mainstream acceptance of <a href="https://sonemic.com/music/genre/hip-hop/" class="music_genre">Hip Hop</a> in the 1990s brought an end to R&amp;B as the umbrella term describing almost all popular Afro-American music, though contemporary R&amp;B has continued in popularity alongside hip-hop, occasionally mixing influences as is the case with <a href="https://sonemic.com/music/genre/new-jack-swing/" class="music_genre">New Jack Swing</a>.<br><br>Whilst having American roots and origins, the international popularity of its main genres (rhythm &amp; blues, soul, and funk) have led to a number of distinct genres including <a href="https://sonemic.com/music/genre/british-rhythm-and-blues/" class="music_genre">British Rhythm &amp; Blues</a>, <a href="https://sonemic.com/music/genre/latin-soul/" class="music_genre">Latin soul</a>, and <a href="https://sonemic.com/music/genre/afrobeat/" class="music_genre">Afrobeat</a>. R&amp;B has also been a major influence on <a href="https://sonemic.com/music/genre/pop/" class="music_genre">Pop</a> and <a href="https://sonemic.com/music/genre/disco/" class="music_genre">Disco</a>.<br><br>It is notable that the term rhythm &amp; blues, and thus R&amp;B, was invented by marketers in the late 1940s to replace the term "race records", but for some the short form of the name is more closely associated with contemporary R&amp;B. Additionally, it is not universally accepted that R&amp;B is inclusive of soul and funk, which are considered more distinct by some than others. The history of the Billboard charts likely adds to the confusion. A switch was not made from "best selling rhythm &amp; blues singles" to "best selling soul singles" until August of 1969 even though the 1960s is sometimes considered the heyday of soul. Similarly, in the late 1970s, the "Hot Soul Singles" chart was often topped by disco or funk single. For most of the 1980s the chart went by the name "Black Singles" or "Hot Black Singles", though the hits of that era are often recognized today as contemporary R&amp;B.</div> <div class="page_section_dynamic_fade_cover"></div> <div class="page_section_dynamic_fade_expand_button bg-f8f8f8 cl-333"> <span class="expand_text">Expand</span> <span class="hide_text" style="margin-top:1em">Hide</span> </div>
+</div>
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_akas">
+ 
+ <div class="page_object_secondary_info_hdr">Also known as</div> <ul class="page_object_credits_credits dynamic_list_secondary expanded">  
+ <li class="page_object_credits_credit cl-444"> RnB
+
+ </li> 
+ <li class="page_section_dynamic_list_expand_button bg-ccc cl-333" onclick="$(this).parent(&#39;.page_object_credits_credits&#39;).toggleClass(&#39;expanded&#39;)"> <span class="expand_text">View all [1]</span> <span class="hide_text">Hide</span> </li> </ul>
+</div><div class="clearfix"></div><div class="page_object_section page_object_section_subgenres"><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/boogie/">Boogie</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/contemporary-r-b/">Contemporary R&amp;B</a>  <div class="subgenre_list_num_subgenres">2</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/alternative-randb/">Alternative R&amp;B</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-jack-swing/">New Jack Swing</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/doo-wop/">Doo-Wop</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/funk/">Funk</a>  <div class="subgenre_list_num_subgenres">9</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/afrobeat/">Afrobeat</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/afro-funk/">Afro-Funk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deep-funk/">Deep Funk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/go-go/">Go-Go</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/jazz-funk/">Jazz-Funk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-funk/">Latin funk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/p-funk/">P-funk</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/porn-groove/">Porn Groove</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/synth-funk/">Synth Funk</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/new-orleans-r-b/">New Orleans r&amp;b</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/rhythm-and-blues/">Rhythm &amp; Blues</a>  <div class="subgenre_list_num_subgenres">1</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/british-rhythm-and-blues/">British Rhythm &amp; Blues</a>  
+               </div></li></ul></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/soul/">Soul</a>  <div class="subgenre_list_num_subgenres">12</div>
+               </div><ul class="subgenre_list"> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/chicago-soul/">Chicago soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/country-soul/">Country Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/deep-soul/">Deep Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/latin-soul/">Latin soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/neo-soul/">Neo-Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/northern-soul/">Northern Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/philly-soul/">Philly soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/pop-soul/">Pop Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/psychedelic-soul/">Psychedelic Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/samba-soul/">Samba Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/smooth-soul/">Smooth Soul</a>  
+               </div></li> <li><div class="subgenre_list_item ">
+               <a href="https://sonemic.com/music/genre/southern-soul/">Southern Soul</a>  
+               </div></li></ul></li></ul></div>
+
+
+   </div><div class="large-7 medium-7 small-12 columns page_object_right_column bg-eee"><div class="page_object_section">
+<div class="page_object_section_discography">
+<div class="page_object_section_discography_header"> 
+ <div class="page_object_section_discography_nav"> 
+<nav id="nav_page_discography_nav_release_top" data-mainid="page_discography_nav_release_top" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="46517" data-num-pages="931" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/randb/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_top"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_top">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_top">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_top">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_top">931</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_top" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_top" href="https://sonemic.com/genre/music/genre/randb/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+ <div class="page_discography_search"> 
+ 
+<div id="ui_textfilter_frame_all_object_list_release_" class="ui_textfilter_frame"> <div class="ui_textfilter_input_filter"><i class="fa fa-spinner fa-pulse fa-fw"></i><i class="fa fa-search fa-fw"></i></div> <div id="ui_textfilter_close_all_object_list_release_" class="ui_textfilter_input_close"><i class="fa fa-times-circle"></i></div> <input id="ui_textfilter_all_object_list_release_" class="ui_textfilter" type="text" data-component="object_list" data-scope="all" data-object-type="release" data-object-assoc-id="" data-initialized="false" data-cover-target="" data-result-target="page_discography_search_results_release" placeholder="Search releases...">
+</div> 
+ </div> 
+ <h3>Releases <span class="subtext cl-888">46,517</span></h3> 
+ <div class="clearfix"></div>
+</div> <div class="page_discography_after_header"> <div id="page_discography_search_results_release" class="page_discography_search_results"> </div> <div class="page_discography_sort" id="page_discography_sort_release" data-object="release" data-filter="genre" data-filter-id="31829" data-devpub-filter="" data-page=""> <div id="page_discography_sort_link_release_avg_rating" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;avg_rating&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_average page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Average 
+ </div> <div id="page_discography_sort_link_release_num_ratings" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_ratings&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_ratings page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Ratings
+ </div> <div id="page_discography_sort_link_release_num_reviews" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;num_reviews&#39;);" data-default-direction="d" data-direction="" class="page_discography_sort_reviews page_discography_sort_link page_discography_sort_link_release"> <i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Reviews
+ </div> <div class="page_discography_sort_title"> <span id="page_discography_sort_link_release_title" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;title&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction=""><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Title</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;release_date&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link " data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Release date</span> / 
+ <span id="page_discography_sort_link_release_release_date" onclick="RYMobjectListPage.sort(&#39;release&#39;, &#39;recommended&#39;);" data-default-direction="a" class="page_discography_sort_link_release page_discography_sort_link sorted_d" data-direction="a"><i class="fa fa-caret-down"></i><i class="fa fa-caret-up"></i> Recommended</span> </div> <div class="clearfix"></div> </div> <ul id="page_discography_items_release" class="page_discography_items"> <div id="page_discography_item_cover_release" class="page_discography_release_cover"></div> <div id="page_discography_itemlist_release"> 
+ 
+<li id="page_discography_line_release_4485436" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4485436&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.53</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/cecil-gant/i-wonder-last-goodbye/" class="release">I Wonder / Last Goodbye</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Cecil Gant</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1944</span> <span class="page_discography_date_full">1944</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4485436" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_604830" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;604830&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.70</span> </div> <div class="page_discography_ratings"> 14
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/568e4cd1c126e7c6e7fb67a23ffaf67d/2258822&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/568e4cd1c126e7c6e7fb67a23ffaf67d/2258822&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/louis-jordan/you-cant-get-that-no-more-mop-mop/" class="release">You Can't Get That No More / Mop! Mop!</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Louis Jordan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">January 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_604830" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4423124" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4423124&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release"></span> </div> <div class="page_discography_ratings"> 
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/dusty-brooks/little-chum/" class="release">Little Chum</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Dusty Brooks</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4423124" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4423114" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4423114&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.00</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/dusty-brooks/play-jackpot/" class="release">Play Jackpot</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Dusty Brooks</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4423114" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_741028" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;741028&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.42</span> </div> <div class="page_discography_ratings"> 43
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/7529d5446491a1f72f2aee655c41a418/2981874&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/7529d5446491a1f72f2aee655c41a418/2981874&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/sister-rosetta-tharpe/strange-things-happening-every-day-two-little-fishes-and-five-loaves-of-bread/" class="release">Strange Things Happening Every Day / Two Little Fishes and Five Loaves of Bread</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Sister Rosetta Tharpe</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">March 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Gospel</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Traditional Black Gospel</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_741028" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3004602" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3004602&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.50</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/savannah-churchill-and-her-all-stars-orchestra/daddy-daddy-all-alone/" class="release">Daddy-Daddy / All Alone</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Savannah Churchill and Her All Stars Orchestra</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">April 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Savannah Churchill and Her All Stars Orchestra</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3004602" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_829263" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;829263&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.49</span> </div> <div class="page_discography_ratings"> 11
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/adf59256f0c864fd377d929ae7efb908/6590525&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/adf59256f0c864fd377d929ae7efb908/6590525&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/wynonie-harris/around-the-clock-parts-i-and-ii/" class="release">Around the Clock (Parts I &amp; II)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Wynonie Harris</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">August 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_829263" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_705778" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;705778&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.14</span> </div> <div class="page_discography_ratings"> 10
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/8a29d3d68e4a9bb9d3fa838329b3e129/6471781&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/8a29d3d68e4a9bb9d3fa838329b3e129/6471781&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/t-bone-walker/im-still-in-love-with-you-sail-on-boogie/" class="release">I'm Still in Love With You / Sail On Boogie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">T-Bone Walker</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">August 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_705778" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_440225" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;440225&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.67</span> </div> <div class="page_discography_ratings"> 40
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/2b84af96418abda91db569ba721f64f4/6572510&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/2b84af96418abda91db569ba721f64f4/6572510&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/joe-liggins-and-his-honeydrippers/the-honeydripper-parts-1-and-2/" class="release">The Honeydripper (Parts 1 &amp; 2)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Joe Liggins and His Honeydrippers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">August 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_440225" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2598724" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2598724&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.52</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bull-moose-jackson-and-his-buffalo-bearcats/honey-dripper-hold-him-joe/" class="release">Honey Dripper / Hold Him Joe</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bull Moose Jackson and His Buffalo Bearcats</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">September 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bull Moose Jackson and His Buffalo Bearcats</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2598724" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_774460" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;774460&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.50</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/a1e308cafad0de947b23251305b065b9/6589312&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/a1e308cafad0de947b23251305b065b9/6589312&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-moores-three-blazers/baby-dont-you-cry-blazers-boogie/" class="release">Baby, Don't You Cry / Blazer's Boogie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny Moore's Three Blazers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">November 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_774460" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_809461" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;809461&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.69</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/11d48e2ef5942765881072705126da52/6563789&#39;)" style="background: url(&quot;//e.snmc.io/lk/p/x/11d48e2ef5942765881072705126da52/6563789&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bull-moose-jackson-and-his-buffalo-bearcats/bull-moose-jackson-blues-we-aint-got-nothin-but-the-blues/" class="release">Bull Moose Jackson Blues / We Ain't Got Nothin' (But the Blues)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bull Moose Jackson and His Buffalo Bearcats</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">November 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bull Moose Jackson and His Buffalo Bearcats</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_809461" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_394886" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;394886&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.74</span> </div> <div class="page_discography_ratings"> 23
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/5f7c5b081dad5147f8979eca5a488c93/2074941&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/5f7c5b081dad5147f8979eca5a488c93/2074941&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/louis-jordan/buzz-me-dont-worry-bout-that-mule/" class="release">Buzz Me / Don't Worry 'Bout That Mule</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Louis Jordan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1945</span> <span class="page_discography_date_full">December 1945</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_394886" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_636018" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;636018&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.66</span> </div> <div class="page_discography_ratings"> 41
+ </div> <div class="page_discography_reviews"> 4
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1effc7fe4bdd313d37a2ed7934122dbb/3930028&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/1effc7fe4bdd313d37a2ed7934122dbb/3930028&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/lionel-hampton/hey-ba-ba-re-bop-slide-hamp-slide/" class="release">Hey! Ba-Ba-Re-Bop / Slide, Hamp, Slide</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Lionel Hampton</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">January 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Bebop</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_636018" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_739827" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;739827&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.66</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1e7884ec93b148c82e1b1103a8b2faa7/4338595&#39;)" style="background: url(&quot;//e.snmc.io/lk/pv/x/1e7884ec93b148c82e1b1103a8b2faa7/4338595&quot;);"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/roy-milton/miltons-boogie-groovy-blues/" class="release">Milton's Boogie / Groovy Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Roy Milton</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">January 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_739827" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2598874" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2598874&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.13</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bull-moose-jackson-and-his-orchestra/oo-oo-ee-bob-a-lee-bob-jamin-and-jumpin/" class="release">Oo-Oo-Ee Bob a Lee Bob / Jamin and Jumpin</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bull Moose Jackson and His Orchestra</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">January 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bull Moose Jackson and His Orchestra</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2598874" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_739825" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;739825&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.64</span> </div> <div class="page_discography_ratings"> 15
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/58a6632c639816f319ab817f1ac58b98/4851820&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/roy-milton/r-m-blues-rhythm-cocktail/" class="release">R.M. Blues / Rhythm Cocktail</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Roy Milton</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">January 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_739825" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_850575" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;850575&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 6
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/1244f3dc67b73c2f3a753b66c9be8991/6491211&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/wynonie-harris/shes-gone-with-the-wind-here-comes-the-blues/" class="release">She's Gone With the Wind / Here Comes the Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Wynonie Harris</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">January 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_850575" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_6874103" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;6874103&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.50</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/luke-jones/jump-the-boogie-shufflin-boogie/" class="release">Jump the Boogie / Shufflin' Boogie</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Luke Jones</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_6874103" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4188681" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4188681&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 2
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/roy-milton-and-his-solid-senders/them-there-eyes-little-boy-blue/" class="release">Them There Eyes / Little Boy Blue</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Roy Milton and His Solid Senders</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Roy Milton and His Solid Senders</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4188681" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2599097" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2599097&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.74</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bull-moose-jackson-and-his-orchestra/shortys-got-to-go-buffalo-shuffle/" class="release">Shorty's Got to Go / Buffalo Shuffle</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bull Moose Jackson and His Orchestra</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">April 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bull Moose Jackson and His Orchestra</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2599097" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_741018" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;741018&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.51</span> </div> <div class="page_discography_ratings"> 11
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/2fe1fb5bc52dc80ebd145c70724af58c/2666418&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/bull-moose-jackson-and-his-orchestra/i-know-who-threw-the-whiskey-in-the-well-bad-man-jackson-thats-me/" class="release">I Know Who Threw the Whiskey (In the Well) / Bad Man Jackson, That's Me</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Bull Moose Jackson and His Orchestra</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">May 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Bull Moose Jackson and His Orchestra</span> 
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_741018" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_635529" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;635529&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.94</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/c490fff8579e3ab15a2f75f645e0c88d/3742606&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/big-joe-turner/my-gals-a-jockey-i-got-love-for-sale/" class="release">My Gal's a Jockey / I Got Love for Sale</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Big Joe Turner</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">June 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_635529" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1004126" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1004126&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.74</span> </div> <div class="page_discography_ratings"> 27
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/4a73798729ff47f2ad0a8953412e69f0/6044473&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/album/louis-jordan/louis-jordan-and-his-tympany-five/" class="release">Louis Jordan and His Tympany Five</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Louis Jordan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">September 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_album">Album</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1004126" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_740713" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;740713&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.33</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-moores-three-blazers/you-left-me-foresaken-so-long/" class="release">You Left Me Foresaken / So Long</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny Moore's Three Blazers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">September 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_740713" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2919224" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2919224&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.54</span> </div> <div class="page_discography_ratings"> 8
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/jack-mcvea-and-his-all-stars/open-the-door-richard-lonesome-blues/" class="release">Open the Door Richard! / Lonesome Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jack McVea and His All Stars</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">October 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Jack McVea and His All Stars</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2919224" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_394895" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;394895&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.61</span> </div> <div class="page_discography_ratings"> 65
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/7840b64097e32d66844fdaf01fe07580/2666414&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/louis-jordan/let-the-good-times-roll-aint-nobody-here-but-us-chickens/" class="release">Let the Good Times Roll / Ain't Nobody Here But Us Chickens</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Louis Jordan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">November 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Jump-Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_394895" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_741013" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;741013&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.29</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/6b627252663d0ba6f459eccc31b446f7/2457545&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-moores-three-blazers/sunny-road-be-fair-with-me/" class="release">Sunny Road / Be Fair With Me</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny Moore's Three Blazers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">November 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_741013" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2328613" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2328613&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.66</span> </div> <div class="page_discography_ratings"> 13
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/savannah-churchill/i-want-to-be-loved-but-only-by-you-foolishly-yours/" class="release">I Want to Be Loved (But Only by You) / Foolishly Yours</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Savannah Churchill</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1946</span> <span class="page_discography_date_full">December 1946</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2328613" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2499279" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2499279&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.76</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/arthur-big-boy-crudup/i-want-my-lovin-you-got-to-reap/" class="release">I Want My Lovin' / You Got to Reap</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Arthur "Big Boy" Crudup</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">January 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2499279" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_740712" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;740712&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.93</span> </div> <div class="page_discography_ratings"> 4
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/f57f65a5c29964dd709d6178e0fc2a38/4889262&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-moores-three-blazers/new-orleans-blues-i-surrender-dear/" class="release">New Orleans Blues / I Surrender Dear</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny Moore's Three Blazers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">January 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_740712" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_741019" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;741019&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.61</span> </div> <div class="page_discography_ratings"> 10
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/366c091ad9c94ce08db8c3837a7f5255/4079244&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/eddie-vinson-and-his-orchestra/old-maid-boogie-kidney-stew-blues/" class="release">Old Maid Boogie / Kidney Stew Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Eddie Vinson and His Orchestra</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">January 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+ <span class="page_discography_credited_name">Eddie Vinson and His Orchestra</span> 
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_741019" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_940674" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;940674&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">2.85</span> </div> <div class="page_discography_ratings"> 10
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/5221ce7ce85dc28581aed971a2ab58f7/4901266&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/dusty-fletcher/open-the-door-richard-parts-i-and-ii/" class="release">Open the Door, Richard! (Parts I &amp; II)</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Dusty Fletcher</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">January 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_940674" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2700906" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2700906&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release"></span> </div> <div class="page_discography_ratings"> 
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/albinia-jones/hey-little-boy-love-is-such-a-misery/" class="release">Hey Little Boy / Love Is Such a Misery</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Albinia Jones</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2700906" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_4179140" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;4179140&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.23</span> </div> <div class="page_discography_ratings"> 2
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/big-three-trio/signifying-monkey-if-the-sea-was-whiskey/" class="release">Signifying Monkey / If the Sea Was Whiskey</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Big Three Trio</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_4179140" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_3387947" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;3387947&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.47</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/savannah-churchill/time-out-for-tears-all-my-dreams-by-the-four-tunes/" class="release">Time Out for Tears / All My Dreams [By The Four Tunes]</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Savannah Churchill</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_3387947" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2700927" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2700927&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release"></span> </div> <div class="page_discography_ratings"> 
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/lil-green/how-come-you-do-me-like-you-do-no-good-man/" class="release">How Come You Do Me Like You Do / No Good Man</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Lil Green</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">April 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2700927" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_553948" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;553948&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.81</span> </div> <div class="page_discography_ratings"> 14
+ </div> <div class="page_discography_reviews"> 1
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/a563917094fa7c1802787a8e59af5737/2138167&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/jerry-murads-harmonicats/peg-o-my-heart-fantasy-impromptu/" class="release">Peg o' My Heart / Fantasy Impromptu</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Jerry Murad's Harmonicats</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">April 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_553948" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_707500" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;707500&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.92</span> </div> <div class="page_discography_ratings"> 118
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/a46daa4babb9de2f7933b48d8341d94f/3943271&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/arthur-big-boy-crudup/thats-all-right-crudups-after-hours/" class="release">That's All Right / Crudup's After Hours</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Arthur "Big Boy" Crudup</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">April 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Electric Blues</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_707500" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_1159793" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;1159793&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.36</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/99c3702474af99386fbf99f308fafa7f/2095139&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/four-blazes/chicago-boogie-dedicated-to-you/" class="release">Chicago Boogie / Dedicated to You</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Four Blazes</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">May 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_1159793" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_732661" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;732661&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.92</span> </div> <div class="page_discography_ratings"> 33
+ </div> <div class="page_discography_reviews"> 3
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/54530a2f799f0c1dbccf9f384c42d9ab/6229631&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/amos-milburn/down-the-road-apiece-dont-beg-me/" class="release">Down the Road Apiece / Don't Beg Me</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Amos Milburn</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">May 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+ <span class="page_discography_line_genres"> 
+ <span class="page_discography_line_genre comma_separated cl-666">Rhythm &amp; Blues</span> 
+ <span class="page_discography_line_genre comma_separated cl-666">Boogie Woogie</span> 
+ </span> 
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_732661" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_829256" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;829256&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.62</span> </div> <div class="page_discography_ratings"> 2
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/9b60054cbd2c448266aa5ad5790764e2/4073212&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/wynonie-harris/i-gotta-lyin-woman-rebeccas-blues/" class="release">I Gotta Lyin' Woman / Rebecca's Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Wynonie Harris</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">May 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_829256" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_740696" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;740696&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/056a380237ad999273b9632b448548e5/2457541&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-moores-three-blazers/pasadena-i-cried-for-you/" class="release">Pasadena / I Cried for You</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny Moore's Three Blazers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">May 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_740696" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_739818" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;739818&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.70</span> </div> <div class="page_discography_ratings"> 5
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/0bdbcc0e0ce99e669f5156a5e5e9f084/4611252&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/roy-milton/true-blues-camilles-blues/" class="release">True Blues / Camille's Blues</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Roy Milton</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">June 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_739818" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_2700951" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;2700951&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.17</span> </div> <div class="page_discography_ratings"> 2
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img"></div> 
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/julia-lee/a-porters-love-song-to-a-chamber-maid-since-ive-been-with-you/" class="release">A Porter's Love Song (To a Chamber Maid) / Since I've Been With You</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Julia Lee</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">July 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_2700951" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_744048" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;744048&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.34</span> </div> <div class="page_discography_ratings"> 7
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/p/x/7412431255d207fa009e7ed511ea1cf8/4808606&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/nellie-lutcher/hes-a-real-gone-guy-let-me-love-you-tonight/" class="release">He's a Real Gone Guy / Let Me Love You Tonight</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Nellie Lutcher</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">July 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_744048" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_394900" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;394900&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.93</span> </div> <div class="page_discography_ratings"> 17
+ </div> <div class="page_discography_reviews"> 2
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/f80bd11c3266bde750e9f64228e7c7dd/3901685&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/louis-jordan/boogie-woogie-blue-plate-sure-had-a-wonderful-time/" class="release">Boogie Woogie Blue Plate / Sure Had a Wonderful Time</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Louis Jordan</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">August 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_394900" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_887042" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;887042&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/33a0548876af4e0ac78454ead4a1e0f4/4473361&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/todd-rhodes/dance-of-the-red-skins-blue-sensation/" class="release">Dance of the Red Skins / Blue Sensation</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Todd Rhodes</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">August 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_887042" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_740674" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;740674&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">3.47</span> </div> <div class="page_discography_ratings"> 3
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/2115a4f768995c48750d0f77ae02e602/1891462&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/johnny-moores-three-blazers/changeable-woman-blues-why-is-love-like-that/" class="release">Changeable Woman Blues / Why Is Love Like That</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Johnny Moore's Three Blazers</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">September 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_740674" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ 
+<li id="page_discography_line_release_734507" class="page_discography_line"> <div class="page_discography_line_main"> <div class="page_discography_expand" onclick="RYMdiscographyPage.showDetails(&#39;release&#39;, &#39;734507&#39;);"><i class="fa fa-plus-circle"></i></div> <div class="page_discography_average not_enough_data"> <span class="rating_number rating_number_release">4.00</span> </div> <div class="page_discography_ratings"> 1
+ </div> <div class="page_discography_reviews"> 
+ </div> 
+ <div class="page_discography_img has_tip delayed_background_img" data-delayloadurl="url(&#39;//e.snmc.io/lk/pv/x/9399cd271a061e0b196e3ad0739d777f/4976364&#39;)"></div> 
+
+ <div class="page_discography_line_1 "><a href="https://sonemic.com/release/single/joe-liggins/down-home-blues-ten-toes/" class="release">Down Home Blues / Ten Toes</a>
+
+
+
+ <span class="page_discography_performers"> 
+ <span class="comma_separated cl-555 page_discography_credited_name">Joe Liggins</span> 
+ </span> 
+
+ 
+ </div> <div class="page_discography_line_2"><span class="page_discography_date has_tip"> <span class="page_discography_date_year">1947</span> <span class="page_discography_date_full">September 1947</span> </span> 
+ <span class="page_discography_release_type page_discography_release_type_single">Single</span> 
+
+
+
+ </div> </div> <div class="clearfix"></div> <div id="page_discography_line_detail_release_734507" class="page_discography_line_detail"></div> <div class="clearfix"></div>
+</li> 
+ </div> </ul> 
+ <div class="page_object_section_discography_nav page_object_section_discography_nav_bottom"> 
+<nav id="nav_page_discography_nav_release_bottom" data-mainid="page_discography_nav_release_bottom" class="ui_nav nav_collection nav_component_page_discography_nav_release " data-rpp="50" data-page="1" data-num-items="46517" data-num-pages="931" data-nocount="" data-current-page-items="" data-initialized="false" data-callback-component="discography" data-object="release" data-callback-data="{&quot;object&quot;:&quot;release&quot;}" data-sync-id="page_discography_nav_release" data-url-prefix="/genre/music/genre/randb/" data-url-suffix="" data-always-end-with-slash="true" data-prerendered="false" style="visibility: visible;"> <a class="nav_btn nav_prev disabled" id="nav_prev_page_discography_nav_release_bottom"><i class="fa fa-caret-left"></i></a> <span class="nav_page" id="nav_page_page_discography_nav_release_bottom">  
+ <span class="nav_page_current" id="nav_page_current_page_discography_nav_release_bottom">1</span><span class="nav_page_slash" id="nav_page_slash_page_discography_nav_release_bottom">/</span><span class="nav_page_total" id="nav_page_num_pages_page_discography_nav_release_bottom">931</span>  
+ </span> <span id="nav_popup_page_discography_nav_release_bottom" class="nav_popup" style="display:none"> </span> <a class="nav_next nav_btn " id="nav_next_page_discography_nav_release_bottom" href="https://sonemic.com/genre/music/genre/randb/2/"> <i class="fa fa-caret-right"></i></a>
+</nav> </div> 
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><script>rymInitPush( function() { RYMobjectListPage.setupPage('release', '/music/genre/randb/');})</script><div class="clearfix"></div>
+         <!-- end content and content_wrapper -->
+         </div>
+      </div>
+
+      <div id="track_preview_frame" class="track_preview_frame">
+
+         <div class="track_preview_close" onclick="$(&#39;#track_preview_frame&#39;).hide();$(&#39;#track_preview&#39;).html(&#39;&#39;);">
+            <i class="fa fa-times-circle"></i>
+         </div>
+
+         <div id="track_preview_text" class="track_preview_text">
+         </div>
+
+         <div id="track_preview" class="track_preview">
+
+         </div>
+      </div>
+
+      <div class="overlay_invisible" id="overlay_invisible"></div>
+
+      <div class="ui_cropper_frame" id="ui_cropper_frame"></div>
+
+      <div class="modal_parent_frame" id="modal_parent_frame">
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay" class="modal_overlay" style="">Close <i class="fa fa-times"></i></div>
+         <div onclick="RYMcollectiveVoting.close();" id="modal_overlay_invisible" class="modal_overlay_invisible" style=""></div>
+         <div id="modal_parent_frame_inner" class="modal_parent_frame_inner">
+                <div id="modal_content" class="modal_content">
+                </div>
+         </div>
+      </div>
+
+         <!-- ~~~~~~~~ end content ~~~~~~~~~~~~~~~ -->
+        <div class="ui_chooser_results_frame" id="ui_chooser_results_frame">
+            <div class="ui_chooser_results bg-fff alternate" id="ui_chooser_results" style="display: none;">
+            </div>
+        </div>  
+
+         <div id="content_cover">
+            <div id="preview_frame"></div>
+         </div>
+
+
+
+         <div id="loading_anim" style="display:none;">
+            <div class="loading_anim">
+               <i class="fa fa-cog fa-spin"></i> Loading...
+            </div>
+         </div>
+
+
+         <div id="voting_ui_frame"></div>
+
+
+
+
+      <div style="clear:both;"></div>
+      <footer>
+      <div class="footer_inner">
+
+         <div class="footer_main_section"><div class="minilogo_frame"><div class="minilogo"> <div class="logo_sonemic_bw_24"></div>
+                            <span class="minilogo_text">Sonemic <sup class="has_tip">®</sup></span>
+                        </div></div>
+
+
+            <div class="copyright">© 2000-2017 Sonemic, Inc.<br>All rights reserved.</div><div class="copyright">Rate Your Music</div>
+
+            
+
+            <div class="clearfix"></div>
+            <!-- <div class="trademark">Sonemic is a registered trademark of Sonemic, Inc. </div> -->
+
+            <div class="clearfix"></div>
+
+            <div class="social_icons"> 
+               <a href="https://facebook.com/sonemic.network/" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+               <a href="https://twitter.com/sonemic/" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+
+      
+            <a href="https://open.spotify.com/user/sonemic.com" target="_blank"><i class="fa fa-spotify"></i></a> 
+         
+            </div>
+         </div> 
+      
+      <div id="expand_full_footer" class="mobile_expandable_full mobile_expand_footer">
+
+            <div id="expand_full_header_footer" class="mobile_expandable_full_header" onclick="RYMmobile.mobileExpand.toggleFull(&#39;footer&#39;);">
+
+               <div class="mobile_expandable_full_icons">
+                  <div class="mobile_expandable_full_expand_icon_expanded">
+                     <i class="fa fa-caret-down"></i>
+                  </div>
+                  <div class="mobile_expandable_full_expand_icon_hidden">
+                     <i class="fa fa-caret-right"></i>
+                  </div>
+               </div>
+
+               <div id="expand_full_name_footer" class="mobile_expandable_full_name">
+                  Site links
+               </div>
+
+            </div>
+
+            <div id="expand_full_content_footer" class="mobile_expandable_full_content">
+               
+         <div class="footer_sections">
+            <div class="footer_section" id="section_network">
+               <div class="footer_header">Sonemic network</div>
+               <div class="footer_sub_links">
+                  <a class="asonemic" href="https://sonemic.com/">Sonemic <span class="sub">music</span></a>
+                  <a class="acinemos" href="https://cinemos.com/">Cinemos <span class="sub">film</span></a>
+                  <a class="aglitchwave" href="https://glitchwave.com/">Glitchwave <span class="sub">video games</span></a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Info</div>
+               <div class="footer_sub_links"><a href="https://sonemic.com/about/">About Sonemic</a>
+                  <a href="https://sonemic.com/docs/faq/">Site FAQ</a>
+                  <a href="https://sonemic.com/docs/standards/">Site standards</a>
+                  <a href="https://sonemic.com/submissions/">Queues</a>
+                  <a href="https://sonemic.com/docs/api/">API</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Policy</div>
+               <div class="footer_sub_links">
+                  <a class="" href="https://sonemic.com/docs/community_rules/">Community rules</a>
+                  <a class="" href="https://sonemic.com/docs/general_rules/">General rules</a>
+                  <!--<div class="updated">Updated 22 May 2017</div> -->
+                  <a class="" href="https://sonemic.com/privacy/">Privacy</a>
+                  <a class="" href="https://sonemic.com/terms-of-service/">Terms of service</a>
+                  <a href="https://sonemic.com/artist_portal/">For artists/labels</a>
+               </div>
+            </div>
+            <div class="footer_section">
+               <div class="footer_header">Contact us</div>
+               <div class="footer_sub_links">
+                  <a href="https://sonemic.com/support/">Get support</a>
+                  <a href="https://sonemic.com/support/">Send feedback</a>
+                  <a href="https://sonemic.com/support/?partnerships">Advertise</a>
+                  <a href="https://sonemic.com/jobs/">Jobs</a>
+               </div>
+            </div>
+         </div>
+      
+            </div>
+         </div>
+      
+      <div class="g-recaptcha" data-sitekey="6LdaLxkUAAAAAJYzVmL0OQJiqH9Hev7JQ4AxcvhG" data-callback="_captchaCallback" data-size="invisible">
+      </div>
+
+     
+         <div class="server_info">Instance: 6 Ads: disabled</div>
+
+         <div style="clear:both;"></div>
+      </div>
+
+    </footer>
+    
+
+   <div id="ui_date_help">
+      <div class="ui_date_help_text" style="font-size:0.9em;line-height:1.4">
+         <b>Examples</b>
+         <br>
+         1980s-1996
+         <br>
+         23 mar 2015
+         <br>
+         8 apr - 12 may 2015
+         <br>
+         1998-05
+      </div>
+   </div>
+    <div id="image_browser" class="image_browser" onclick="RYMimageBrowser.hide();"> 
+
+
+         <div class="image_browser_loading_frame">
+            <div class="image_browser_loading" id="image_browser_loading">
+               <div id="block_1" class="load_block"></div>
+               <div id="block_2" class="load_block"></div>
+               <div id="block_3" class="load_block"></div>
+            </div> 
+            <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_image" id="image_browser_image">
+            
+            <img id="image_browser_image_img"> <div class="helper"></div>
+         </div>
+
+         <div class="image_browser_navigation">
+            <div class="image_browser_prev" onclick="RYMimageBrowser.prev(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-left"></i></div>
+            <div class="image_browser_next" onclick="RYMimageBrowser.next(); event.stopPropagation();"><div class="helper"></div><i class="fa fa-angle-right"></i></div>
+         </div>
+
+         <div id="image_browser_preload" class="image_browser_preload"></div>
+         <div class="image_browser_controls" onclick="event.stopPropagation();">   
+
+            <div class="image_browser_btn" id="image_browser_report_btn" onclick="RYMimageBrowser.toggleReport();">  
+               <i class="fa fa-warning"></i> Report
+            </div>
+            <a class="image_browser_btn" id="image_browser_download_btn">  
+               <i class="fa fa-download"></i> Download
+            </a>
+
+            <div class="image_browser_progress" id="image_browser_progress">Image 1 of 2</div>
+
+         </div>
+         <div class="image_browser_date_caption_bar" onclick="event.stopPropagation();">
+
+            <div class="image_browser_date" id="image_browser_date" onclick="event.stopPropagation();"></div>
+
+            <div class="image_browser_caption" id="image_browser_caption" onclick="event.stopPropagation();"></div>  
+
+         </div>
+
+    </div>
+    <script>
+      rymInitPush(function()  {
+         if ( location.search === "?email_verified") {  
+            rym.showGlobalMessage('Thanks! Your email has been verified.')
+         } else if ( location.search === "?email_not_verified") {
+            rym.showGlobalError('Sorry, there was a problem validating your email address.  Please go to site settings and request a new confirmation mail.');
+         }
+      });
+    </script>
+    
+   
+      <script type="text/javascript" src="./R&amp;B - Sonemic _ Rate Your Music music database_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./R&amp;B - Sonemic _ Rate Your Music music database_files/min.js.download" async=""></script>
+
+
+      <script>$( document ).ready(function() { rymInitPush(function() { rym.setupPage() }) } ) </script>
+
+   <script type="text/javascript" src="./R&amp;B - Sonemic _ Rate Your Music music database_files/advertisement.js.download"></script>
+
+      <script> function areAdsBlocked() { return ($('#ad_1').length == 0) } 
+      function politeAdRequest() {
+         var xx = '<div class=abpmessage>Sonemic relies on advertising income to support the site.  Please consider adding an exception to adblock for sonemic.com, or <a href=/subscribe>subscribing</a> to help with bandwidth/server costs.</div>' 
+         $('#content').prepend(xx)
+      }
+      </script>
+
+    
+         <script>if(areAdsBlocked()) { politeAdRequest() }</script>
+      </div><div id="tiptip_holder" style="pointer-events:none;max-width:1200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body></html>
