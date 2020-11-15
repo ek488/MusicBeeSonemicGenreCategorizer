@@ -1,5 +1,3 @@
-[Image of Genres](https://i.imgur.com/AFvcrvi.png)
-
 Intended for those using MusicBee with tracks tagged with genres from RateYourMusic.
 
 # Genre categories
