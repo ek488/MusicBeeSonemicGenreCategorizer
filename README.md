@@ -14,7 +14,7 @@ Label most genres with their parent genre.
 
 > Trip Hop: Electronic
 
-> Venezuelan Malagueña: Folk
+> Volkstümliche Musik: Pop
 
 ## How to (copy and paste)
 
