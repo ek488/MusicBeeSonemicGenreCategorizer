@@ -20,7 +20,7 @@ Label most genres with their parent genre.
 2. Select all text, then copy it (ctrl + A, then ctrl + C.)
 3. Open MusicBee.
 4. Edit -> Edit Preferences -> Tags (2) -> group genres: Categorise....
-5. Paste into the Genre Categorisation Editor.
+5. Paste in the Genre Categorisation Editor.
 6. Click save, then click save again.
 
 # Virtual genre categories
@@ -39,5 +39,5 @@ Unfortunately, we cannot assign a genre to more than one genre category in Music
 2. Select all text, then copy it (ctrl + A, then ctrl + C.)
 3. Open MusicBee.
 4. Edit -> Edit Preferences -> Tags (1) -> group genres: Define New Tags....
-5. To the empty box right of "Virtual 1" and under "formula:", paste.
+5. Paste in the empty box right of "Virtual 1" and under "formula:".
 6. Click save, then click save again.
