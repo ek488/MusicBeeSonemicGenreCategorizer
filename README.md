@@ -1,8 +1,8 @@
-Intended for those using MusicBee with tracks tagged with genres from RateYourMusic.
+Intended for those using MusicBee with tracks tagged with RateYourMusic genres.
 
 # Genre categories
 
-Label most genres with their genre category or categories.
+Label most genres with their parent genre.
 
 > Alternative Rock: Rock
 
