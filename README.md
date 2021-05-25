@@ -4,7 +4,7 @@ RYM has hundreds of genres in its database, so it can be difficult to categorize
 
 # Genre categories
 
-Label most genres with their parent genre. (MusicBee has a maximum limit on number of genres you can categorize, so I excluded Descriptors and Regional Music.)
+Label most genres with their parent genre.
 
 > Alternative Rock: Rock
 
@@ -48,4 +48,4 @@ Unfortunately, we cannot assign a genre to more than one genre category in Music
 
 # Other Genre Categories
 
-As stated earlier, MusicBee has a maximum limit on number of genres you can categorize, so I excluded Descriptors and Regional Music. You can edit the python file and add "Descriptors" and/or "Regional Music" in the set on line 90, then run it. It'll output a new "MusicBee Genre Categorisation Editor Input.txt" that has those genre categories too.
+MusicBee has a maximum limit on number of genres you can categorize, so I excluded the genre categories "Descriptors" and "Regional Music". You can edit the python file and add "Descriptors" and/or "Regional Music" in the set on line 90, then run it. It'll output a new "MusicBee Genre Categorisation Editor Input.txt" that has those genre categories too.
