@@ -1,6 +1,6 @@
 Intended for those using MusicBee with tracks tagged with RateYourMusic genres.
 
-RYM has hundreds of genres in their database, so it can be difficult to categorize them. By doing the steps below, you can categorize most of them in MusicBee!
+RYM has hundreds of genres in its database, so it can be difficult to categorize them. By doing the steps below, you can easily categorize most of them in MusicBee!
 
 # Genre categories
 
