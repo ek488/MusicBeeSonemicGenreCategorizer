@@ -4,7 +4,7 @@ RYM has hundreds of genres in their database, so it can be difficult to categori
 
 # Genre categories
 
-Label most genres with their parent genre. (MusicBee has a maximum limit on number of genres you can categorize, so I excluded Regional Music.)
+Label most genres with their parent genre. (MusicBee has a maximum limit on number of genres you can categorize, so I excluded Descriptors and Regional Music.)
 
 > Alternative Rock: Rock
 
