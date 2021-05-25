@@ -40,7 +40,7 @@ Unfortunately, we cannot assign a genre to more than one genre category in Music
 ## How to (still copy and paste)
 
 1. Open "Virtual Tag - Virtual Genre Category.txt".
-2. Select all text, then copy it (ctrl + A, then ctrl + C.)
+2. Select all text, then copy it.
 3. Open MusicBee.
 4. Edit -> Edit Preferences -> Tags (1) -> group genres: Define New Tags....
 5. Paste in the empty box right of "Virtual 1" and under "formula:".
