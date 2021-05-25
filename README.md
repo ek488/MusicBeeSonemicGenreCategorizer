@@ -1,8 +1,10 @@
 Intended for those using MusicBee with tracks tagged with RateYourMusic genres.
 
+RYM has hundreds of genres in their database, so it can be difficult to categorize them. By doing the steps below, you can categorize most of them in MusicBee!
+
 # Genre categories
 
-Label most genres with their parent genre.
+Label most genres with their parent genre. (MusicBee has a maximum limit on number of genres you can categorize, I think the limit is some number between 1100 and 1900, so I excluded Regional Music.)
 
 > Alternative Rock: Rock
 
