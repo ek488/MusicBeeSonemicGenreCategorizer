@@ -49,3 +49,5 @@ Unfortunately, we cannot assign a genre to more than one genre category in Music
 # Other Genre Categories
 
 MusicBee has a maximum limit on number of genres you can categorize, so I excluded the genre categories "Descriptors" and "Regional Music". You can edit the python file and add "Descriptors" and/or "Regional Music" in the set on line 90, then run it. It'll output a new "MusicBee Genre Categorisation Editor Input.txt" that has those genre categories too.
+
+I don't know exactly what the limit is (if I recall correctly, it's some number between 1100 and 1900.) https://sonemic.com/music/genre/ lists the number of genres in each genre category.
